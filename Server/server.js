@@ -57,7 +57,7 @@ const loginFails = new Map();      // ip -> { n, until }
 const pairHits = new Map();        // ip -> [times]
 const adminStreams = new Set();
 const hostStreams = new Set();
-const files = { setup: fileInfo(config.setupFile), portable: fileInfo(config.portableFile) };
+const files = { setup: fileInfo(config.setupFile), portable: fileInfo(config.portableFile), android: fileInfo(config.androidFile || '../Builds/Android/GLITCHED.apk') };
 let port = config.port;
 
 // ------------------------------------------------------------------ helpers
@@ -282,12 +282,12 @@ function serveDownload(req, res, key) {
     if (start > end || start >= st.size) { res.writeHead(416, { 'Content-Range': `bytes */${st.size}` }); return res.end(); }
     code = 206;
   }
-  if (start === 0) {
+  if (start === 0 && req.method === 'GET') {
     db.downloads.push({ at: now(), ip: clientIp(req), file: key, ua: str(req.headers['user-agent'], 160) });
     store.changed('downloads');
   }
   res.writeHead(code, Object.assign({
-    'Content-Type': 'application/octet-stream', 'Content-Length': end - start + 1, 'Accept-Ranges': 'bytes',
+    'Content-Type': key === 'android' ? 'application/vnd.android.package-archive' : 'application/octet-stream', 'Content-Length': end - start + 1, 'Accept-Ranges': 'bytes',
     'Content-Disposition': `attachment; filename="${f.name}"`, 'Cache-Control': 'no-store',
   }, code === 206 ? { 'Content-Range': `bytes ${start}-${end}/${st.size}` } : {}, securityHeaders));
   if (req.method === 'HEAD') return res.end();
@@ -380,7 +380,7 @@ async function route(req, res) {
     const text = str(url.searchParams.get('t'), 300) || publicBase(req);
     return send(res, 200, qr.svg(text, { dark: url.searchParams.get('dark') === '1' ? '#05060d' : '#e8f7ff' }), MIME['.svg']);
   }
-  if (p === '/download/setup' || p === '/download/portable') return serveDownload(req, res, p.split('/')[2]);
+  if (/^\/download\/(setup|portable|android)$/.test(p)) return serveDownload(req, res, p.split('/')[2]);
   if (p.startsWith('/screens/')) {
     const f = safeJoin(path.resolve(ROOT, config.screensDir), p.slice(9));
     return f ? serveFile(res, f) : fail(res, 404, 'not found');

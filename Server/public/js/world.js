@@ -502,7 +502,15 @@ export function startWorld(canvas, opts = {}) {
     camera.fov = w < 760 ? 68 : 55;
     camera.updateProjectionMatrix();
   }
-  window.addEventListener('resize', resize);
+  // phones resize the viewport when the address bar slides in or out: only react to real size changes
+  let lastW = 0, lastH = 0;
+  window.addEventListener('resize', () => {
+    const w = window.innerWidth, h = window.innerHeight;
+    if (w === lastW && Math.abs(h - lastH) < 160) return;
+    lastW = w; lastH = h;
+    resize();
+  });
+  lastW = window.innerWidth; lastH = window.innerHeight;
   resize();
 
   const clock = new THREE.Clock();

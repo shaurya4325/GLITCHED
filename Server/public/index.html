@@ -6,10 +6,11 @@
 <title>GLITCHED · Knowledge is your weapon</title>
 <meta name="description" content="GLITCHED: a 2.5D science adventure where every fight is won by what you know. CBSE Skill Expo 2026-27, DAV Public School, Defence Colony, Dehradun.">
 <meta name="theme-color" content="#05060d">
-<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/css/site.css">
-<script src="/js/host.js"></script>
-<script type="module" src="/js/site.js"></script>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/static-config.js"></script>
+<script src="js/host.js"></script>
+<script type="module" src="js/site.js"></script>
 </head>
 <body>
 <div id="boot" aria-hidden="true">
@@ -32,6 +33,7 @@
     <a href="#features">Features</a>
     <a href="#gallery">Gallery</a>
     <a href="#verify">Verified copies</a>
+    <a href="#install" class="nav-install">Install</a>
   </nav>
   <a class="nav-cta" href="#install">INSTALL</a>
   <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
@@ -162,12 +164,12 @@
       <p>Anyone can download GLITCHED here, but it only opens once our team has scanned its QR code. A copied folder or a pendrive copy won't open on another PC.</p>
     </div>
     <ol class="steps">
-      <li class="reveal"><b>1</b><h3>Download</h3><p>Hold the install button below. The setup is about 400 MB and installs in under a minute.</p></li>
+      <li class="reveal"><b>1</b><h3>Download</h3><p>Hold the install button below on a Windows PC. The setup is about 400 MB and installs in under a minute.</p></li>
       <li class="reveal"><b>2</b><h3>Launch</h3><p>The game finds this stall on the Wi-Fi by itself and shows a QR code with a 6-letter code.</p></li>
       <li class="reveal"><b>3</b><h3>Get scanned</h3><p>A GLITCHED team member scans it with the admin phone and chooses your access: Full, Judge or Demo.</p></li>
       <li class="reveal"><b>4</b><h3>Play</h3><p>The game unlocks straight away and stays verified on that PC, even without the Wi-Fi, for a few days.</p></li>
     </ol>
-    <p class="fine reveal">Each approval is digitally signed (RSA-2048) and tied to that PC's hardware. The team can change or remove access at any time from the admin page.</p>
+    <p class="fine reveal">Each approval is digitally signed (RSA-2048) and tied to that PC's hardware. The team can change or remove access at any time from the admin page. <b>Install it at the exhibition:</b> a new copy has to be verified once at the GLITCHED stall.</p>
   </section>
 
   <!-- ======================================================= INSTALL -->
@@ -176,14 +178,15 @@
       <div class="install-copy reveal">
         <p class="kicker">// INSTALL</p>
         <h2>Inject GLITCHED into your PC</h2>
-        <p>Press and <b>hold</b> the core until it's full. The download starts by itself.</p>
+        <p id="holdHint">Press and <b>hold</b> the core until it's full. The download starts by itself.</p>
+        <p class="phone-note" id="phoneNote" hidden></p>
         <dl class="file-facts">
           <div><dt>Version</dt><dd id="fVersion">1.0</dd></div>
           <div><dt>Size</dt><dd id="fSize">–</dd></div>
           <div><dt>For</dt><dd>Windows 10 / 11, 64-bit</dd></div>
           <div class="wide"><dt>SHA-256</dt><dd><code id="fHash">calculating…</code></dd></div>
         </dl>
-        <p class="alt-links"><span id="portableWrap" hidden><a href="/download/portable">Portable ZIP</a> for PCs that block installers · </span><a href="/download/setup" id="directLink">Direct download link</a></p>
+        <p class="alt-links"><span id="portableWrap" hidden><a href="/download/portable" id="portableLink">Portable ZIP</a> for PCs that block installers · </span><a href="/download/setup" id="directLink">Direct download link</a></p>
       </div>
 
       <div class="core-button-wrap">
@@ -262,7 +265,7 @@
 
 <footer class="foot">
   <span>© 2026 The GLITCHED team, DAV Public School, Defence Colony, Dehradun. All rights reserved.</span>
-  <a href="/admin" class="foot-admin">Team login</a>
+  <a href="/admin" class="foot-admin" id="adminLink">Team login</a>
 </footer>
 
 <div class="modal" id="afterModal" role="dialog" aria-modal="true" aria-labelledby="afterTitle" hidden>
@@ -276,7 +279,22 @@
       <li>Click <b>Next → Install</b>. A desktop shortcut is added.</li>
       <li><b>Launch GLITCHED</b> and show the QR code to a team member at the stall.</li>
     </ol>
-    <p class="fine">Download not starting? <a href="/download/setup">Click here</a>.</p>
+    <p class="fine">Download not starting? <a href="/download/setup" id="retryLink">Click here</a>.</p>
+  </div>
+</div>
+
+<div class="modal" id="phoneModal" role="dialog" aria-modal="true" aria-labelledby="phoneTitle" hidden>
+  <div class="modal-card">
+    <button class="modal-x" data-close aria-label="Close">✕</button>
+    <p class="kicker">// ON A PHONE?</p>
+    <h2 id="phoneTitle">GLITCHED is a PC game</h2>
+    <p id="phoneText">It runs on Windows laptops and PCs. Send this link to yourself and open it on a PC, or come and play it right now at the GLITCHED stall.</p>
+    <p><code id="phoneUrl" class="url-chip"></code></p>
+    <div class="share-row">
+      <button class="btn primary" id="shareBtn"><span>Share link</span></button>
+      <button class="btn ghost" id="copyBtn"><span>Copy link</span></button>
+    </div>
+    <p class="fine" id="phoneAlt"><a id="pcAnyway" href="/download/setup">Download the Windows setup anyway</a></p>
   </div>
 </div>
 

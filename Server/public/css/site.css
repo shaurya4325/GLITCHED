@@ -1,10 +1,10 @@
 /* GLITCHED website: neon on near-black, the same palette as the game's UI theme. */
-@font-face { font-family: "Chakra"; src: url("/fonts/ChakraPetch-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "Chakra"; src: url("/fonts/ChakraPetch-Medium.ttf") format("truetype"); font-weight: 500; font-display: swap; }
-@font-face { font-family: "Chakra"; src: url("/fonts/ChakraPetch-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
-@font-face { font-family: "Russo"; src: url("/fonts/RussoOne-Regular.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "Orbitron"; src: url("/fonts/Orbitron.ttf") format("truetype"); font-weight: 400 900; font-display: swap; }
-@font-face { font-family: "JBMono"; src: url("/fonts/JetBrainsMono.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Chakra"; src: url("../fonts/ChakraPetch-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Chakra"; src: url("../fonts/ChakraPetch-Medium.ttf") format("truetype"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Chakra"; src: url("../fonts/ChakraPetch-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Russo"; src: url("../fonts/RussoOne-Regular.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "Orbitron"; src: url("../fonts/Orbitron.ttf") format("truetype"); font-weight: 400 900; font-display: swap; }
+@font-face { font-family: "JBMono"; src: url("../fonts/JetBrainsMono.ttf") format("truetype"); font-display: swap; }
 
 :root {
   --bg: #05060d;
@@ -29,7 +29,7 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
 body {
   margin: 0; background: var(--bg); color: var(--text); font: 500 17px/1.6 var(--body);
   overflow-x: hidden; min-height: 100vh;
@@ -47,7 +47,7 @@ em { color: var(--cyan); font-style: normal; }
 :focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; border-radius: 6px; }
 
 /* ------------------------------------------------------------------ background layers */
-#world { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0; display: block; }
+#world { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; height: 100lvh; z-index: 0; display: block; }
 .scanlines { position: fixed; inset: 0; z-index: 1; pointer-events: none; opacity: 0.25; mix-blend-mode: overlay;
   background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0 1px, transparent 1px 3px); }
 .vignette { position: fixed; inset: 0; z-index: 1; pointer-events: none; background: radial-gradient(ellipse at center, transparent 55%, rgba(0,0,0,0.65) 100%); }
@@ -86,6 +86,7 @@ em { color: var(--cyan); font-style: normal; }
 .nav nav a.active { text-shadow: 0 0 12px var(--cyan); }
 .nav-cta { font: 15px var(--display); letter-spacing: .1em; color: #001017; background: var(--cyan); padding: 9px 18px; border-radius: 999px; box-shadow: 0 0 22px rgba(64,235,255,.5); }
 .nav-cta:hover { text-decoration: none; background: #fff; }
+.nav nav .nav-install { display: none; }
 .nav-toggle { display: none; background: none; border: 0; width: 40px; height: 40px; padding: 10px; cursor: pointer; }
 .nav-toggle i { display: block; height: 2px; background: var(--text); margin: 6px 0; transition: transform .25s; }
 
@@ -164,7 +165,7 @@ main { position: relative; z-index: 2; }
 .feature .num { position: absolute; top: 16px; right: 18px; font: 12px var(--mono); color: color-mix(in srgb, var(--fc, var(--cyan)) 60%, transparent); }
 
 /* ------------------------------------------------------------------ gallery ring */
-.ring-stage { height: min(60vh, 520px); perspective: 1600px; display: grid; place-items: center; cursor: grab; touch-action: pan-y; user-select: none; }
+.ring-stage { height: min(60vh, 520px); perspective: 1600px; display: grid; place-items: center; cursor: grab; touch-action: pan-y; user-select: none; overflow: hidden; }
 .ring-stage:active { cursor: grabbing; }
 .ring { position: relative; width: min(520px, 70vw); aspect-ratio: 16 / 9; transform-style: preserve-3d; }
 .ring figure { position: absolute; inset: 0; margin: 0; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: #000; box-shadow: 0 30px 60px rgba(0,0,0,.6); backface-visibility: hidden; transition: filter .3s; }
@@ -238,6 +239,9 @@ blockquote { margin: 10px 0 0; font: clamp(18px, 2vw, 24px) var(--display); colo
 .modal-x { position: absolute; top: 14px; right: 14px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: rgba(255,255,255,.04); color: var(--text); cursor: pointer; font-size: 16px; }
 .after-steps { padding-left: 20px; color: #c6d6ea; }
 .after-steps li { margin-bottom: 10px; }
+.share-row { display: flex; gap: 10px; flex-wrap: wrap; margin: 6px 0 16px; }
+.url-chip { display: inline-block; max-width: 100%; word-break: break-all; padding: 8px 12px; border-radius: 10px; background: rgba(64,235,255,.08); border: 1px solid var(--line); color: var(--cyan); font-size: 13px; }
+.phone-note { color: var(--yellow); font-size: 15px; border-left: 2px solid var(--yellow); padding-left: 12px; }
 .lightbox img { max-width: 94vw; max-height: 88vh; border-radius: 12px; box-shadow: 0 30px 100px rgba(0,0,0,.8); }
 
 /* ------------------------------------------------------------------ plain pages (404, paused) */
@@ -262,6 +266,7 @@ body.plain { display: grid; place-items: center; min-height: 100vh; background: 
   .nav nav a { padding: 12px 14px; }
   .nav-toggle { display: block; margin-left: auto; }
   .nav-cta { display: none; }
+  .nav nav .nav-install { display: block; color: var(--cyan); }
   .panel { padding: 100px 16px 60px; min-height: 90vh; }
   .world, .world.right { align-items: stretch; }
   .story-grid, .steps { grid-template-columns: 1fr; }
@@ -270,6 +275,11 @@ body.plain { display: grid; place-items: center; min-height: 100vh; background: 
   .phone-card { flex-direction: column; text-align: center; }
   .hero { padding-top: 120px; }
   .scroll-hint { display: none; }
+  .bosses span { display: block; margin: 10px 0 2px !important; }
+  .modal { align-items: start; overflow-y: auto; }
+  .modal-card { padding: 26px 20px; margin: 20px 0; }
+  .ring-stage { height: 46vh; }
+  .ticker dd { font-size: 26px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

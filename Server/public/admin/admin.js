@@ -64,7 +64,7 @@ function render() {
   if (qr.dataset.url !== S.server.url) { qr.src = '/api/qr.svg?dark=1&t=' + encodeURIComponent(S.server.url); qr.dataset.url = S.server.url; }
   const f = S.server.files;
   const fileRow = (name, x) => `<p><b>${name}</b><br><span class="muted">${x.available ? `${(x.size / 1e6).toFixed(0)} MB · ${when(x.mtime)}<br><code style="font-size:11px;word-break:break-all">${x.sha256 || 'calculating SHA-256…'}</code>` : 'missing: build it first (see README)'}</span></p>`;
-  $('#fileInfo').innerHTML = fileRow('Setup', f.setup) + fileRow('Portable ZIP', f.portable) + `<p class="muted" style="font-size:13px">Licence key ${esc(S.server.fingerprint)}</p>`;
+  $('#fileInfo').innerHTML = fileRow('Setup', f.setup) + fileRow('Portable ZIP', f.portable) + fileRow('Android app', f.android) + `<p class="muted" style="font-size:13px">Licence key ${esc(S.server.fingerprint)}</p>`;
 
   renderCopies();
   $('#downloadsTable').innerHTML = S.downloads.length ? '<tr><th>When</th><th>File</th><th>From</th><th>Browser</th></tr>' + S.downloads.map((d) =>

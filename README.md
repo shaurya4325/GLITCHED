@@ -60,7 +60,9 @@ Gamepads and touch screens work too. **Keep a pen and a notebook with you.**
 
 ## Getting the game
 
-At the exhibition the game is handed out by the **GLITCHED stall server**, which runs on the team's laptop:
+**Website: https://shaurya4325.github.io/GLITCHED/** (works on phones) · **Downloads: [GitHub release v1.0](https://github.com/shaurya4325/GLITCHED/releases/tag/v1.0)**
+
+At the exhibition the game is also handed out by the **GLITCHED stall server**, which runs on the team's laptop:
 
 1. Join the stall's Wi-Fi and open the address on the stall's poster (or scan its QR code).
 2. On the website, **hold the install core** until it fills. `GLITCHED_Setup.exe` downloads.
@@ -85,6 +87,7 @@ The server is described in **[Docs/SERVER.md](Docs/SERVER.md)**.
 
 - **[Docs/BUILDING.md](Docs/BUILDING.md)**: open the project, build the game, make the installer.
 - **[Docs/SERVER.md](Docs/SERVER.md)**: run the stall server, approve copies, admin page, troubleshooting.
+- **[Docs/WEBSITE.md](Docs/WEBSITE.md)**: the public GitHub Pages website and how to update it.
 - **[Docs/EXPO_CHECKLIST.md](Docs/EXPO_CHECKLIST.md)**: what to do on the exhibition day, in order.
 - **[Docs/ARCHITECTURE.md](Docs/ARCHITECTURE.md)**: how the game and the verification system are put together.
 - **[Docs/ASSET_CREDITS.md](Docs/ASSET_CREDITS.md)**: every third-party model, sound, texture and font, with its licence.

@@ -6,6 +6,15 @@ const low = matchMedia('(max-width: 760px)').matches || (navigator.hardwareConcu
 
 let world = null;
 let info = null;
+// GitHub Pages copy: js/static-config.js fills this (no server: no live stats, downloads from the GitHub release)
+const STATIC = window.GLITCHED_STATIC || null;
+const UA = navigator.userAgent || '';
+const ANDROID = /Android/i.test(UA);
+const PHONE = ANDROID || /iPhone|iPad|iPod/i.test(UA) || (navigator.maxTouchPoints > 1 && /Macintosh/.test(UA)) || /[?&]phone=1/.test(location.search);   // ?phone=1: test the phone flow on a PC
+const fileUrl = (k) => (info && info.files[k] && info.files[k].url) || '/download/' + k;
+const siteUrl = () => (info && info.url) || location.href.split('#')[0];
+/** Which file the install core gives this device: the Android build on Android phones (if there is one), else the Windows setup. */
+const coreFile = () => (ANDROID && info && info.files.android && info.files.android.available ? 'android' : 'setup');
 
 // ------------------------------------------------------------------ boot screen
 const bootLines = ['> mounting /worlds/code_city', '> calibrating gravity ... 9.8 m/s²', '> balancing equations', '> sequencing DNA', '> scanning for the glitch', '> knowledge.weapon = true'];
@@ -39,18 +48,31 @@ function countTo(el, value) {
 }
 async function loadInfo() {
   try {
-    info = await (await fetch('/api/public/info', { cache: 'no-store' })).json();
-  } catch { return; }
-  for (const el of $$('[data-stat]')) countTo(el, info.stats[el.dataset.stat] ?? 0);
+    if (STATIC) throw new Error('static');
+    const r = await fetch('/api/public/info', { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    info = await r.json();
+  } catch {
+    if (!STATIC) return;
+    info = STATIC;
+  }
+  if (info.stats) for (const el of $$('[data-stat]')) countTo(el, info.stats[el.dataset.stat] ?? 0);
+  else showFacts();
   $('#eventName').textContent = info.event;
   $('#fVersion').textContent = info.version;
   const s = info.files.setup;
   $('#fSize').textContent = s.available ? fmtSize(s.size) : 'not built yet';
   $('#fHash').textContent = s.sha256 || (s.available ? 'calculating…' : '–');
-  $('#portableWrap').hidden = !info.files.portable.available;
+  $('#portableWrap').hidden = !info.files.portable || !info.files.portable.available;
+  $('#portableLink').href = fileUrl('portable');
+  $('#directLink').href = fileUrl('setup');
+  $('#retryLink').href = fileUrl(coreFile());
+  $('#pcAnyway').href = fileUrl('setup');
+  $('#adminLink').hidden = !!STATIC;
   $('#siteUrl').textContent = info.url;
+  $('#phoneUrl').textContent = siteUrl();
   const qr = $('#siteQr');
-  if (!qr.dataset.url || qr.dataset.url !== info.url) { qr.src = '/api/qr.svg?dark=1&t=' + encodeURIComponent(info.url); qr.dataset.url = info.url; }
+  if (!qr.dataset.url || qr.dataset.url !== info.url) { qr.src = info.qr || '/api/qr.svg?dark=1&t=' + encodeURIComponent(info.url); qr.dataset.url = info.url; }
   updateCoreState();
   if (!galleryBuilt) buildGallery(info.screens || []);
 }
@@ -170,7 +192,7 @@ function buildGallery(list) {
   list.forEach((f, i) => {
     const fig = document.createElement('figure');
     fig.innerHTML = `<img loading="lazy" alt=""><figcaption></figcaption>`;
-    fig.querySelector('img').src = '/screens/' + encodeURIComponent(f);
+    fig.querySelector('img').src = (STATIC ? 'screens/' : '/screens/') + encodeURIComponent(f);
     fig.querySelector('img').alt = 'GLITCHED screenshot: ' + caption(f).toLowerCase();
     fig.querySelector('figcaption').textContent = caption(f);
     fig.dataset.i = i;
@@ -245,9 +267,20 @@ function boom() {
 function updateCoreState() {
   const btn = $('#coreButton'), label = $('#coreLabel');
   if (!info || core.done) return;
-  const ok = info.downloadsEnabled && info.files.setup.available;
+  const f = info.files[coreFile()];
+  const shareOnly = PHONE && coreFile() !== 'android';
+  const ok = shareOnly || (info.downloadsEnabled && f && f.available);
   btn.disabled = !ok;
-  label.innerHTML = ok ? 'HOLD TO<br>INSTALL' : (info.downloadsEnabled ? 'NOT BUILT<br>YET' : 'DOWNLOADS<br>PAUSED');
+  label.innerHTML = !ok ? (info.downloadsEnabled ? 'NOT BUILT<br>YET' : 'DOWNLOADS<br>PAUSED')
+    : shareOnly ? 'HOLD TO<br>SAVE LINK' : coreFile() === 'android' ? 'HOLD TO<br>GET APP' : 'HOLD TO<br>INSTALL';
+  const note = $('#phoneNote');
+  note.hidden = !PHONE;
+  $('#holdHint').hidden = PHONE;
+  note.textContent = coreFile() === 'android'
+    ? 'On Android: hold the core to download the GLITCHED app (allow installs from your browser when asked).'
+    : "You're on a phone. GLITCHED runs on Windows PCs: hold the core to share or copy this page's link and open it on a PC.";
+  if (f && f.size) $('#fSize').textContent = fmtSize(f.size);
+  if (f && f.sha256) $('#fHash').textContent = f.sha256;
 }
 const SCRAMBLE = '01<>/{}[]#$%&*+=?ABCDEF';
 function setupCore() {
@@ -268,6 +301,8 @@ function setupCore() {
   btn.addEventListener('contextmenu', (e) => e.preventDefault());
   btn.addEventListener('keydown', (e) => { if ((e.key === ' ' || e.key === 'Enter') && !e.repeat) start(e); });
   btn.addEventListener('keyup', (e) => { if (e.key === ' ' || e.key === 'Enter') stop(); });
+  btn.addEventListener('blur', stop);
+  window.addEventListener('blur', stop);
   btn.addEventListener('click', (e) => e.preventDefault());
 
   let scrambleT = 0;
@@ -308,7 +343,7 @@ function setupCore() {
   function complete() {
     core.done = true; core.holding = false;
     btn.classList.remove('charging'); btn.classList.add('done');
-    label.innerHTML = 'DOWNLOAD<br>STARTED';
+    label.innerHTML = PHONE && coreFile() !== 'android' ? 'LINK<br>READY' : 'DOWNLOAD<br>STARTED';
     pct.textContent = '';
     if (audio) audio.gain.gain.setTargetAtTime(0, audio.ctx.currentTime, 0.02);
     boom();
@@ -317,10 +352,16 @@ function setupCore() {
     const r = btn.getBoundingClientRect();
     burst(r.left + r.width / 2, r.top + r.height / 2);
     document.body.animate([{ filter: 'none' }, { filter: 'hue-rotate(90deg) saturate(2) contrast(1.4)' }, { filter: 'none' }], { duration: 450 });
-    const a = document.createElement('a');
-    a.href = '/download/setup'; a.download = (info && info.files.setup.name) || 'GLITCHED_Setup.exe';
-    document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => openModal('#afterModal'), 900);
+    const k = coreFile();
+    if (PHONE && k !== 'android') {
+      setTimeout(() => openModal('#phoneModal'), 700);
+    } else {
+      const a = document.createElement('a');
+      a.href = fileUrl(k); a.download = (info && info.files[k] && info.files[k].name) || '';
+      document.body.appendChild(a); a.click(); a.remove();
+      if (k === 'android') setAndroidSteps();
+      setTimeout(() => openModal('#afterModal'), 900);
+    }
     setTimeout(() => { core.done = false; core.p = 0; btn.classList.remove('done'); btn.style.setProperty('--p', 0); updateCoreState(); }, 6000);
   }
 }
@@ -356,6 +397,36 @@ function burst(x, y) {
   step();
 }
 
+/** No server (GitHub Pages): the ticker shows facts about the game instead of live numbers. */
+function showFacts() {
+  const facts = [['Worlds', '6'], ['Bosses', '10'], ['Challenge types', '10'], ['Questions', '364']];
+  $$('#ticker > div').forEach((d, i) => { if (!facts[i]) return; d.querySelector('dt').textContent = facts[i][0]; d.querySelector('dd').textContent = facts[i][1]; });
+}
+
+function setAndroidSteps() {
+  $('#afterTitle').textContent = 'Almost there';
+  $('.after-steps').innerHTML = '<li><b>Open</b> the downloaded <code>GLITCHED.apk</code>.</li><li>If Android asks, allow your browser to <b>install unknown apps</b>, then tap <b>Install</b>.</li><li>Open GLITCHED and show the QR code to a team member at the stall.</li>';
+}
+
+async function shareLink() {
+  const url = siteUrl();
+  try {
+    if (navigator.share) { await navigator.share({ title: 'GLITCHED', text: 'GLITCHED: a science adventure where knowledge is your weapon. Open this on a Windows PC to get the game.', url }); return; }
+  } catch (e) { if (e && e.name === 'AbortError') return; }
+  copyLink();
+}
+async function copyLink() {
+  const url = siteUrl();
+  let ok = false;
+  try { await navigator.clipboard.writeText(url); ok = true; } catch {
+    const t = document.createElement('textarea'); t.value = url; document.body.appendChild(t); t.select();
+    try { ok = document.execCommand('copy'); } catch {}
+    t.remove();
+  }
+  const b = $('#copyBtn span'); b.textContent = ok ? 'Copied!' : 'Copy failed: long-press the link';
+  setTimeout(() => (b.textContent = 'Copy link'), 2500);
+}
+
 // ------------------------------------------------------------------ modals, nav, reveal
 function openModal(sel) {
   const m = $(sel); m.hidden = false;
@@ -368,6 +439,9 @@ function setupChrome() {
     else if (e.target.classList.contains('modal') || e.target.classList.contains('lightbox')) e.target.hidden = true;
   });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $$('.modal, .lightbox').forEach((m) => (m.hidden = true)); });
+  $('#shareBtn').addEventListener('click', shareLink);
+  $('#copyBtn').addEventListener('click', copyLink);
+  if (!navigator.share) $('#shareBtn').hidden = true;
   const toggle = $('#navToggle'), nav = $('.nav nav');
   toggle.addEventListener('click', () => { const open = nav.classList.toggle('open'); toggle.setAttribute('aria-expanded', open); });
   $$('.nav nav a').forEach((a) => a.addEventListener('click', () => nav.classList.remove('open')));
@@ -386,3 +460,5 @@ boot();
 loadInfo();
 setInterval(loadInfo, 15000);
 window.addEventListener('load', () => { measure(); onScroll(); });
+// the page grows when the gallery and fonts load: re-measure the camera stops whenever its height changes
+if ('ResizeObserver' in window) new ResizeObserver(() => { measure(); onScroll(); }).observe(document.querySelector('main'));

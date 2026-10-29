@@ -36,3 +36,4 @@ crashlytics-build.properties
 # test captures and temporary output
 /Builds/
 *.tmp
+/Server/pages-dist/
