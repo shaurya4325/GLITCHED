@@ -1,0 +1,38 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/_Incoming/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk
+*.aab
+.vs/
+.idea/
+crashlytics-build.properties
+
+# --- GLITCHED additions ---
+# the stall server's private data: licence PRIVATE key, admin password hash, copies, logs (never commit)
+/Server/data/
+/Server/node_modules/
+*.pem
+# local IDE / solution files
+/.vscode/
+*.slnx
+# test captures and temporary output
+/Builds/
+*.tmp

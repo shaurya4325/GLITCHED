@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_tesla_wraith
+  m_EditorClassIdentifier: 
+  id: tesla_wraith
+  displayName: TESLA WRAITH
+  tier: 1
+  arc: PhysicsValley
+  concepts:
+  - Electricity
+  - Magnetism
+  - Waves
+  preferredTypes: 
+  maxHP: 300
+  attackDamage: 20
+  challengesToDefeat: 3
+  rewardXP: 140
+  rewardCoins: 25
+  attackNames:
+  - INDUCED CURRENT
+  - RESONANCE SCREAM
+  taunts:
+  - I am the potential difference you fear!
+  - 'Waves of PAIN, frequency: HIGH!'
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 8271965785434479911, guid: a8833e2074b07404d85359452497198f, type: 3}
+  height: 0.8
+  tint: {r: 0.4, g: 0.8, b: 1, a: 1}
+  placeholderShape: ghost
+  flying: 1
+  patrolDistance: 2.5

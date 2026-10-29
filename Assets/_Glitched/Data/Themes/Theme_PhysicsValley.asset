@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2adb862ff040fd4098e91c68512fe62, type: 3}
+  m_Name: Theme_PhysicsValley
+  m_EditorClassIdentifier: 
+  id: PhysicsValley
+  fogCorrupted: {r: 0.92, g: 0.76, b: 0.62, a: 1}
+  ambientSkyCorrupted: {r: 0.46, g: 0.56, b: 0.88, a: 1}
+  ambientEquatorCorrupted: {r: 0.72, g: 0.48, b: 0.34, a: 1}
+  ambientGroundCorrupted: {r: 0.28, g: 0.2, b: 0.14, a: 1}
+  sunCorrupted: {r: 1, g: 0.64, b: 0.34, a: 1}
+  accentCorrupted: {r: 1, g: 0.55, b: 0.15, a: 1}
+  skyCorrupted: {fileID: 2800000, guid: cccb036d643edc247ae25b5f4e682b79, type: 3}
+  skyTintCorrupted: {r: 1.05, g: 0.9, b: 0.82, a: 1}
+  fogRestored: {r: 0.66, g: 0.82, b: 1, a: 1}
+  ambientSkyRestored: {r: 0.5, g: 0.68, b: 1, a: 1}
+  ambientEquatorRestored: {r: 0.58, g: 0.62, b: 0.45, a: 1}
+  ambientGroundRestored: {r: 0.34, g: 0.29, b: 0.22, a: 1}
+  sunRestored: {r: 1, g: 0.95, b: 0.82, a: 1}
+  accentRestored: {r: 1, g: 0.8, b: 0.3, a: 1}
+  skyRestored: {fileID: 2800000, guid: 90a4e36b5214cf44a95c1443e9e9ead0, type: 3}
+  skyTintRestored: {r: 0.95, g: 1, b: 1.08, a: 1}
+  fogStart: 70
+  fogEnd: 1500
+  fogDensity: 0.0011
+  sunIntensityCorrupted: 2.4
+  sunIntensityRestored: 2.7
+  sunEuler: {x: 24, y: -50, z: 0}
+  skyExposure: 1.1
+  ambientParticles: dust
+  musicKey: explore_PhysicsValley

@@ -1,0 +1,542 @@
+GLITCHED - VOICE SCRIPT
+Record in the game: press F8 (or Settings > VOICE STUDIO). R = record/stop, P = play, arrows = previous/next line.
+
+=== SHAURYA (33 lines) ===
+   1. Great. A boss. Before the BOSS boss.
+   2. Okay. Okay okay okay. Knowledge is my weapon. Knowledge is my weapon.
+   3. WHAT? I didn't even have time to read it!
+   4. So physics is just... broken here. Great. My favourite subject. To fail.
+   5. The elements are ALIVE? Okay. I've definitely licked worse things in a lab. Joking. Mostly.
+   6. We're INSIDE someone. Someone please say we're not inside someone.
+   7. Okay. New place. Same panic.
+   8. Inside... how? Through the mouth? Please don't say the mouth.
+   9. I'm... a germ. I'm germ-sized. My mum is going to be SO disappointed.
+  10. Ow. My everything.
+  11. Why is that building... floating?
+  12. And why is that guy stuck on repeat?!
+  13. Where am I?
+  14. ...Is it a long story, or do you just not want to tell me?
+  15. Cool cool cool. I was in the final lap twenty minutes ago.
+  16. ...I'm home. I'm HOME. The race is still paused. Was that a dream?
+  17. And the city... the whole Nexus... I actually FIXED it.
+  18. PIXEL?! How are you in my computer?!
+  19. ...I'm definitely going to fail tomorrow's exam because I didn't sleep.
+  20. Ow. Desks. Rows of desks. A clock that's way too loud.
+  21. No. No no no. This is an EXAM HALL.
+  22. An exam hall? Inside The Nexus? This is worse than the robots.
+  23. Kanha?! YOU made the Glitch?!
+  24. I left my game PAUSED for this.
+  25. Physics, Chemistry, Biology. Okay. I've prepared for this my whole life. Mostly by panicking.
+  26. Pens down, Kanha. Time's up.
+  27. I can't believe the final boss was an EXAM. Okay. I can, actually.
+  28. Final lap. Final lap. Come on, come on, come on...
+  29. Lag? NOW?! My ping is twelve!
+  30. That's... not part of the game.
+  31. It's... in the walls. It's in EVERYTHING.
+  32. Is my room... LEVITATING?! Is this an update?!
+  33. ...Are you okay?
+
+=== KANHA (28 lines) ===
+
+  -- KANHA --
+   1. Well, well. Shaurya. The gamer who thought The Nexus was just another level.
+   2. You beat my Glitch Lords. Cute. They were homework. I am the EXAM.
+   3. I am Kanha. Kanha the Dard. Every glitch you fixed? I wrote it. Line by line.
+   4. One paper. Physics, Chemistry, Biology. No calculator. No Pixel. No mercy.
+   5. Score eight out of twelve and you go home. Fail, and you stay here. Forever. Retaking.
+   6. Pens up. Your time starts... now.
+   7. Section A. Physics. Let's see if your brain obeys the laws of motion.
+   8. Section B. Chemistry. Try not to react.
+   9. Section C. Biology. Your nervous system already looks nervous.
+  10. Lucky guess.
+  11. Hmph. Even a stopped clock is right twice a day.
+  12. Fine. ONE mark. Don't let it go to your head.
+  13. Who leaked the paper?!
+  14. That was the easy one. Obviously.
+  15. Wrong! That's the sound of your percentage dropping.
+  16. Did you even open the textbook? Or just the game?
+  17. Negative marking would have destroyed you.
+  18. That answer gave ME a headache. And headaches are my job.
+  19. Wrong. Feel that? That's the dard.
+  20. Look at you. On the floor, just like your marks.
+  21. Get up. The invigilator hasn't called time yet.
+  22. No. No no no. I studied the WHOLE syllabus!
+  23. You're not supposed to know that! That's from the reference book!
+  24. FAIL. Re-exam. Same hall, new paper. I have infinite papers.
+  25. Below the pass mark. Sit down. We go again.
+  26. Impossible... I memorised everything. Every chapter. Every diagram.
+  27. You didn't memorise it. You... understood it. That's not fair.
+  28. The Nexus is yours, gamer. But remember: there is always another exam.
+
+=== PIXEL (137 lines) ===
+   1. Code City. Population: a lot of very confused robots.
+   2. Every NPC here is stuck repeating the same line. Forever.
+   3. The lifts work! The doors close! Somebody finally finished their sentence!
+   4. Code City is BACK ONLINE.
+   5. Physics Valley. Watch your step. Also your up-step. And your sideways-step.
+   6. The debris here falls UP. Don't think about it too hard.
+   7. Things fall DOWN again! Beautiful, boring, correct DOWN!
+   8. Physics Valley obeys the law once more.
+   9. Chemical Chaos. Don't lick anything.
+  10. Those element creatures used to be the periodic table. Now they're... the periodic TANTRUM.
+  11. Everything's bonding again! Water is WET again!
+  12. Chemical Chaos is now just... Chemistry. Neat and tidy.
+  13. We're... inside someone. Don't be weird about it.
+  14. That pulsing? That's the heart. The Lord Within has moved in.
+  15. The heart's beating steady! The organism is HEALTHY!
+  16. Bio-Zone restored. The patient will make a full recovery.
+  17. He's stuck. But listen between the glitches: the lift's loop never changes the floor number, so it never stops
+  18. Gate rule: open if KEYCARD AND NOT ALARM. Doors here run on logic. Broken logic. Like my uncle.
+  19. The gate's rule is scrambled. Put it back together.
+  20. A momentum gate. We'll need to go FAST to get through. Later.
+  21. He's stuck. But listen between the glitches: an infinite loop is a loop whose condition never becomes False
+  22. Variables, types, operators. The alphabet of Python. The slime ahead is made of all three.
+  23. Every loop needs a start, a condition and a change. Write that down. Or don't. I'm not your teacher. Well...
+  24. This door runs an if/else that never takes the right branch.
+  25. Whoa. That tower over there is floating. Towers shouldn't float.
+  26. He's stuck. But listen between the glitches: an object stays at rest unless a force acts on it
+  27. Someone graffitied 'GRAVITY IS A SUGGESTION' under it. Rude.
+  28. This gate opens with the right force. Literally.
+  29. A cliff with no handholds. We'll need to bond with walls first.
+  30. Gravity's having a day. Up is down in there. Try not to think about it.
+  31. Launch range: R = u² sin 2θ / g. 45° goes furthest, and mass doesn't appear. At all.
+  32. Baron Von Friction is up ahead. Friction does NEGATIVE work. Be more positive than him.
+  33. The Momentum Gate. It only opens for things in motion.
+  34. Look at those islands. Floating like they forgot gravity's phone number.
+  35. He's stuck. But listen between the glitches: atoms bond to fill their outer shell
+  36. Goggles on. Not literally, you don't have any. Yet.
+  37. The door is fused shut. Make some water to cool it.
+  38. A tiny vent. Way too small for us. For now.
+  39. He's stuck. But listen between the glitches: carbon makes four bonds
+  40. These element creatures used to be the periodic table. Know what's inside them and they calm down.
+  41. This valve only opens for a BALANCED equation.
+  42. He's stuck. But listen between the glitches: arteries carry blood AWAY from the heart
+  43. I'm reading it upside down and it still makes sense.
+  44. A cell membrane. It only lets in those who know how cells work.
+  45. He's stuck. But listen between the glitches: red blood cells carry oxygen using haemoglobin
+  46. This is the airway. Everything here moves because of pressure. Like exams.
+  47. Professor Plaque blocks arteries for fun. Know the route and he's just a speed bump.
+  48. A valve. One-way only, like every good heart valve.
+  49. Everything in The Source is a list. Even its feelings. Especially its feelings.
+  50. This is the most relatable thing I've ever read.
+  51. Code, physics, chemistry, biology... all mashed together. That's what The Source wants.
+  52. He just told us the answer's weak spot. Villains love to talk. RETRY!
+  53. Yeah, that one was rigged. Everyone loses the first one.
+  54. Here's the thing: in The Nexus, failing is SAFE. You don't lose. The game just... helps.
+  55. Watch: it'll show you what went wrong. Then you hit back.
+  56. Whoa, whoa. Reboot. Let me show you instead of telling you. I never tell anyone anything.
+  57. Nice! You understood it so hard it stopped existing.
+  58. That's what we call 'applied knowledge'. Also 'violence', but educational.
+  59. Bug squashed. Well. Bug... understood to death.
+  60. You're getting good at this. I'm slightly concerned.
+  61. Beating a boss proves you solved five problems. Let's prove you UNDERSTAND it. Three quick ones. No pressure. Well, some pressure.
+  62. Ow! That's static. Physics is literally shocking.
+  63. Don't swim in that. That's a sentence I never thought I'd say.
+  64. That's acid. Glowing green means NO.
+  65. Don't swim in the blood. That's a sentence I never thought I'd say.
+  66. That's acid. Neon green means NO.
+  67. Okay. The Lord Within is inside a living organism. So we need to go inside too.
+  68. Hold still.
+  69. You're about the size of a red blood cell. Try not to get swept into a kidney.
+  70. I've left the shrink ray on 'go even smaller' too. Press Q to squeeze through capillaries. Press it again to grow back.
+  71. You're finally awake!
+  72. That's a very long story.
+  73. Yes.
+  74. And we're running out of time. This whole place is called The Nexus. Something called The Glitch broke it.
+  75. Those are legs. Use the stick to make them do 'walking'.
+  76. Those are legs. Press A and D to make them do 'walking'. Revolutionary, I know.
+  77. Now JUMP. The big button. Hold it to jump higher.
+  78. Now jump. Space. Hold it longer to jump higher. Gravity still works here. Mostly.
+  79. See that terminal? Walk up and press E to read it. Reading: it's like walking, but for your brain.
+  80. A jammed gate. The logic's scrambled. Press E and fix it. I'd help, but I'm decorative.
+  81. Did you know the Nexus has 4 regions? I know. I'm very knowledgeable.
+  82. If you see a robot walking into a wall, don't help it. It's doing its best.
+  83. The world is ending. Anyway, how's your day?
+  84. I'm not floating. I'm just very good at standing on air.
+  85. Ask me anything. I won't answer, but you can ask.
+  86. Sometimes I count in binary to relax. 1, 10, 11, 100...
+  87. Psst. Nice loop.
+  88. The Nexus is stable. Every region is healthy. Because you understood how it works.
+  89. Knowledge isn't something you collect. It's something you use. See you around, student.
+  90. Nah. You've already passed the hard one.
+  91. This place isn't one of mine. Someone built it. On purpose.
+  92. Shaurya. Toppers panic too. Read every question twice. You've got this.
+  93. Up. Up up up. He only wins if you stop. Hints are on now: use them.
+  94. Okay, that one doesn't count. New paper, and this time the hints are on. Breathe.
+  95. Shaurya... you PASSED. The Glitch is gone. The Nexus is free!
+  96. No room to grow here. Physics says no.
+  97. Gravity: 1. You: 0.
+  98. I've reset you. You're welcome. That's the third time today. It's been ten minutes.
+  99. Fun fact: falling is just very fast sitting down.
+ 100. Don't worry, the floor here is optional. Unfortunately so are you.
+ 101. Respawned! Same you. Slightly more embarrassed.
+ 102. RUN! The level is deleting itself behind us!
+ 103. Gravity's having a day. Up is down now. Try not to think about it.
+ 104. Third time's the charm. That's not science, I just like saying it.
+ 105. Understanding the world is how you move through it. I read that on a cereal box.
+ 106. The door's logic is broken. It says 'OPEN IF KEY AND NOT KEY'.
+ 107. He's stuck. But listen between the glitches:
+ 108. Locked. The Glitch keeps a tidy queue. Finish the earlier area first.
+ 109. That rift... it smells like exam paper. Whoever made the Glitch is on the other side.
+ 110. A portal!
+ 111. is next. The Glitch went that way.
+ 112. That's sealed. We'll need a new trick to get through.
+ 113. Follow a breath from your nose to where oxygen enters the blood.
+ 114. Energy flows from the Sun through every eater. Follow it.
+ 115. Blood goes round twice: body to lungs to body. Follow one red blood cell.
+ 116. Atoms bond to fill their outer shell. The dots show the outer electrons. Drop some in and watch.
+ 117. Infinite loop! The condition never becomes false, because i never moves toward the end.
+ 118. Close! Off by one. That's the most famous bug in history. Check where it starts and where it stops.
+ 119. Nothing printed: the condition was false from the very start.
+ 120. It stopped, but not at 1 2 3 4 5. Try changing one thing at a time.
+ 121. Each bit is worth double the one to its right: 1, 2, 4, 8... Tap them and watch the number.
+ 122. A gate is just a rule. Flip A and B and watch the lamp.
+ 123. This code is broken on purpose. Tap the pink bits to change them, then RUN it and see what happens.
+ 124. Notice something? The mass changed... and the landing spot didn't. Without air, mass doesn't affect a projectile's path.
+ 125. Too short. What makes it go further?
+ 126. Too far! Ease off something.
+ 127. Push harder, it speeds up faster. Make it heavier, it gets lazy. That's F = ma.
+ 128. Voltage pushes, resistance resists. The current is what's left: I = V / R.
+ 129. Longer string, slower swing. Stronger gravity, faster swing. Try it.
+ 130. Change ONE slider at a time and watch where it lands. Hint: does mass even matter here?
+ 131. Don't look down. I looked down. Do not recommend.
+ 132. Cold! Cold cold cold. Physics fact: water is very good at stealing heat.
+ 133. That trench is full of something green. Green means 'acid' AND 'no'.
+ 134. Maintenance trench. Very clean. Very wet. Very embarrassing.
+ 135. Construction site. Hard hats only. I have neither a hat nor a hard head.
+ 136. This is The Nexus from above. Four regions, four very rude Glitch Lords, one very cool companion.
+ 137. Nope!
+
+=== NPCS (30 lines) ===
+
+  -- BEAKER BOT --
+   1. Bubble. Bubble. Toil. Bubble. Bubble.
+   2. Everything's bonding nicely. Like a big molecular hug.
+   3. Oh, and a tip: carbon makes four bonds
+
+  -- LAB ASSISTANT --
+   1. Hydrogen won't bond! Oxygen won't bond! N0B0DY WILL B0ND!
+   2. Water is wet again! Two hydrogens and an oxygen, holding hands!
+   3. Oh, and a tip: atoms bond to fill their outer shell
+
+  -- LIFT OPERATOR --
+   1. G0ING UP! G0ING UP! G0ING UP! G0ING UP!
+   2. The lifts work! Going up. And, crucially, STOPPING.
+   3. Oh, and a tip: the lift's loop never changes the floor number, so it never stops
+
+  -- NPC --
+   1. WELC0ME T0 C0DE C— WELC0ME T0 C0DE C— WELC0ME T0—
+
+  -- PROFESSOR APPLE --
+   1. What goes up... what goes up... what goes up...
+   2. What goes up comes DOWN! As it should! Glorious gravity!
+   3. Oh, and a tip: an object stays at rest unless a force acts on it
+
+  -- RED CELL RICK --
+   1. Oxygen... oxygen... where do I take the oxygen...
+   2. Lungs to heart to body! I know my route now!
+   3. Oh, and a tip: red blood cells carry oxygen using haemoglobin
+
+  -- ROBO-SWEEPER --
+   1. BONK. Recalculating. BONK. Recalculating.
+   2. There was a wall there the whole time? Wow.
+
+  -- ROBOT #404 --
+   1. BONK. Door not found. BONK. Door not found.
+   2. Oh! It was a DOOR-SHAPED WALL. I feel silly.
+
+  -- SHOPKEEPER-BOT --
+   1. W3LCOME TO THE C0STUME... THE C0STUME... THE C0S—
+   2. Welcome! Every costume is 100% ridiculous and 0% armour.
+
+  -- TAXI DRIVER --
+   1. Where to? Where to? Where t0? Where t0?
+   2. Where to? Anywhere! The roads loop properly now!
+   3. Oh, and a tip: an infinite loop is a loop whose condition never becomes False
+
+  -- WEATHER VANE --
+   1. Wind: up. Rain: up. Me: UP. Everything: UP.
+   2. Wind from the west. Rain falls DOWN. Lovely.
+
+  -- WHITE CELL WANDA --
+   1. Patrolling... patrolling... I forgot what I'm patrolling for...
+   2. Patrol complete. No viruses. Just one very small student.
+   3. Oh, and a tip: arteries carry blood AWAY from the heart
+
+=== ENEMIES (100 lines) ===
+
+  -- ACID ALCHEMIST --
+   1. Mass is NOT conserved in MY lab!
+   2. Balance? I've never heard of her.
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- ANTIBODY IMPOSTER --
+   1. Trust me, I'm a white blood cell.
+   2. The body attacks... ITSELF! Thanks to me!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- BUG MONSTER --
+   1. YOU CAN'T FIX MY CODE!
+   2. I'M NOT A BUG, I'M A FEATURE!
+   3. 404: YOUR CHANCES NOT FOUND!
+   4. OW! THAT WAS CORRECT!
+   5. HA! WRONG!
+   6. I... was... deprecated...
+
+  -- CARBON CLUMP --
+   1. I could be a DIAMOND. I choose violence.
+   2. Four bonds and NOT ONE of them for you!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- CRYPTO CRACKER --
+   1. Your password is 'password', isn't it?
+   2. I've already guessed it. Probably.
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- GLITCH FRAGMENT --
+   1. CODE? PHYSICS? CHEMISTRY? BIOLOGY? YES.
+   2. I AM EVERY ERROR AT ONCE.
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- GRAVITY GOON --
+   1. What goes up... stays up! HA!
+   2. Down is a matter of opinion!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- HYDROGEN HOPPER --
+   1. I'm the LIGHTEST and the BRIGHTEST!
+   2. Bond? With YOU? Never!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- LOOP DRONE --
+   1. BEEP. BEEP. BEEP. BEEP.
+   2. OW! THAT WAS CORRECT!
+   3. HA! WRONG!
+   4. I... was... deprecated...
+
+  -- MOMENTUM MITE --
+   1. An object at rest stays AT REST! Like me! Forever!
+   2. F = ME, A!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- OFF-BY-ONE --
+   1. There are TEN fence posts! Or eleven. Or nine.
+   2. I always stop one step too early. Or late!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- OXY BRUTE --
+   1. I need TWO electrons and I want them NOW!
+   2. Everything rusts eventually!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- PLAQUE PUFF --
+   1. Traffic jam in the aorta! HA!
+   2. I'm just a little... clog.
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- ROGUE CELL --
+   1. My DNA has... opinions now.
+   2. Mitosis? More like MY-tosis!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- SODIUM SPRINTER --
+   1. Just add water and STAND BACK!
+   2. One spare electron and NO chill!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- SOURCE SHARD --
+   1. Everything you learned... I will make you USE.
+   2. Synthesis is SUFFERING.
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- STATIC SPARK --
+   1. I resist you! Literally! Six ohms!
+   2. Feeling... charged?
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- SYNTAX SLIME --
+   1. Your indentation is WRONG and so are YOU!
+   2. I eat colons for breakfast!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- TESLA WRAITH --
+   1. I am the potential difference you fear!
+   2. Waves of PAIN, frequency: HIGH!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+  -- VIRUS SWARMLING --
+   1. We are many. You are one cell-sized idiot.
+   2. Copy, copy, copy, copy!
+   3. OW! THAT WAS CORRECT!
+   4. HA! WRONG!
+   5. I... was... deprecated...
+
+=== BOSSES (109 lines) ===
+
+  -- BARON VON FRICTION --
+   1. I am Baron Von Friction! I oppose ALL motion!
+   2. ...why am I sliding? WHO REMOVED MY FRICTION?
+   3. YOU CAN'T FIX MY CODE!
+   4. OW! THAT WAS CORRECT!
+   5. SHOW ME WHAT YOU LEARNED.
+   6. I'm... grinding... to a... halt...
+   7. Look at your mistake. LOOK at it.
+   8. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- COUNT CATALYST --
+   1. IspeedEVERYTHINGupIamCountCatalystFIGHTmeQUICKLY!
+   2. ...I'm not even used up by the reaction. Unlike you.
+   3. YOU CAN'T FIX MY CODE!
+   4. OW! THAT WAS CORRECT!
+   5. SHOW ME WHAT YOU LEARNED.
+   6. Slowing... down... is this... equilibrium...?
+   7. Look at your mistake. LOOK at it.
+   8. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- LORD LAB --
+   1. Welcome to my LAB-oratory! The 'oratory' is where I give speeches.
+   2. I taught every element to REFUSE to bond. No more water! No more salt! Only CHAOS!
+   3. Chemistry? I prefer CHAOS-try.
+   4. Bond? BOND? Not in MY lab!
+   5. Mix it, shake it, watch it EXPLODE!
+   6. OW! THAT WAS CORRECT!
+   7. Count the valence electrons, genius. Oxygen wants TWO. Not one. TWO.
+   8. Sodium GIVES. Chlorine TAKES. It's practically a soap opera.
+   9. *sigh* Fine. Lab safety lecture. Goggles ON.
+  10. Atoms bond to fill their outer shell. Drag some together. Watch them... ugh... get along.
+  11. See how carbon grabs four hydrogens? Disgusting teamwork. Now try it yourself.
+  12. SHOW ME WHAT YOU LEARNED.
+  13. NO... YOU UNDERSTOOD THE SYSTEM!
+  14. Look at your mistake. LOOK at it.
+  15. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- LORD LAWS --
+   1. ORDER! ORDER IN MY VALLEY!
+   2. I have declared gravity ILLEGAL on Tuesdays.
+   3. And today, little student, is whatever day I SAY it is.
+   4. Gravity is a SUGGESTION.
+   5. Newton? Never heard of him. Overruled!
+   6. OW! THAT WAS CORRECT!
+   7. Pathetic! You forgot the NET force. Forces in opposite directions SUBTRACT, fool.
+   8. Objection! F = ma. You used F = m + a. I'm almost impressed.
+   9. *sigh* This court is now a classroom. Against my will.
+  10. Here. Sliders. Push the force up and watch the acceleration. Now add mass. See? Heavier things are LAZIER.
+  11. Change ONE thing at a time. That's how real physicists... ugh... learn. Now go away. No, wait, come back and fight me.
+  12. SHOW ME WHAT YOU LEARNED.
+  13. NO... YOU UNDERSTOOD THE SYSTEM!
+  14. Look at your mistake. LOOK at it.
+  15. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- LORD LOOP --
+   1. WELCOME, WELCOME, WELCOME, little process.
+   2. I have been running since the beginning of time. Time. Time. TIME.
+   3. You will never break my loop. Loop. LOOP.
+   4. AGAIN. AGAIN. AGAIN.
+   5. You will repeat this fight FOREVER-EVER-EVER.
+   6. OW! THAT WAS CORRECT!
+   7. Ha-ha-ha. Look at THAT line. What changes each time? NOTHING. Like you.
+   8. Your loop never ENDS. Just like my monologue.
+   9. *sigh* Fine. FINE. Fine. Let me show you how a loop works, since you clearly can't.
+  10. Every loop needs three things: a START, a CONDITION, and a CHANGE. Watch what happens when I remove the change.
+  11. See? It never stops. That's ME. That's my whole tragic life. Now YOU fix it.
+  12. SHOW ME WHAT YOU LEARNED.
+  13. NO... YOU UNDERSTOOD THE SYSTEM!
+  14. Look at your mistake. LOOK at it.
+  15. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+  16. SEE? It never stops. NEVER. That's ME. That's my whole tragic life. What changes each time?
+
+  -- LORD WITHIN --
+   1. Oh! A visitor. How lovely. Mind the blood.
+   2. I've made myself quite comfortable in this body. The heart is SUCH a lovely room.
+   3. Make yourself at home. I did.
+   4. Shhh. The body is sleeping. Forever.
+   5. Such a fragile little system. Pumps, pipes, tubes...
+   6. OW! THAT WAS CORRECT!
+   7. Arteries go AWAY, darling. A for away. Honestly.
+   8. Right side of the heart: used blood, to the LUNGS. Did no one tell you?
+   9. *sigh* Very well. A tour of the facilities.
+  10. Trace the blood with your finger. Body, right heart, lungs, left heart, body. Round and round.
+  11. There. Now you understand my house better than I do. How annoying.
+  12. SHOW ME WHAT YOU LEARNED.
+  13. NO... YOU UNDERSTOOD THE SYSTEM!
+  14. Look at your mistake. LOOK at it.
+  15. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- PROFESSOR PLAQUE --
+   1. Ah, a student! I am Professor Plaque. I specialise in... blockages.
+   2. Class is in session. Permanently. Nobody gets through this artery.
+   3. YOU CAN'T FIX MY CODE!
+   4. OW! THAT WAS CORRECT!
+   5. SHOW ME WHAT YOU LEARNED.
+   6. Dissolving... like a good... medication...
+   7. Look at your mistake. LOOK at it.
+   8. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- SERGEANT SYNTAX --
+   1. ATTENTION, RECRUIT! Your COLONS are a DISGRACE!
+   2. Drop and give me twenty... lines of VALID PYTHON!
+   3. IS THAT INDENTED? IS IT?!
+   4. I've seen better code written by a TOASTER!
+   5. OW! THAT WAS CORRECT!
+   6. SHOW ME WHAT YOU LEARNED.
+   7. At ease... recruit... your syntax... is... valid...
+   8. Look at your mistake. LOOK at it.
+   9. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+  -- THE SOURCE --
+   1. So. You fixed my loops. My laws. My lab. My little body.
+   2. I WROTE the rules of The Nexus. Then I deleted them. It was fun.
+   3. Let's see if you understand ALL of it. At once.
+   4. Code? Physics? Chemistry? Biology? They're all just rules. And I BREAK rules.
+   5. Knowledge is your weapon? Then I'll make you DROP it.
+   6. OW! THAT WAS CORRECT!
+   7. Everything connects, student. Physics runs the code. Chemistry runs the cell.
+   8. You separate subjects into boxes. I don't. That's why I'm winning.
+   9. *sigh* Even gods must explain themselves sometimes.
+  10. Look: a loop can simulate a cell dividing. Physics tells the robot how fast. Chemistry fuels the muscle.
+  11. It's ONE world. You just learned it in four pieces. Now put it together.
+  12. SHOW ME WHAT YOU LEARNED.
+  13. NO... YOU UNDERSTOOD... EVERYTHING...
+  14. Look at your mistake. LOOK at it.
+  15. STOP. Stop stop stop. This is embarrassing for BOTH of us.
+
+=== TERMINALS (1 lines) ===
+
+  -- THE SOURCE'S DIARY --
+   1. Day 1: Wrote the rules.
+Day 2: Deleted the rules.
+Day 3: Why is everything on fire?

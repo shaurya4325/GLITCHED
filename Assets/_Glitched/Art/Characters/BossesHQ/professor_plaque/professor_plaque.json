@@ -1,0 +1,37 @@
+{
+ "height": 0.7881040692445822,
+ "width": 0.8473261892795563,
+ "depth": 0.8567577004432678,
+ "min": [
+  -0.4428209066390991,
+  -0.4227132201194763,
+  -0.0005364537355490029
+ ],
+ "max": [
+  0.40450528264045715,
+  0.4340444803237915,
+  0.7875676155090332
+ ],
+ "actions": [
+  [
+   "idle_loop",
+   71
+  ]
+ ],
+ "meshes": 1,
+ "armatures": 1,
+ "tris": 9936,
+ "materials": {
+  "Spore": {
+   "base": "professor_plaque_Spore_base.png",
+   "normal": "professor_plaque_Spore_normal.png",
+   "mr": "professor_plaque_Spore_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true,
+   "occlusion": "professor_plaque_Spore_ao.png"
+  }
+ }
+}

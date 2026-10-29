@@ -1,0 +1,13 @@
+Realistic boss models (Sketchfab, CC Attribution 4.0 - https://creativecommons.org/licenses/by/4.0/)
+Converted from glTF with Tools/blender_glb_to_fbx.py (clips renamed, textures repacked for Glitched/Realistic).
+
+sergeant_syntax     "Steampunk Robot - Police Enforcer Variant"        by Lagst            sketchfab.com/3d-models/e70acc6222a9457e984c733e3d6e57ce
+lord_infinite_loop  "Mech Robot KW-II"                                 by swds321
+baron_friction      "Security Cyborg"                                  by fletcherkinnear  sketchfab.com/3d-models/94ea8c717c374e3fa8aaa7549235b323
+lord_broken_laws    "Animated Mech - Marceline Sentinel Armor (Marcy)" by RainOnTheMoon    sketchfab.com/3d-models/9f169c3bcc61445993bf0ce269edc863
+lord_of_the_lab     "Alien Ninja Creature"                             by jungle_jim
+professor_plaque    "Living Flesh Blob - Free Organic Horror Asset"    by Tim0
+lord_within         "Insectoid Monster Rig"                            by SuperKapoo913
+the_source          "RoboWyvern"                                       by amzarraif99
+
+Credited in game: Scripts/UI/CreditsScreen.cs (BOSS MODELS).

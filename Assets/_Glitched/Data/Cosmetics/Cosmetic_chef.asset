@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c070d09f0e82a342a4fa0f6d82b3a7c, type: 3}
+  m_Name: Cosmetic_chef
+  m_EditorClassIdentifier: 
+  id: chef
+  displayName: Chef of Algorithms
+  description: "Cooks up a mean recursive souffl\xE9."
+  price: 80
+  hat: chef
+  hatColor: {r: 1, g: 1, b: 1, a: 1}
+  tintBody: 0
+  bodyTint: {r: 1, g: 1, b: 1, a: 1}
+  hatPrefab: {fileID: 0}
+  rewardOnly: 0

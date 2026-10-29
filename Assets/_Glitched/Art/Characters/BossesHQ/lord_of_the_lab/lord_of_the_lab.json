@@ -1,0 +1,64 @@
+{
+ "height": 0.8621729873120785,
+ "width": 0.9052749872207642,
+ "depth": 0.8745507299900055,
+ "min": [
+  -0.6154452562332153,
+  -0.616718053817749,
+  0.0173589326441288
+ ],
+ "max": [
+  0.28982973098754883,
+  0.25783267617225647,
+  0.8795319199562073
+ ],
+ "actions": [
+  [
+   "attack",
+   42
+  ],
+  [
+   "cast",
+   30
+  ],
+  [
+   "hit",
+   42
+  ],
+  [
+   "idle_loop",
+   43
+  ],
+  [
+   "jump",
+   22
+  ],
+  [
+   "run_loop",
+   13
+  ],
+  [
+   "victory",
+   52
+  ],
+  [
+   "walk_loop",
+   37
+  ]
+ ],
+ "meshes": 1,
+ "armatures": 1,
+ "tris": 49976,
+ "materials": {
+  "Material": {
+   "base": "lord_of_the_lab_Material_base.png",
+   "normal": null,
+   "mr": null,
+   "emission": null,
+   "metallic": 0.6384934186935425,
+   "roughness": 0.5997603535652161,
+   "emissive": 0.0,
+   "alpha": true
+  }
+ }
+}

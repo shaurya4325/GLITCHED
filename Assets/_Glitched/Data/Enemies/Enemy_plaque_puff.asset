@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_plaque_puff
+  m_EditorClassIdentifier: 
+  id: plaque_puff
+  displayName: PLAQUE PUFF
+  tier: 0
+  arc: BioZone
+  concepts:
+  - Circulation
+  - Respiration
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - ARTERY JAM
+  - CHOLESTEROL CHOMP
+  taunts:
+  - Traffic jam in the aorta! HA!
+  - I'm just a little... clog.
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 2597726392381150947, guid: a22cea05938287f48ada3ff1b5da66b5, type: 3}
+  height: 0.7
+  tint: {r: 1, g: 0.9, b: 0.5, a: 1}
+  placeholderShape: blob
+  flying: 0
+  patrolDistance: 2.5

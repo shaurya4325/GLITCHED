@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e760c8573ed93428b9624bf58944d3, type: 3}
+  m_Name: Kit_PhysicsValley
+  m_EditorClassIdentifier: 
+  id: PhysicsValley
+  buildings: []
+  facadePieces: []
+  roofPieces: []
+  props:
+  - {fileID: 919132149155446097, guid: f14655969248e874eb158cc9da0cf9a3, type: 3}
+  - {fileID: 919132149155446097, guid: ee140106ccb36b448bc11ab408914a43, type: 3}
+  - {fileID: 919132149155446097, guid: 30ebe1b47a66bee45b11b03c8b4722de, type: 3}
+  - {fileID: 919132149155446097, guid: 18abdd2cfce72974c970c5cc8bf036d7, type: 3}
+  - {fileID: 919132149155446097, guid: 09fc6bf2287bd9c43bdbcc2fb58933f7, type: 3}
+  - {fileID: 919132149155446097, guid: 597e1a3aa6da806489dbe7dc60d0e9d4, type: 3}
+  - {fileID: 919132149155446097, guid: fe67c3e643fcd444e90b4c1b3471fd86, type: 3}
+  - {fileID: 919132149155446097, guid: aec08a267900a1f429e86669c74d98ef, type: 3}
+  - {fileID: 919132149155446097, guid: 4ed96a7af902dbe43a06c1b07badf436, type: 3}
+  - {fileID: 919132149155446097, guid: 7535f4156b7a8684f957a4555b946f77, type: 3}
+  - {fileID: 919132149155446097, guid: e3441ddc570ddcb408c565819bb49f71, type: 3}
+  - {fileID: 919132149155446097, guid: 0b0ba3e4c0be49a46bf186f9c0437e1d, type: 3}
+  - {fileID: 919132149155446097, guid: 1d07e41337a67f44499a717e863a5137, type: 3}
+  - {fileID: 919132149155446097, guid: fae48ffba776eeb4682d24befaeafd82, type: 3}
+  - {fileID: 919132149155446097, guid: 582c3eded15810c4996b560ddec0a378, type: 3}
+  - {fileID: 919132149155446097, guid: 29d63b2a4a73e964299a1e196453872d, type: 3}
+  foreground: []
+  nature:
+  - {fileID: 919132149155446097, guid: b874ad48e9604164398154750ee69e96, type: 3}
+  - {fileID: 919132149155446097, guid: 26a4398de28d98941a268fe9655fe8c6, type: 3}
+  - {fileID: 919132149155446097, guid: ce806708408207f48a33d3974f8e1250, type: 3}
+  - {fileID: 919132149155446097, guid: f6a5e05f7dc80da40936ad24d8fdc712, type: 3}
+  - {fileID: 919132149155446097, guid: 079f26085f58d3546b744012d46943f2, type: 3}
+  - {fileID: 919132149155446097, guid: 21505d1d1e2cdb84b93895cab8161427, type: 3}
+  - {fileID: 919132149155446097, guid: b2f367f1aaca02c438419d4956ecefaf, type: 3}
+  - {fileID: 919132149155446097, guid: dd2ffb01938a59c43b00c48f358b02ed, type: 3}
+  - {fileID: 919132149155446097, guid: 429a4f0aab9f6734bb7b00a386c1d1fb, type: 3}
+  - {fileID: 919132149155446097, guid: f0ffe78e0d5bb1149b04e57535a06135, type: 3}
+  - {fileID: 919132149155446097, guid: 471083899bb892d45826b3f73ecb305c, type: 3}
+  - {fileID: 919132149155446097, guid: b439815a70b364c4788d3f1de98b60ae, type: 3}
+  - {fileID: 919132149155446097, guid: 8e3a3fde528db1341983b84ec627f559, type: 3}
+  - {fileID: 919132149155446097, guid: bd34a7cfccba85149a27936ea6ab4fb9, type: 3}
+  - {fileID: 919132149155446097, guid: 5c0b7812f162abc41a636ecc1089242f, type: 3}
+  - {fileID: 919132149155446097, guid: d1c7525f38db4f6448e3f6c6786b5213, type: 3}
+  - {fileID: 919132149155446097, guid: 41cde1832f584a448a7f8e620d3d2151, type: 3}
+  - {fileID: 919132149155446097, guid: ccf7cc69305169e4b9ee732d70acc5fc, type: 3}
+  - {fileID: 919132149155446097, guid: b9adff6a906fa0244ab1dbf5720085a3, type: 3}
+  - {fileID: 919132149155446097, guid: c5313c57111e88c47b0d54abbd4135e1, type: 3}
+  - {fileID: 919132149155446097, guid: e04e67bf7b729a4459fe894ce0589819, type: 3}
+  - {fileID: 919132149155446097, guid: 6f49d0a7fead63a48bfc05d072927ff8, type: 3}
+  - {fileID: 919132149155446097, guid: 87dfc0f0e45071444a3f741ae12b8ce5, type: 3}
+  - {fileID: 919132149155446097, guid: a291f828892a483499820bf5ae5edec8, type: 3}
+  - {fileID: 919132149155446097, guid: 3888aef156c72de49b3aa00799ce599d, type: 3}
+  - {fileID: 919132149155446097, guid: 7dcfe14a1cf77bc48898b4fb34465ad3, type: 3}
+  - {fileID: 919132149155446097, guid: a71b5d66ce7a26844b59b54a8dae5304, type: 3}
+  - {fileID: 919132149155446097, guid: 4ac28807d3c90134caa2ed59271f46c7, type: 3}
+  - {fileID: 919132149155446097, guid: 38c64fae2f80e2a41aea74244a5dd339, type: 3}
+  platforms: []
+  hazards: []
+  vehicles: []
+  creatures: []
+  facadeTextures: []
+  surfaceTextures: []
+  groundMaterial: {fileID: 2100000, guid: 1d3eb87704c18624c8e9cea21b3c6d04, type: 2}
+  groundSideMaterial: {fileID: 2100000, guid: a7b29eab13e44a541a5c1ba2a8617943, type: 2}
+  wallMaterial: {fileID: 2100000, guid: a62cb0e638c14a24993008ea71d680d2, type: 2}
+  liquidMaterial: {fileID: 0}

@@ -1,0 +1,1248 @@
+{
+  "arc": "ChemicalChaos",
+  "version": 1,
+  "questions": [
+    {
+      "id": "XI_CH_BASIC_01",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The molar mass of H<sub>2</sub>O is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "18 g/mol",
+          "16 g/mol",
+          "10 g/mol",
+          "20 g/mol"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "2 × 1 + 16 = 18 g/mol.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_02",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "How many moles are in 88 g of CO<sub>2</sub> (44 g/mol)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2",
+          "0.5",
+          "44",
+          "4"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "88 / 44 = 2 mol.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_03",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "One mole of any substance contains:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "6.022 × 10<sup>23</sup> particles",
+          "6.022 × 10<sup>22</sup> particles",
+          "22.4 particles",
+          "1 g of matter"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "That's Avogadro's number.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_04",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Taking 22.4 L per mole at STP, 2 moles of a gas fill:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "44.8 L",
+          "22.4 L",
+          "11.2 L",
+          "2 L"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2 × 22.4 = 44.8 L.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_05",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The empirical formula of glucose, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "CH<sub>2</sub>O",
+          "C<sub>2</sub>H<sub>4</sub>O<sub>2</sub>",
+          "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>",
+          "CHO"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Divide 6 : 12 : 6 by 6 → 1 : 2 : 1.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_06",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "4 g of NaOH (40 g/mol) is made up to 1 L of solution. Its molarity:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0.1 M",
+          "4 M",
+          "1 M",
+          "0.4 M"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "4 / 40 = 0.1 mol in 1 L.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_07",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O, how many moles of water come from 2 mol of O<sub>2</sub> (H<sub>2</sub> in excess)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4",
+          "2",
+          "1",
+          "8"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "1 O<sub>2</sub> gives 2 H<sub>2</sub>O, so 2 O<sub>2</sub> give 4 H<sub>2</sub>O.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_08",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Water always has H and O in the mass ratio 1 : 8. This is the law of:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "definite proportions",
+          "multiple proportions",
+          "conservation of mass",
+          "gaseous volumes"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "A compound always has the same elements in the same proportion by mass.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BASIC_09",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Mole Concept",
+      "topic": "ch_basic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The reactant that is used up first is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "limiting reagent",
+          "excess reagent",
+          "catalyst",
+          "product"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "It limits how much product can form.",
+      "hint": "moles = mass ÷ molar mass; 1 mole = 6.022 × 10<sup>23</sup> particles; 1 mole of gas fills 22.4 L at STP.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_01",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "An atom has 17 protons and 18 neutrons. Its mass number is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "35",
+          "17",
+          "18",
+          "1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "A = protons + neutrons = 35 (it's chlorine-35).",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_02",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Maximum number of electrons in the n = 3 shell:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "18",
+          "8",
+          "9",
+          "32"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "2n<sup>2</sup> = 2 × 9 = 18.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_03",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Isotopes of an element have the same:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "atomic number",
+          "mass number",
+          "number of neutrons",
+          "mass"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Same protons (Z), different neutrons.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_04",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "For l = 1 the subshell is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "p",
+          "s",
+          "d",
+          "f"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "l = 0, 1, 2, 3 → s, p, d, f.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_05",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The electronic configuration of oxygen (Z = 8):",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>",
+          "1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>",
+          "1s<sup>2</sup> 2p<sup>6</sup>",
+          "1s<sup>2</sup> 2s<sup>4</sup> 2p<sup>2</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2 + 2 + 4 = 8 electrons, filled in order.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_06",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which rule says no two electrons in an atom can have all four quantum numbers the same?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Pauli exclusion principle",
+          "Hund's rule",
+          "Aufbau principle",
+          "Heisenberg's principle"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "So an orbital holds at most 2 electrons, with opposite spins.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_07",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which of these orbitals fills FIRST?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4s",
+          "3d",
+          "4p",
+          "4d"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "n + l: 4s = 4, 3d = 5, 4p = 5, 4d = 6. Lowest first.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_08",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The number of orbitals in a d subshell is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "5",
+          "3",
+          "7",
+          "1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "mₗ = −2, −1, 0, +1, +2.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_ATOM_09",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Structure of Atom",
+      "topic": "ch_atom",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The electronic configuration of chromium (Z = 24) is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "[Ar] 3d<sup>5</sup> 4s<sup>1</sup>",
+          "[Ar] 3d<sup>4</sup> 4s<sup>2</sup>",
+          "[Ar] 3d<sup>6</sup>",
+          "[Ar] 4s<sup>2</sup> 4p<sup>4</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "A half-filled d subshell is extra stable, so one 4s electron moves to 3d.",
+      "hint": "Z = number of protons; a shell holds 2n<sup>2</sup> electrons; fill orbitals by Aufbau (n + l), at most 2 per orbital (Pauli), singly first (Hund).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_01",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The bond in NaCl is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "ionic",
+          "covalent",
+          "metallic",
+          "hydrogen"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Sodium gives an electron to chlorine: Na<sup>+</sup> and Cl<sup>-</sup> attract.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_02",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The shape of a methane (CH<sub>4</sub>) molecule is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "tetrahedral",
+          "linear",
+          "trigonal planar",
+          "bent"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Four bond pairs, no lone pairs: 109.5°.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_03",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The H–O–H bond angle in water is about:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "104.5°",
+          "109.5°",
+          "120°",
+          "180°"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Two lone pairs push the bonds closer than 109.5°.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_04",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The hybridisation of carbon in CH<sub>4</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "sp<sup>3</sup>",
+          "sp<sup>2</sup>",
+          "sp",
+          "dsp<sup>2</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Four equivalent bonds → sp<sup>3</sup>.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_05",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A triple bond is made of:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1 σ + 2 π",
+          "3 σ",
+          "2 σ + 1 π",
+          "3 π"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Only one bond between two atoms can be head-on (σ).",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_06",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The shape of BF<sub>3</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "trigonal planar",
+          "pyramidal",
+          "tetrahedral",
+          "linear"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Three bond pairs, no lone pair on boron: flat, 120°.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_07",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "NH<sub>3</sub> has a bond angle of 107°, less than CH<sub>4</sub>'s 109.5°, because:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "a lone pair repels more",
+          "N is bigger than C",
+          "NH<sub>3</sub> is ionic",
+          "of hydrogen bonds"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Lone pair–bond pair repulsion squeezes the N–H bonds together.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_08",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Water's unusually high boiling point is mainly due to:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "hydrogen bonding",
+          "ionic bonds",
+          "its small mass",
+          "metallic bonding"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Each H<sub>2</sub>O hydrogen-bonds to its neighbours, which takes energy to break.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_BOND_09",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Chemical Bonding",
+      "topic": "ch_bond",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The hybridisation of carbon in CO<sub>2</sub> (a linear molecule) is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "sp",
+          "sp<sup>2</sup>",
+          "sp<sup>3</sup>",
+          "none"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Linear, 180° → sp.",
+      "hint": "Ionic = electron transfer, covalent = sharing; in VSEPR lone pairs squeeze bond angles: CH<sub>4</sub> 109.5°, NH<sub>3</sub> 107°, H<sub>2</sub>O 104.5°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_01",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which atom is LARGER?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Na",
+          "Cl",
+          "Mg",
+          "S"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Across period 3 the radius shrinks, so sodium (first) is biggest.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_02",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The most electronegative element is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "F",
+          "O",
+          "Cl",
+          "N"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Fluorine: top right (ignoring the noble gases).",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_03",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Down a group, atomic radius:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "increases",
+          "decreases",
+          "stays same",
+          "is zero"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Every period adds a new shell.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_04",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Across a period, ionisation enthalpy generally:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "increases",
+          "decreases",
+          "stays same",
+          "drops to 0"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "More nuclear charge holds the electrons tighter.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_05",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The noble gases are in:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Group 18",
+          "Group 1",
+          "Group 17",
+          "Group 2"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Full outer shells, in the last column.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_06",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The modern periodic law is based on:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "atomic number",
+          "atomic mass",
+          "density",
+          "colour"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Moseley showed atomic number is the real key.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_07",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which has the LOWEST first ionisation enthalpy?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Cs",
+          "Li",
+          "Na",
+          "K"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Lowest in group 1 = biggest atom = easiest electron to remove.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_08",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The halogens are in:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Group 17",
+          "Group 16",
+          "Group 2",
+          "Group 18"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "F, Cl, Br, I: one electron short of an octet.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_09",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The d-block elements are called:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "transition metals",
+          "noble gases",
+          "halogens",
+          "alkali metals"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Groups 3 to 12.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_PERIODIC_10",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Trends",
+      "topic": "ch_periodic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which is the SMALLEST atom?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "F",
+          "Li",
+          "N",
+          "B"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "All in period 2: the radius shrinks to the right, so fluorine.",
+      "hint": "Across a period → atoms get smaller, harder to ionise and more electronegative; down a group ↓ they get bigger and easier to ionise.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_01",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The oxidation number of Mn in KMnO<sub>4</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "+7",
+          "+5",
+          "+2",
+          "−7"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "+1 + Mn + 4(−2) = 0 → Mn = +7.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_02",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Oxidation is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "loss of electrons",
+          "gain of electrons",
+          "gain of protons",
+          "loss of neutrons"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "OIL RIG: Oxidation Is Loss.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_03",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu, the species OXIDISED is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Zn",
+          "Cu<sup>2+</sup>",
+          "SO<sub>4</sub><sup>2-</sup>",
+          "Cu"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Zn goes from 0 to +2: it lost two electrons.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_04",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The oxidation number of S in H<sub>2</sub>SO<sub>4</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "+6",
+          "+4",
+          "−2",
+          "+2"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2(+1) + S + 4(−2) = 0 → S = +6.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_05",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "An oxidising agent:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "gains electrons (is reduced)",
+          "loses electrons",
+          "is itself oxidised",
+          "never changes"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It takes electrons from the other species.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_06",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The oxidation number of O in H<sub>2</sub>O<sub>2</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "−1",
+          "−2",
+          "0",
+          "+1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Peroxide: 2(+1) + 2(O) = 0 → O = −1.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_07",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The oxidation number of an element in its free, uncombined state is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0",
+          "+1",
+          "−1",
+          "its group number"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "O<sub>2</sub>, Na, Fe on their own: all 0.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_08",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A reaction where the same element is both oxidised and reduced is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "disproportionation",
+          "combination",
+          "displacement",
+          "neutralisation"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "e.g. 2H<sub>2</sub>O<sub>2</sub> → 2H<sub>2</sub>O + O<sub>2</sub>.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CH_REDOX_09",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Redox Reactions",
+      "topic": "ch_redox",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The oxidation number of Cr in K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "+6",
+          "+7",
+          "+3",
+          "+12"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "2(+1) + 2Cr + 7(−2) = 0 → 2Cr = +12 → Cr = +6.",
+      "hint": "OIL RIG: oxidation is loss of electrons (oxidation number up), reduction is gain (down); the oxidising agent is itself reduced.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    }
+  ]
+}

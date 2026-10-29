@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5f6cf378f2e241459e1389410289183, type: 3}
+  m_Name: Tier_Medium
+  m_EditorClassIdentifier: 
+  tier: 2
+  urpAsset: {fileID: 11400000, guid: aed5ad4f0c724df40ab386abf57e7942, type: 2}
+  renderScale: 0.9
+  fpsCap: 60
+  realtimeShadows: 1
+  shadowCascades: 1
+  shadowResolution: 512
+  shadowDistance: 35
+  msaa: 2
+  postProcessing: 1
+  colorGrading: 1
+  bloom: 1
+  depthOfField: 0
+  vignette: 1
+  chromaticAberration: 0
+  fullscreenGlitch: 1
+  glitchAsUIOverlay: 0
+  layerL0: 1
+  layerL3: 1
+  layerL5Events: 0
+  simpleL2: 0
+  trafficAndCrowd: 0.6
+  particles: 0.6
+  lodBias: 1
+  textureMipLimit: 0
+  cameraYawSway: 3
+  simpleGlitchShader: 0
+  fogMode: 3
+  heightFog: 0

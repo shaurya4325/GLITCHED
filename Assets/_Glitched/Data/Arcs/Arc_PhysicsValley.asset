@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ce08f79962ee844ac03f1743e7c2a0, type: 3}
+  m_Name: Arc_PhysicsValley
+  m_EditorClassIdentifier: 
+  id: PhysicsValley
+  displayName: Physics Valley
+  subject: Physics
+  order: 1
+  theme: {fileID: 11400000, guid: e50e31e7e2466504b886c0df982ef331, type: 2}
+  concepts:
+  - Laws of Motion
+  - Kinematics
+  - Work, Energy and Power
+  - Oscillations
+  - Gravitation
+  - Motion
+  - Newton's Laws
+  - Work & Energy
+  - Electricity
+  - Magnetism
+  - Waves
+  emphasisTypes: 050000000200000007000000
+  levels:
+  - id: PhysicsValley_Hub
+    scene: PhysicsValley_Hub
+    displayName: Physics Valley Hub
+    kind: 0
+    next: PhysicsValley_L1
+    requiredAbility: 
+  - id: PhysicsValley_L1
+    scene: PhysicsValley_L1
+    displayName: Floating Isles
+    kind: 1
+    next: PhysicsValley_Boss
+    requiredAbility: 
+  - id: PhysicsValley_Boss
+    scene: PhysicsValley_Boss
+    displayName: The Courtroom of Broken Laws
+    kind: 2
+    next: 
+    requiredAbility: 
+  miniBoss: {fileID: 11400000, guid: e2ab7f3100fe04044967eac25d22c732, type: 2}
+  boss: {fileID: 11400000, guid: fc7ef2e1a656e124296687e2acea9c86, type: 2}
+  abilityReward: dash
+  cosmeticReward: propeller
+  tagline: The laws themselves are corrupted. Gravity changes direction without warning
+    and time runs strangely.
+  arrivalLines:
+  - Physics Valley. Watch your step. Also your up-step. And your sideways-step.
+  - The debris here falls UP. Don't think about it too hard.
+  restoredLines:
+  - Things fall DOWN again! Beautiful, boring, correct DOWN!
+  - Physics Valley obeys the law once more.

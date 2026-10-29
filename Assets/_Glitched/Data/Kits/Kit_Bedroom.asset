@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e760c8573ed93428b9624bf58944d3, type: 3}
+  m_Name: Kit_Bedroom
+  m_EditorClassIdentifier: 
+  id: Bedroom
+  buildings: []
+  facadePieces: []
+  roofPieces: []
+  props:
+  - {fileID: 919132149155446097, guid: 8218a6b9c371c74429807933e8f66b97, type: 3}
+  - {fileID: 919132149155446097, guid: 48484403a47f2d846bdf3914648900ae, type: 3}
+  - {fileID: 919132149155446097, guid: 3ccd062e61ac74649956a4ab4c407e47, type: 3}
+  - {fileID: 919132149155446097, guid: bca6c2247530bee408a666e98f357930, type: 3}
+  - {fileID: 919132149155446097, guid: 8a096963734445f4fbfdfdf3da354a6f, type: 3}
+  - {fileID: 919132149155446097, guid: 5950fc6694d563140bb32a2a72e7c138, type: 3}
+  - {fileID: 919132149155446097, guid: 532d98b7344deab47a7dde9cf65cee74, type: 3}
+  - {fileID: 919132149155446097, guid: 0c83fd01ade77534cb6fa0dc4f2ab57a, type: 3}
+  - {fileID: 919132149155446097, guid: 9fc7323e42a06b349b6cf8f3bca098a3, type: 3}
+  - {fileID: 919132149155446097, guid: 208e40c223f09404fbe853555aebd6d2, type: 3}
+  - {fileID: 919132149155446097, guid: 83a00a8147262624ab64e3baf470c0df, type: 3}
+  - {fileID: 919132149155446097, guid: 77f2255a6824d3b4aa4e2fb50ae3fe6a, type: 3}
+  - {fileID: 919132149155446097, guid: 05d8fa1312b02434c9638a8e21a4dbc5, type: 3}
+  - {fileID: 919132149155446097, guid: 178814d782f7a1d41835f3f4ac77c7c1, type: 3}
+  - {fileID: 919132149155446097, guid: ac0597472ca12bc4f9d510b5e7f8ac22, type: 3}
+  - {fileID: 919132149155446097, guid: 7807ea4ec5eaf53409cbd39eb49d21eb, type: 3}
+  - {fileID: 919132149155446097, guid: 2cf5fb22fc2dcc54fbed02cbab924d4a, type: 3}
+  - {fileID: 919132149155446097, guid: e3c81046ece279c46aa89e8454a50e35, type: 3}
+  - {fileID: 919132149155446097, guid: 50137c80f23c72342aa930e5f0f4b7ed, type: 3}
+  - {fileID: 919132149155446097, guid: 24bcb969a6245434eb43bb7ac076adab, type: 3}
+  - {fileID: 919132149155446097, guid: 6c616b47bc7e01b429119e9180f90e8f, type: 3}
+  foreground: []
+  nature: []
+  platforms: []
+  hazards: []
+  vehicles: []
+  creatures: []
+  facadeTextures: []
+  surfaceTextures: []
+  groundMaterial: {fileID: 2100000, guid: 3f38cf1793c81dd42a5480131fde5fb3, type: 2}
+  groundSideMaterial: {fileID: 0}
+  wallMaterial: {fileID: 2100000, guid: 2b453f5321f18124e8f1cdf4650403cb, type: 2}
+  liquidMaterial: {fileID: 0}

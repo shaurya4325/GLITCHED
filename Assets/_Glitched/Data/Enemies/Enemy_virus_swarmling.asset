@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_virus_swarmling
+  m_EditorClassIdentifier: 
+  id: virus_swarmling
+  displayName: VIRUS SWARMLING
+  tier: 0
+  arc: BioZone
+  concepts:
+  - Cells
+  - Human Body
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - REPLICATE!
+  - SPIKE PROTEIN POKE
+  taunts:
+  - We are many. You are one cell-sized idiot.
+  - Copy, copy, copy, copy!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 1141353499091929167, guid: 15249e7c696c9fc4babe3e3b7af23b0d, type: 3}
+  height: 0.45
+  tint: {r: 0.7, g: 0.2, b: 1, a: 1}
+  placeholderShape: virus
+  flying: 1
+  patrolDistance: 2.5

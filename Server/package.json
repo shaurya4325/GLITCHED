@@ -1,0 +1,15 @@
+{
+  "name": "glitched-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GLITCHED stall server: the 3D website, the game download, copy verification (QR) and the admin page.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f0cb87a57cc324c96560c131883d4d, type: 3}
+  m_Name: MaterialLibrary
+  m_EditorClassIdentifier: 
+  glitchable: {fileID: 2100000, guid: a8d8cd6f43d723e46ba5246f0da95285, type: 2}
+  glitchableEmissive: {fileID: 2100000, guid: d46f2132eff942f4e8a34ce2b2771836, type: 2}
+  toon: {fileID: 2100000, guid: 0fe8268e9d56ad74db57e132a44b3193, type: 2}
+  faceDecal: {fileID: 2100000, guid: 8d6ad3dd145de264286b9b09c04965c9, type: 2}
+  sky: {fileID: 2100000, guid: 06ffa136b03ea774d94eb2b653c3ae96, type: 2}
+  hologram: {fileID: 2100000, guid: f7ca743546b85c547ab8a05d7c765daa, type: 2}
+  impostor: {fileID: 2100000, guid: 3619e5ff8fcd1eb46878787de165ca7d, type: 2}
+  flow: {fileID: 2100000, guid: 94aa2b15125bdaf49bce5a64193ba33c, type: 2}
+  particleAdditive: {fileID: 2100000, guid: f22dbc6f5c6768044a8d479d1b8ede57, type: 2}
+  particleAlpha: {fileID: 2100000, guid: 38be0c4802632874f972ea560994e83b, type: 2}
+  uiGlitch: {fileID: 2100000, guid: a0db01dffcd257f4ebd299b648e07cdd, type: 2}
+  fullscreenGlitch: {fileID: 2100000, guid: a38500953b4859346a6f0cc63dd8fd97, type: 2}
+  platformTop: {fileID: 0}
+  grid: {fileID: 2100000, guid: 3bfea56c3dfce7a468e5180e531a1987, type: 2}
+  dither: {fileID: 2100000, guid: 4900620eb209da040965e0481ec15657, type: 2}
+  realistic: {fileID: 2100000, guid: cdbd79629a2041b47b3c6704e37c48ac, type: 2}
+  facade: {fileID: 2100000, guid: fb66af8034ad8dd41bfd351ce463679e, type: 2}
+  terrain: {fileID: 2100000, guid: 43f12162734a7de4c806a7cc87f16beb, type: 2}
+  water: {fileID: 2100000, guid: 84f5fc4eb148841429c796a8f76b4349, type: 2}
+  pbr:
+  - id: Asphalt031
+    albedo: {fileID: 2800000, guid: 80cf3bdfab4a2434cbb571066803e40a, type: 3}
+    normal: {fileID: 2800000, guid: 27033b5a1c228a14f9e3e6a14713e06d, type: 3}
+    roughness: {fileID: 2800000, guid: 9de7e31d5887e25499cd105056e7e4fa, type: 3}
+    occlusion: {fileID: 2800000, guid: 03673f2131baa554a87f3547141ae7ff, type: 3}
+    metalness: {fileID: 0}
+  - id: Asphalt033
+    albedo: {fileID: 2800000, guid: 8d5f9ad6e7c2b754d8836b7b74eb2162, type: 3}
+    normal: {fileID: 2800000, guid: 4ab755596c979554ca4fc4dcf3720d0e, type: 3}
+    roughness: {fileID: 2800000, guid: 8edd5dd4e13d9b946a792516fa640450, type: 3}
+    occlusion: {fileID: 2800000, guid: a100c26237d93b94390f08bddbdfa7c2, type: 3}
+    metalness: {fileID: 0}
+  - id: Bark014
+    albedo: {fileID: 2800000, guid: bdbdfffb70ff40e4dbda349f90768404, type: 3}
+    normal: {fileID: 2800000, guid: b7e538138907725409263ba28570380c, type: 3}
+    roughness: {fileID: 2800000, guid: bf59041ef933ad14eb6d9f34bc4132ab, type: 3}
+    occlusion: {fileID: 2800000, guid: 7f597333f829c2a49a95b031731e1343, type: 3}
+    metalness: {fileID: 0}
+  - id: Bricks060
+    albedo: {fileID: 2800000, guid: 14778baa0b0e6a649b20d57269a6f1d5, type: 3}
+    normal: {fileID: 2800000, guid: 79a98fbde0c2211498ca175bb4b63e12, type: 3}
+    roughness: {fileID: 2800000, guid: 0f00c75c58be58d47a11c5c45719ad04, type: 3}
+    occlusion: {fileID: 2800000, guid: a334280afb913d646b679a8f00beb132, type: 3}
+    metalness: {fileID: 0}
+  - id: Bricks097
+    albedo: {fileID: 2800000, guid: 650ce817e5d9d944c855fe2c8951e501, type: 3}
+    normal: {fileID: 2800000, guid: ab56b6981399e6348ad5aa93f68f5ca2, type: 3}
+    roughness: {fileID: 2800000, guid: 37059d4d16a2c2e4eb56196f68c69924, type: 3}
+    occlusion: {fileID: 2800000, guid: 28efa0f1859349d4cbe9b8e19bd4cef4, type: 3}
+    metalness: {fileID: 0}
+  - id: Bricks113A
+    albedo: {fileID: 2800000, guid: a3b4128b9f9fd944eb41ed1be45e44f2, type: 3}
+    normal: {fileID: 2800000, guid: 36de73447e3e46844ae4af2ad3062508, type: 3}
+    roughness: {fileID: 2800000, guid: b57be33e1c0c4ac4fad9950c968b18f0, type: 3}
+    occlusion: {fileID: 2800000, guid: f8d156736a78b294ca0a9dcadbd03925, type: 3}
+    metalness: {fileID: 0}
+  - id: Concrete034
+    albedo: {fileID: 2800000, guid: 5f097be0ff9e78b41bfabf5d9092e0a8, type: 3}
+    normal: {fileID: 2800000, guid: e6b47dc762e05f24d8f8d8259f361474, type: 3}
+    roughness: {fileID: 2800000, guid: 93d5d30baef072946aa5773f7ac5648b, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Concrete042A
+    albedo: {fileID: 2800000, guid: 9ba12c833fdf6974d9ed699881c78780, type: 3}
+    normal: {fileID: 2800000, guid: 7eed9f6c51f6d6a4993571165391aff7, type: 3}
+    roughness: {fileID: 2800000, guid: 314d958906bd0be458b647e2fcd72a2c, type: 3}
+    occlusion: {fileID: 2800000, guid: ec462d9f2693ed44bb629918e5eb5416, type: 3}
+    metalness: {fileID: 2800000, guid: 9295e0b0e2bc9ad4390bdad201744ac9, type: 3}
+  - id: Concrete046
+    albedo: {fileID: 2800000, guid: 1b5221078ad529748a9f81d6b9e41ec2, type: 3}
+    normal: {fileID: 2800000, guid: 9dd13946a7cbd8046872619a20c2b684, type: 3}
+    roughness: {fileID: 2800000, guid: ae3629b91acbbe44cbee17c392500dd6, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Concrete048
+    albedo: {fileID: 2800000, guid: 868359feb8af01543b14fd0a85523aa4, type: 3}
+    normal: {fileID: 2800000, guid: 41d23bf78adc3ab4498c7395ea485398, type: 3}
+    roughness: {fileID: 2800000, guid: 99fc94a8ae711d04791477e54cdf5c18, type: 3}
+    occlusion: {fileID: 2800000, guid: 59136e3f495774d468c5fc9580fae162, type: 3}
+    metalness: {fileID: 2800000, guid: 761087d24b4dea94fa183bc47d7f9ea8, type: 3}
+  - id: CorrugatedSteel009
+    albedo: {fileID: 2800000, guid: a3ac1e6423c124b41997694e3918e9d7, type: 3}
+    normal: {fileID: 2800000, guid: 662d099d5bef0004081550c2398f6948, type: 3}
+    roughness: {fileID: 2800000, guid: 5f4e01b691447d34f93a3be993c70db9, type: 3}
+    occlusion: {fileID: 2800000, guid: a65dd205af446c44cba0bb433b912d86, type: 3}
+    metalness: {fileID: 2800000, guid: b0197401a73a3ba41ad70266533266da, type: 3}
+  - id: DiamondPlate009
+    albedo: {fileID: 2800000, guid: c387ef0f1fa8cf94fb4d92b1110b8b8b, type: 3}
+    normal: {fileID: 2800000, guid: 339fe1ed3edb0b7488aa3178aef4e20f, type: 3}
+    roughness: {fileID: 2800000, guid: febb11390fa426d438a85e75397ecac5, type: 3}
+    occlusion: {fileID: 2800000, guid: d53391b5ad375da448fd9f8282c54486, type: 3}
+    metalness: {fileID: 2800000, guid: 0634e117a3e2733419f13d920e05529e, type: 3}
+  - id: Fabric081C
+    albedo: {fileID: 2800000, guid: be6e1e0f695bf564991b1824108bfebc, type: 3}
+    normal: {fileID: 2800000, guid: f1f63652cf84b384b9324ccf9fa222cd, type: 3}
+    roughness: {fileID: 2800000, guid: 03b15f6d8af501f4ea1115210949234d, type: 3}
+    occlusion: {fileID: 2800000, guid: 890fe20816255fa4eb9b26fe153e787d, type: 3}
+    metalness: {fileID: 0}
+  - id: Fabric086
+    albedo: {fileID: 2800000, guid: c303bf0a32975034aa379badfa4124fe, type: 3}
+    normal: {fileID: 2800000, guid: 737530740add8c34a96887e6d1790ac7, type: 3}
+    roughness: {fileID: 2800000, guid: a4cef7a1a0d726249b42811fd50ca220, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Facade001
+    albedo: {fileID: 2800000, guid: 365b28cb9c61edc4483b2f89da110d25, type: 3}
+    normal: {fileID: 2800000, guid: 00b639f26a246fc44bc32a2ace44c21a, type: 3}
+    roughness: {fileID: 2800000, guid: 2896f8efdaffd6744aea0fe068de811e, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: 43c20ea6e92d05f4995ec422c75c4fc1, type: 3}
+  - id: Facade006
+    albedo: {fileID: 2800000, guid: be9b1e4c2db405745a15dc9fe42428e7, type: 3}
+    normal: {fileID: 2800000, guid: 99f389a1ec33d6241976494d6e83c7dc, type: 3}
+    roughness: {fileID: 2800000, guid: 89a5ba99c7fc1e9499579eccdec34be9, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: dd2a9f81d7c78e8499099873052bbb9b, type: 3}
+  - id: Granite002A
+    albedo: {fileID: 2800000, guid: 3a242c17c20000d4c9614973d9a4040e, type: 3}
+    normal: {fileID: 2800000, guid: d175b2b871f15cb468c9615e775f34e4, type: 3}
+    roughness: {fileID: 2800000, guid: 011c48daf14449b41a3c151ca25a7231, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Grass005
+    albedo: {fileID: 2800000, guid: 4d518c418423e014084fbcb5a3f1a934, type: 3}
+    normal: {fileID: 2800000, guid: f4dd5500cf2dba8438c6937f7fd3eed6, type: 3}
+    roughness: {fileID: 2800000, guid: e674bb0d43e9acf4db05c41e6d5322e5, type: 3}
+    occlusion: {fileID: 2800000, guid: 764a14262709da047a40cb1021e9c2d4, type: 3}
+    metalness: {fileID: 0}
+  - id: Gravel042
+    albedo: {fileID: 2800000, guid: 849a14edded202c40a21e641c722271b, type: 3}
+    normal: {fileID: 2800000, guid: ee034a9cf30bef3489ac58c9c210b493, type: 3}
+    roughness: {fileID: 2800000, guid: 58374b180175d0e4583eb6886d7a2336, type: 3}
+    occlusion: {fileID: 2800000, guid: a9c90214645eda746bccc40ffe7cdaae, type: 3}
+    metalness: {fileID: 0}
+  - id: Ground037
+    albedo: {fileID: 2800000, guid: 8a0aaebb53fd5754f812b2e73e1f6b23, type: 3}
+    normal: {fileID: 2800000, guid: fae48f17647bbf243b3354d007776a3f, type: 3}
+    roughness: {fileID: 2800000, guid: 14cf065195fe4e74abdd8e8c570514e3, type: 3}
+    occlusion: {fileID: 2800000, guid: fec7623b4bc5383458af1dce2800059a, type: 3}
+    metalness: {fileID: 0}
+  - id: Ground109
+    albedo: {fileID: 2800000, guid: 2b9030c09ec15a34db2c51ba347c1536, type: 3}
+    normal: {fileID: 2800000, guid: eca772b51b2dda442941332c6d1038ba, type: 3}
+    roughness: {fileID: 2800000, guid: a54a512c3cec1354db3e8f32b6740713, type: 3}
+    occlusion: {fileID: 2800000, guid: 7c9c448812198e3469be48ad84014cfa, type: 3}
+    metalness: {fileID: 0}
+  - id: Ground111
+    albedo: {fileID: 2800000, guid: 1c567fc96ce7df046af115c5a9d522d0, type: 3}
+    normal: {fileID: 2800000, guid: a17548350a83ecc4cbcfcd5b3cf286c6, type: 3}
+    roughness: {fileID: 2800000, guid: 300e68983e4d19f4d984fe3165b008a8, type: 3}
+    occlusion: {fileID: 2800000, guid: f5ab2caf3714f564abe846ef0fe094af, type: 3}
+    metalness: {fileID: 0}
+  - id: Lava001
+    albedo: {fileID: 2800000, guid: d83022cc487939446940b6ea96bf80ab, type: 3}
+    normal: {fileID: 2800000, guid: ade7c301d99aebc4e8a6a2323789a1e6, type: 3}
+    roughness: {fileID: 2800000, guid: b67ca131ba14fdf46aa1302a066cacfb, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Lava004
+    albedo: {fileID: 2800000, guid: ef7c840246ff40644ba2a88d62ee8664, type: 3}
+    normal: {fileID: 2800000, guid: dc5bcbbecb42f2142b0829aae062042d, type: 3}
+    roughness: {fileID: 2800000, guid: fe18a272ad5a84845b816b0616cc9e48, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Leather008
+    albedo: {fileID: 2800000, guid: a06b744e225dee64cb373cf085fbab43, type: 3}
+    normal: {fileID: 2800000, guid: 7d45f275efa18dc4fa441032dbe4307f, type: 3}
+    roughness: {fileID: 2800000, guid: fc448851253c74b4b8552d19965eab63, type: 3}
+    occlusion: {fileID: 2800000, guid: c67f50fa72698874c8a517f5dce8f310, type: 3}
+    metalness: {fileID: 0}
+  - id: Leather037
+    albedo: {fileID: 2800000, guid: e0dd9e3e6a96cb14f86b44362162142c, type: 3}
+    normal: {fileID: 2800000, guid: 5c4d3fa44cc2dc848ba2c329d14cb48b, type: 3}
+    roughness: {fileID: 2800000, guid: 6c3f7efdf3d12604eae5e53c18974f19, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Marble012
+    albedo: {fileID: 2800000, guid: e1d4cb7673bf23644b4f0cd55b4fc82f, type: 3}
+    normal: {fileID: 2800000, guid: 2f25ce583a15c584995d74352d5ed797, type: 3}
+    roughness: {fileID: 2800000, guid: afaa7852511eaed4ab61f8cae11c9c1c, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Metal009
+    albedo: {fileID: 2800000, guid: a686f7b8af57b2541a5361d619d5d981, type: 3}
+    normal: {fileID: 2800000, guid: 028f425dd2cf8c840a27c07549a48622, type: 3}
+    roughness: {fileID: 2800000, guid: d1c5763143d873342b23787b8370054d, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: e971c8e9e0430c242af47594e1e55779, type: 3}
+  - id: Metal027
+    albedo: {fileID: 2800000, guid: 547a1fa6fde1e744890d327c52de308c, type: 3}
+    normal: {fileID: 2800000, guid: dfa759f7aad16bb49a54644522ca67dc, type: 3}
+    roughness: {fileID: 2800000, guid: 875991dbb4a746e43a8ae1fdbe2cf736, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: 50e69db8016f1ae4dab31c1364c4c409, type: 3}
+  - id: Metal063
+    albedo: {fileID: 2800000, guid: 92e88ab9f6a06ab4194b8461be4f7bd1, type: 3}
+    normal: {fileID: 2800000, guid: 2c58603f0a5adbb45a0b4d3b6bf5390b, type: 3}
+    roughness: {fileID: 2800000, guid: a2adde73a6128eb43b677f336e510cfd, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: 6a3fcc31c7aa15c4aa823de0c94373f8, type: 3}
+  - id: MetalPlates017A
+    albedo: {fileID: 2800000, guid: a08a4a3ad052a5e4083ae589de0ae953, type: 3}
+    normal: {fileID: 2800000, guid: e2109bb5afaebbc4c96cbcbf14366b06, type: 3}
+    roughness: {fileID: 2800000, guid: 18cbc1e335fb21d4ba4b44fd5eea6ebd, type: 3}
+    occlusion: {fileID: 2800000, guid: 4a5fd285e64d4d5468dc4074ed9398fd, type: 3}
+    metalness: {fileID: 2800000, guid: 0fd2c568f517ca14086c90ad2a075ca7, type: 3}
+  - id: PaintedMetal004
+    albedo: {fileID: 2800000, guid: 8a02a9fcfae7eaf4dafbd965b7765054, type: 3}
+    normal: {fileID: 2800000, guid: cc2368dd57e3d3d4c85c34d45774c6db, type: 3}
+    roughness: {fileID: 2800000, guid: 8a5560635f3887144afcc902acf606d5, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 2800000, guid: 280aae743a3f2fa478e88ab4a410a1de, type: 3}
+  - id: PavingStones138
+    albedo: {fileID: 2800000, guid: 1b0836453974b2d408c9ad9c3852c10c, type: 3}
+    normal: {fileID: 2800000, guid: 857a726ef8dc75a46b4f2be3fcd41681, type: 3}
+    roughness: {fileID: 2800000, guid: 0510bc6284ca4a6469f4c6daf98e3352, type: 3}
+    occlusion: {fileID: 2800000, guid: cb6075f66237a5748ac2a5a58e2e0869, type: 3}
+    metalness: {fileID: 0}
+  - id: PavingStones151
+    albedo: {fileID: 2800000, guid: 71c5f8f6f65d1204795017b2f715a61d, type: 3}
+    normal: {fileID: 2800000, guid: 2f141ffbcf0205f4788983745319d6aa, type: 3}
+    roughness: {fileID: 2800000, guid: bfbb951de6e294b4391ac9a480e40c1f, type: 3}
+    occlusion: {fileID: 2800000, guid: d8cc5e27e0d9b62459c12139bd52fd2b, type: 3}
+    metalness: {fileID: 0}
+  - id: Plaster001
+    albedo: {fileID: 2800000, guid: 2e5a51731c6c7d14493cf2d079462f21, type: 3}
+    normal: {fileID: 2800000, guid: b6e1c5ffbdcec3e478836857770eebd5, type: 3}
+    roughness: {fileID: 2800000, guid: d9ae1c92988501248aedc6bff19e9d51, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Plastic006
+    albedo: {fileID: 2800000, guid: 19459bbdbbe895147bde87193b2314aa, type: 3}
+    normal: {fileID: 2800000, guid: 40c2e886233b4e74dbea081972269abe, type: 3}
+    roughness: {fileID: 2800000, guid: 593ffa9a1839bb440a440f642af5f59a, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Plastic013A
+    albedo: {fileID: 2800000, guid: 0b9fbe0bce0d58142b72a7bfe07b452c, type: 3}
+    normal: {fileID: 2800000, guid: 3a7330066a8e95a4a83598900a1cc444, type: 3}
+    roughness: {fileID: 2800000, guid: add86568ca31a1f4d91b04530e4a3c92, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Road007
+    albedo: {fileID: 2800000, guid: 5ce9fafa116b21b44b113442eb59cb33, type: 3}
+    normal: {fileID: 2800000, guid: 68041a9f8de19bf4c88d16d676fb32ad, type: 3}
+    roughness: {fileID: 2800000, guid: 0b1dd3a3bd40c024baa72b1e842df96a, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Road012A
+    albedo: {fileID: 2800000, guid: 282d86eddd6bb0b46adaffd3726859f7, type: 3}
+    normal: {fileID: 2800000, guid: 1a03007e46e15124cb04ef84b571febc, type: 3}
+    roughness: {fileID: 2800000, guid: 15bb30a85fa7e674c8b51283cb43da27, type: 3}
+    occlusion: {fileID: 2800000, guid: 5a4374ee2bc91f44893e78e75c8a33b5, type: 3}
+    metalness: {fileID: 0}
+  - id: Rock058
+    albedo: {fileID: 2800000, guid: ab4f36869756f3a4197710f5d1aa19bd, type: 3}
+    normal: {fileID: 2800000, guid: be3aa203772d30246838273bf60f1011, type: 3}
+    roughness: {fileID: 2800000, guid: 79698b4f7ff97594f80540e1c39cc5b1, type: 3}
+    occlusion: {fileID: 2800000, guid: 76fc7a7aee764974c81450ddad04980f, type: 3}
+    metalness: {fileID: 0}
+  - id: Rock064
+    albedo: {fileID: 2800000, guid: 40d3442f4a483cd47b1ab7120b4d1b2c, type: 3}
+    normal: {fileID: 2800000, guid: df2cbcd604117724a8f62dd29a9742c8, type: 3}
+    roughness: {fileID: 2800000, guid: 2fdd0fe487e70424691741062658ae32, type: 3}
+    occlusion: {fileID: 2800000, guid: 5bfb32d0fd6937e40aafbc2003e56444, type: 3}
+    metalness: {fileID: 0}
+  - id: Rubber004
+    albedo: {fileID: 2800000, guid: c748494d148463d48ab29a8c06f68962, type: 3}
+    normal: {fileID: 2800000, guid: 227bc40aaf6035441875b918ce479d2c, type: 3}
+    roughness: {fileID: 2800000, guid: c0714f3a04eefc640b0141355c114002, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Sponge001
+    albedo: {fileID: 2800000, guid: 401f6c446c1f6e247b49f99837f42224, type: 3}
+    normal: {fileID: 2800000, guid: 643464225c7b9c64e97299fd598dfb39, type: 3}
+    roughness: {fileID: 2800000, guid: 4c147b3ca2880bf4793ca540ab9ebb20, type: 3}
+    occlusion: {fileID: 2800000, guid: 5619f98d6f0768a4d80687726227402c, type: 3}
+    metalness: {fileID: 0}
+  - id: TactilePaving002
+    albedo: {fileID: 2800000, guid: 076a6ecbd44b7ab448eecd6d34887169, type: 3}
+    normal: {fileID: 2800000, guid: 2ded24b9aef2f9c4c90a06e1e93bef57, type: 3}
+    roughness: {fileID: 2800000, guid: 9297aae824b948e48b9086df4158f0c1, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Tiles074
+    albedo: {fileID: 2800000, guid: bdfb8ce859ddb1e4ca4c199bc205c952, type: 3}
+    normal: {fileID: 2800000, guid: da53a2c338548904daef7e3c45cf3149, type: 3}
+    roughness: {fileID: 2800000, guid: 519fcaccfc7bb644ba15e78ad5d75d13, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Tiles141
+    albedo: {fileID: 2800000, guid: b0b7658e5ce3c1143b735395a0e0366c, type: 3}
+    normal: {fileID: 2800000, guid: d0a1a212588958b458cbcc178b1481f7, type: 3}
+    roughness: {fileID: 2800000, guid: 82987fcd3a5c6a249be47dc6623db4bd, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: Wood066
+    albedo: {fileID: 2800000, guid: e61612d4c0c7c8f42a5c78daf29bd7f4, type: 3}
+    normal: {fileID: 2800000, guid: ed0766ba3c076b74398c195155d03d9a, type: 3}
+    roughness: {fileID: 2800000, guid: 4b7d989b04542f94691f6d14f6540fe8, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  - id: WoodFloor064
+    albedo: {fileID: 2800000, guid: b27bdf3c55543764093489e791d0ec6b, type: 3}
+    normal: {fileID: 2800000, guid: d9834cc09ee2f35429ee87822d07b85e, type: 3}
+    roughness: {fileID: 2800000, guid: b3fc982234215c4419bd506af267f2b1, type: 3}
+    occlusion: {fileID: 0}
+    metalness: {fileID: 0}
+  leafAtlas: {fileID: 2800000, guid: 2cb45df66a1a46a46a47dc9ab2ae6bb1, type: 3}
+  leafAtlasNormal: {fileID: 0}
+  particleTextures:
+  - {fileID: 2800000, guid: 875dd9b65498aeb4f99e480ee2369846, type: 3}
+  - {fileID: 2800000, guid: d144514a4dc648b4491c635e51de7d70, type: 3}
+  - {fileID: 2800000, guid: 3972c556e2918df4db05437fe1b65370, type: 3}
+  - {fileID: 2800000, guid: bae07314d0bc5e045b211733c2ac02a9, type: 3}
+  - {fileID: 2800000, guid: 2ee86be7bf2b4f44fb3bcc563c8bab4d, type: 3}
+  - {fileID: 2800000, guid: 7349fb2e13c305a49bb1192149251c3e, type: 3}
+  - {fileID: 2800000, guid: 8d85e070a41e2b44d9f7ddea5f806347, type: 3}
+  - {fileID: 2800000, guid: 1e5d347c0b0b7b9429ada647ea106bc9, type: 3}
+  - {fileID: 2800000, guid: 0ac1bbc787c9d5747acea5a09d12e154, type: 3}
+  - {fileID: 2800000, guid: 5a323beb168f88c4d801fb1a147cd096, type: 3}
+  - {fileID: 2800000, guid: 4797491de45108c4da2635486c1e57ec, type: 3}
+  - {fileID: 2800000, guid: c05f21b2abb5eb345b308a3b8c197074, type: 3}
+  - {fileID: 2800000, guid: 081c0cd351fce134fa56f20a4249919c, type: 3}
+  - {fileID: 2800000, guid: 7e666701d9f18f94f9c4c7b934d8be53, type: 3}
+  - {fileID: 2800000, guid: 5aca70aae84cc764a9abcdc36b8cfeb4, type: 3}
+  - {fileID: 2800000, guid: 65e640029cd987e4cae4be984eb5ecd7, type: 3}
+  - {fileID: 2800000, guid: 9a2a9d589a3a49941ad1a812df0eb3cc, type: 3}
+  - {fileID: 2800000, guid: bf8c8fecd8596cc4f8e50da3590f233b, type: 3}
+  - {fileID: 2800000, guid: 08486eb44a010c448bdb57c97a36d102, type: 3}
+  - {fileID: 2800000, guid: 214f750e22e9e834fa1c6b746e2308f5, type: 3}
+  - {fileID: 2800000, guid: 016349242a5f00246b9b20a498a418b6, type: 3}
+  binaryRain: {fileID: 0}

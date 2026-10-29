@@ -1,0 +1,1074 @@
+{
+  "arc": "ChemicalChaos",
+  "version": 1,
+  "questions": [
+    {
+      "id": "CH_ATOM_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Atoms",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "An atom creature",
+      "prompt": "Pair each particle with its description.",
+      "data": {
+        "left": [
+          "Proton",
+          "Neutron",
+          "Electron",
+          "Nucleus"
+        ],
+        "right": [
+          "positive charge, inside the nucleus",
+          "no charge, inside the nucleus",
+          "negative charge, around the nucleus",
+          "the tiny dense centre of the atom"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Protons (+) and neutrons (0) sit in the nucleus; electrons (-) move around it.",
+      "hint": "Neutron sounds like neutral.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ATOM_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Atoms",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "A sodium creature",
+      "prompt": "A sodium atom has atomic number 11 and mass number 23. How many neutrons?",
+      "data": {
+        "tolerance": 0,
+        "unit": "",
+        "givens": [
+          "neutrons = mass number - atomic number"
+        ],
+        "value": 12
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "23 - 11 = 12 neutrons.",
+      "hint": "Mass number counts protons + neutrons.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ATOM_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Atoms",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A sodium creature",
+      "prompt": "Electronic configuration of sodium (Z = 11)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2, 8, 1",
+          "2, 9",
+          "2, 8, 2",
+          "8, 2, 1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Shells fill 2, then 8, then the rest: 2, 8, 1. One valence electron is why sodium is so reactive.",
+      "hint": "First shell holds 2, second holds 8.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ATOM_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Atoms",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "Twin creatures",
+      "prompt": "Atoms of the same element with DIFFERENT numbers of neutrons are called...?",
+      "data": {
+        "accepted": [
+          "isotopes",
+          "isotope"
+        ],
+        "keywords": [
+          [
+            "isotope"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Isotopes, like carbon-12 and carbon-14: same protons, different neutrons.",
+      "hint": "Iso = same (place in the periodic table).",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ATOM_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Atoms",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "The atom lift",
+      "prompt": "Maximum number of electrons in the shell n = 3? (use 2n²)",
+      "data": {
+        "tolerance": 0,
+        "unit": "electrons",
+        "givens": [
+          "max = 2n²"
+        ],
+        "value": 18
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "2 x 3² = 18.",
+      "hint": "Square n, then double.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ELEM_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Elements",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "Element creatures",
+      "prompt": "The element creatures forgot their names. Pair symbol to element.",
+      "data": {
+        "left": [
+          "Na",
+          "K",
+          "Fe",
+          "Au"
+        ],
+        "right": [
+          "Sodium",
+          "Potassium",
+          "Iron",
+          "Gold"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "These symbols come from Latin: Natrium, Kalium, Ferrum, Aurum.",
+      "hint": "The symbols come from Latin names.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ELEM_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Elements",
+      "difficulty": 1,
+      "type": "DragDrop",
+      "situation": "Element cages",
+      "prompt": "Sort the creatures into the right cages.",
+      "data": {
+        "template": "Metal: {0}\nMetal: {1}\nNon-metal: {2}\nNon-metal: {3}",
+        "items": [
+          "Copper",
+          "Magnesium",
+          "Sulfur",
+          "Oxygen"
+        ],
+        "answerSets": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Copper and magnesium are metals (shiny, conduct). Sulfur and oxygen are non-metals.",
+      "hint": "Which ones conduct electricity?",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_ELEM_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Elements",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "The periodic wall",
+      "prompt": "The vertical columns of the periodic table are called...?",
+      "data": {
+        "accepted": [
+          "groups",
+          "group"
+        ],
+        "keywords": [
+          [
+            "group"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Columns are groups (1 to 18); rows are periods (1 to 7).",
+      "hint": "Rows are periods. Columns are...",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_PT_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Table",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "The periodic wall",
+      "prompt": "Elements in the same GROUP have the same number of...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "valence electrons",
+          "neutrons",
+          "electron shells",
+          "protons"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Same group means the same number of outer (valence) electrons, so similar chemistry.",
+      "hint": "Outer electrons decide behaviour.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_PT_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Table",
+      "difficulty": 2,
+      "type": "Prediction",
+      "situation": "A bubbling vat",
+      "prompt": "The Lord drops a small piece of sodium into water. What happens?",
+      "data": {
+        "options": [
+          "It fizzes, darts around and may catch fire, making NaOH + H<sub>2</sub>",
+          "Nothing",
+          "It dissolves silently like sugar",
+          "The water freezes"
+        ],
+        "answerIndex": 0,
+        "outcome": "2Na + 2H<sub>2</sub>O -> 2NaOH + H<sub>2</sub>. Hydrogen gas fizzes and can ignite!",
+        "anim": "fizz"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Group 1 metals react vigorously with water, making an alkali and hydrogen gas.",
+      "hint": "Group 1 metals are very reactive.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_PT_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Table",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "A line-up of alkali creatures",
+      "prompt": "Arrange the Group 1 creatures from SMALLEST to LARGEST atom.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Li",
+          "Na",
+          "K",
+          "Rb"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Going down a group adds shells, so atomic radius increases: Li < Na < K < Rb.",
+      "hint": "Each step down adds a shell.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_PT_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Table",
+      "difficulty": 4,
+      "type": "Logic",
+      "situation": "A tug-of-war wall",
+      "prompt": "Moving left to right across a period, electronegativity generally...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "increases",
+          "decreases",
+          "stays the same",
+          "drops to zero"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "More protons pull the bonding electrons harder, so electronegativity increases across a period (fluorine is highest).",
+      "hint": "Fluorine sits top right.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_PT_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Periodic Table",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "The halogen cage",
+      "prompt": "Chlorine sits in Period 3, Group 17. What is its atomic number?",
+      "data": {
+        "tolerance": 0,
+        "unit": "",
+        "givens": [
+          "Period 3 starts at Na (11)",
+          "configuration 2, 8, 7"
+        ],
+        "value": 17
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Chlorine: 2, 8, 7, so 17 electrons and atomic number 17.",
+      "hint": "Count 2 + 8 + 7.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 1,
+      "type": "Construction",
+      "situation": "An acid fire",
+      "prompt": "Build a WATER molecule to put out the acid fire.",
+      "data": {
+        "mode": "count",
+        "display": "molecule",
+        "parts": [
+          "H",
+          "O",
+          "C",
+          "N"
+        ],
+        "required": {
+          "H": 2,
+          "O": 1
+        },
+        "target": "H<sub>2</sub>O"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Water is H<sub>2</sub>O: two hydrogens bonded to one oxygen.",
+      "hint": "The formula tells you the count.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 2,
+      "type": "Construction",
+      "situation": "A smoking chimney",
+      "prompt": "Build CARBON DIOXIDE.",
+      "data": {
+        "mode": "count",
+        "display": "molecule",
+        "parts": [
+          "C",
+          "O",
+          "H",
+          "N"
+        ],
+        "required": {
+          "C": 1,
+          "O": 2
+        },
+        "target": "CO<sub>2</sub>"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "CO<sub>2</sub>: one carbon double-bonded to two oxygens.",
+      "hint": "Di means two.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 3,
+      "type": "Construction",
+      "situation": "A gas leak",
+      "prompt": "Build METHANE, CH<sub>4</sub>.",
+      "data": {
+        "mode": "count",
+        "display": "molecule",
+        "parts": [
+          "C",
+          "H",
+          "O",
+          "Cl"
+        ],
+        "required": {
+          "C": 1,
+          "H": 4
+        },
+        "target": "CH<sub>4</sub>"
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Carbon has 4 valence electrons, so it forms 4 bonds, one with each hydrogen.",
+      "hint": "Carbon makes four bonds.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 2,
+      "type": "Construction",
+      "situation": "A fertiliser factory",
+      "prompt": "Build AMMONIA, NH<sub>3</sub>.",
+      "data": {
+        "mode": "count",
+        "display": "molecule",
+        "parts": [
+          "N",
+          "H",
+          "O",
+          "C"
+        ],
+        "required": {
+          "N": 1,
+          "H": 3
+        },
+        "target": "NH<sub>3</sub>"
+      },
+      "fastSeconds": 11,
+      "timeLimit": 0,
+      "explanation": "Nitrogen forms 3 bonds, so NH<sub>3</sub>.",
+      "hint": "Nitrogen makes three bonds.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 5,
+      "type": "Construction",
+      "situation": "The Lord of the Lab's core",
+      "prompt": "FINAL TEST: Build ETHANOL, C<sub>2</sub>H<sub>5</sub>OH.",
+      "data": {
+        "mode": "count",
+        "display": "molecule",
+        "parts": [
+          "C",
+          "H",
+          "O",
+          "N"
+        ],
+        "required": {
+          "C": 2,
+          "H": 6,
+          "O": 1
+        },
+        "target": "C<sub>2</sub>H<sub>5</sub>OH"
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "C<sub>2</sub>H<sub>5</sub>OH has 2 carbons, 5 + 1 = 6 hydrogens, and 1 oxygen.",
+      "hint": "Count the H in both places of the formula.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_006",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "Weighing a water creature",
+      "prompt": "Molar mass of H<sub>2</sub>O? (H = 1, O = 16)",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "g/mol",
+        "givens": [
+          "H = 1",
+          "O = 16"
+        ],
+        "value": 18
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2 x 1 + 16 = 18 g/mol.",
+      "hint": "Add up every atom.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_MOL_007",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Molecules",
+      "difficulty": 4,
+      "type": "Numerical",
+      "situation": "A CO<sub>2</sub> storage tank",
+      "prompt": "How many MOLES are in 88 g of CO<sub>2</sub>? (C = 12, O = 16)",
+      "data": {
+        "tolerance": 0.01,
+        "unit": "mol",
+        "givens": [
+          "moles = mass / molar mass"
+        ],
+        "value": 2
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Molar mass of CO<sub>2</sub> = 12 + 32 = 44 g/mol. 88 / 44 = 2 mol.",
+      "hint": "Find the molar mass first.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "The bonding arena",
+      "prompt": "Pair each substance with its main type of bond.",
+      "data": {
+        "left": [
+          "NaCl",
+          "H<sub>2</sub>O",
+          "Cl<sub>2</sub>",
+          "Copper metal"
+        ],
+        "right": [
+          "ionic",
+          "polar covalent",
+          "non-polar covalent",
+          "metallic"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Metal + non-metal: ionic. Different non-metals: polar covalent. Same atoms: non-polar covalent. Metal atoms: metallic.",
+      "hint": "Who is giving, who is sharing?",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "Salt creatures refusing to bond",
+      "prompt": "To form NaCl, the sodium atom...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "gives 1 electron to chlorine",
+          "shares electrons with chlorine",
+          "takes an electron from chlorine",
+          "gives a proton to chlorine"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Na (2,8,1) loses 1 electron to become Na⁺; Cl (2,8,7) gains it to become Cl⁻. Opposite ions attract: an ionic bond.",
+      "hint": "Sodium has 1 spare outer electron.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "The unbreakable N<sub>2</sub> lock",
+      "prompt": "How many covalent bonds hold the two atoms of an N<sub>2</sub> molecule together?",
+      "data": {
+        "tolerance": 0,
+        "unit": "bonds",
+        "givens": [
+          "N has 5 valence electrons"
+        ],
+        "value": 3
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Each N needs 3 more electrons, so they share 3 pairs: a triple bond.",
+      "hint": "How many electrons does N need for an octet?",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "Two atoms holding hands",
+      "prompt": "A bond formed by SHARING a pair of electrons is called a ___ bond.",
+      "data": {
+        "accepted": [
+          "covalent",
+          "covalent bond"
+        ],
+        "keywords": [
+          [
+            "covalent",
+            "co-valent"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Covalent: atoms share electron pairs (co = together, valent = bonding).",
+      "hint": "Not ionic.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 4,
+      "type": "Logic",
+      "situation": "A molecule sculpture",
+      "prompt": "What shape does a methane (CH<sub>4</sub>) molecule have?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "tetrahedral",
+          "linear",
+          "square planar",
+          "bent"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "VSEPR: four bond pairs spread as far apart as possible, at 109.5°: tetrahedral.",
+      "hint": "Four pairs pushing apart in 3D.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_006",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 4,
+      "type": "Prediction",
+      "situation": "A grumpy noble gas",
+      "prompt": "Why does the Neon creature refuse to bond with ANYONE?",
+      "data": {
+        "options": [
+          "Its outer shell is already full (stable octet)",
+          "It's too heavy",
+          "It's a metal",
+          "It has no electrons"
+        ],
+        "answerIndex": 0,
+        "outcome": "Neon: 2, 8. A full octet, so it has no reason to gain, lose or share.",
+        "anim": "noble"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Noble gases have complete outer shells, so they are very stable and unreactive.",
+      "hint": "Look at neon's configuration: 2, 8.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_BOND_007",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Bonding",
+      "difficulty": 5,
+      "type": "Logic",
+      "situation": "The Lord's final formula",
+      "prompt": "FINAL TEST: Which molecule contains a DOUBLE bond?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "O<sub>2</sub>",
+          "H<sub>2</sub>",
+          "Cl<sub>2</sub>",
+          "CH<sub>4</sub>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Each O has 6 valence electrons and needs 2 more, so O=O shares two pairs. H<sub>2</sub>, Cl<sub>2</sub> and CH<sub>4</sub> have only single bonds.",
+      "hint": "Who needs TWO more electrons?",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_RXN_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Reactions",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "The reaction factory",
+      "prompt": "Pair each reaction pattern with its type.",
+      "data": {
+        "left": [
+          "A + B -> AB",
+          "AB -> A + B",
+          "A + BC -> AC + B",
+          "AB + CD -> AD + CB"
+        ],
+        "right": [
+          "combination",
+          "decomposition",
+          "displacement",
+          "double displacement"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Join, break apart, swap one, swap partners.",
+      "hint": "Look at what joins and what leaves.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_RXN_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Reactions",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A rusting catwalk",
+      "prompt": "An iron nail in blue copper sulphate gets a brown coat and the solution turns green. Reaction type?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "displacement",
+          "decomposition",
+          "combination",
+          "neutralisation"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Fe + CuSO<sub>4</sub> -> FeSO<sub>4</sub> + Cu. More reactive iron displaces copper.",
+      "hint": "Who kicked whom out?",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_RXN_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Reactions",
+      "difficulty": 3,
+      "type": "Simulation",
+      "situation": "A reactor core",
+      "prompt": "Run the reactor. Change temperature and concentration and watch the rate. What speeds it up?",
+      "data": {
+        "sim": "rate",
+        "mode": "read",
+        "sliders": [
+          {
+            "id": "T",
+            "label": "Temperature",
+            "min": 10,
+            "max": 80,
+            "step": 1,
+            "value": 25,
+            "unit": "°C"
+          },
+          {
+            "id": "c",
+            "label": "Concentration",
+            "min": 0.1,
+            "max": 2,
+            "step": 0.1,
+            "value": 0.5,
+            "unit": "M"
+          }
+        ],
+        "options": [
+          "Raising temperature AND concentration",
+          "Lowering the temperature",
+          "Using less reactant",
+          "Nothing changes it"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "Hotter particles move faster and collide harder; more concentration means more collisions. Both raise the rate.",
+      "hint": "Think about how often particles collide.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_RXN_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Reactions",
+      "difficulty": 2,
+      "type": "Prediction",
+      "situation": "Acid pools",
+      "prompt": "HCl (acid) is poured onto NaOH (base). What forms?",
+      "data": {
+        "options": [
+          "Salt + water (neutralisation)",
+          "An explosion of gas",
+          "A metal",
+          "Nothing"
+        ],
+        "answerIndex": 0,
+        "outcome": "HCl + NaOH -> NaCl + H<sub>2</sub>O. Acid and base cancel out.",
+        "anim": "neutralise"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Acid + base -> salt + water.",
+      "hint": "They cancel each other.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_RXN_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Reactions",
+      "difficulty": 4,
+      "type": "ShortAnswer",
+      "situation": "A burning vat",
+      "prompt": "A reaction that RELEASES heat is called...?",
+      "data": {
+        "accepted": [
+          "exothermic",
+          "exothermic reaction"
+        ],
+        "keywords": [
+          [
+            "exothermic",
+            "exo thermic",
+            "exo-thermic"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Exothermic (exo = out). Endothermic reactions absorb heat.",
+      "hint": "Exo means out.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_EQ_001",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Equations",
+      "difficulty": 2,
+      "type": "DragDrop",
+      "situation": "The water-making machine",
+      "prompt": "Balance the equation. Drag numbers into the gaps.",
+      "data": {
+        "template": "{0} H<sub>2</sub> + O<sub>2</sub> -> {1} H<sub>2</sub>O",
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "reuse": true,
+        "answer": [
+          1,
+          1
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "2H<sub>2</sub> + O<sub>2</sub> -> 2H<sub>2</sub>O: 4 H and 2 O on each side.",
+      "hint": "Count O first: 2 on the left means 2 waters.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_EQ_002",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Equations",
+      "difficulty": 3,
+      "type": "DragDrop",
+      "situation": "The fertiliser factory",
+      "prompt": "Balance the ammonia equation.",
+      "data": {
+        "template": "N<sub>2</sub> + {0} H<sub>2</sub> -> {1} NH<sub>3</sub>",
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "reuse": true,
+        "answer": [
+          2,
+          1
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "N<sub>2</sub> + 3H<sub>2</sub> -> 2NH<sub>3</sub>: 2 N and 6 H on each side.",
+      "hint": "2 N on the left means 2 NH<sub>3</sub>.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_EQ_003",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Equations",
+      "difficulty": 4,
+      "type": "DragDrop",
+      "situation": "A rusting catwalk",
+      "prompt": "Balance the rusting equation.",
+      "data": {
+        "template": "{0} Fe + {1} O<sub>2</sub> -> {2} Fe<sub>2</sub>O<sub>3</sub>",
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "reuse": true,
+        "answer": [
+          3,
+          2,
+          1
+        ]
+      },
+      "fastSeconds": 18,
+      "timeLimit": 0,
+      "explanation": "4Fe + 3O<sub>2</sub> -> 2Fe<sub>2</sub>O<sub>3</sub>: 4 Fe and 6 O on each side.",
+      "hint": "Make the oxygens match first (6).",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_EQ_004",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Equations",
+      "difficulty": 3,
+      "type": "DragDrop",
+      "situation": "A gas burner",
+      "prompt": "Balance the burning of methane.",
+      "data": {
+        "template": "CH<sub>4</sub> + {0} O<sub>2</sub> -> CO<sub>2</sub> + {1} H<sub>2</sub>O",
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "reuse": true,
+        "answer": [
+          1,
+          1
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "CH<sub>4</sub> + 2O<sub>2</sub> -> CO<sub>2</sub> + 2H<sub>2</sub>O: 1 C, 4 H, 4 O each side.",
+      "hint": "Balance H, then count O.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CH_EQ_005",
+      "arc": "ChemicalChaos",
+      "subject": "Chemistry",
+      "concept": "Equations",
+      "difficulty": 5,
+      "type": "DragDrop",
+      "situation": "The Lord of the Lab's furnace",
+      "prompt": "FINAL TEST: Balance the burning of propane.",
+      "data": {
+        "template": "C<sub>3</sub>H<sub>8</sub> + {0} O<sub>2</sub> -> {1} CO<sub>2</sub> + {2} H<sub>2</sub>O",
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "reuse": true,
+        "answer": [
+          4,
+          2,
+          3
+        ]
+      },
+      "fastSeconds": 22,
+      "timeLimit": 0,
+      "explanation": "C<sub>3</sub>H<sub>8</sub> + 5O<sub>2</sub> -> 3CO<sub>2</sub> + 4H<sub>2</sub>O: 3 C, 8 H, 10 O each side.",
+      "hint": "C first, then H, and O last.",
+      "teachingModule": "CH_BondLab",
+      "needsTeacherReview": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e760c8573ed93428b9624bf58944d3, type: 3}
+  m_Name: Kit_CodeCity
+  m_EditorClassIdentifier: 
+  id: CodeCity
+  buildings:
+  - {fileID: 919132149155446097, guid: 7234aa67c37b91f42b4ac980e5bc4f16, type: 3}
+  - {fileID: 919132149155446097, guid: 5a910018dd011f6448b24f70a2f6ff86, type: 3}
+  - {fileID: 919132149155446097, guid: 306d265e0e9303d479028f791730922d, type: 3}
+  facadePieces: []
+  roofPieces: []
+  props:
+  - {fileID: 919132149155446097, guid: 7f228b6946a8276438e448ecb317af4f, type: 3}
+  - {fileID: 919132149155446097, guid: b0f8bab19a0f0f940a8e7c5e13c32fc3, type: 3}
+  - {fileID: 919132149155446097, guid: 53534efe052ec8043b7c3864c137f1fe, type: 3}
+  - {fileID: 919132149155446097, guid: c85ed7de0957e044ea092a9c0faad65a, type: 3}
+  - {fileID: 919132149155446097, guid: f6245d488725cb54395de06925202e9b, type: 3}
+  - {fileID: 919132149155446097, guid: ac0eecc2507fb2b40910354c73ac3678, type: 3}
+  foreground: []
+  nature: []
+  platforms: []
+  hazards: []
+  vehicles:
+  - {fileID: 919132149155446097, guid: 7f6dc131ddcf3914997a0f5bedd4f3bd, type: 3}
+  - {fileID: 919132149155446097, guid: 6a3c1185a3c70e04d93fdcb2ff67e239, type: 3}
+  - {fileID: 919132149155446097, guid: 23675baf24f2d034990222c1c031caee, type: 3}
+  - {fileID: 919132149155446097, guid: e0ea75d916d97f24cbc7bbd3cac4e1d1, type: 3}
+  - {fileID: 919132149155446097, guid: 6aae489eed9d3874890fa1ad65e9cef6, type: 3}
+  - {fileID: 919132149155446097, guid: ce6ad906a08895848ae3a4173fa353ba, type: 3}
+  - {fileID: 919132149155446097, guid: ab5efbe4a2fa3a3468a72ad706c4cacf, type: 3}
+  - {fileID: 919132149155446097, guid: 828fd7626ba68f94b917636599944f8d, type: 3}
+  creatures: []
+  facadeTextures: []
+  surfaceTextures: []
+  groundMaterial: {fileID: 2100000, guid: 3cd2cf57545afa6499620ace2938e352, type: 2}
+  groundSideMaterial: {fileID: 2100000, guid: e55274ebf3d6f7047b9d299fc71521c8, type: 2}
+  wallMaterial: {fileID: 2100000, guid: bd1db659a447b5f4586685bf609ccbcf, type: 2}
+  liquidMaterial: {fileID: 0}

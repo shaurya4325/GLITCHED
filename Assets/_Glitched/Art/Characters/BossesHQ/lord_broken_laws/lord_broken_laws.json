@@ -1,0 +1,67 @@
+{
+ "height": 1.3505971824997687,
+ "width": 1.4273930788040161,
+ "depth": 1.5972163677215576,
+ "min": [
+  -0.7100611329078674,
+  -0.5627882480621338,
+  -5.1895367505494505e-05
+ ],
+ "max": [
+  0.7173319458961487,
+  1.0344281196594238,
+  1.3505452871322632
+ ],
+ "actions": [
+  [
+   "attack",
+   48
+  ],
+  [
+   "cast",
+   48
+  ],
+  [
+   "idle_loop",
+   96
+  ]
+ ],
+ "meshes": 3,
+ "armatures": 1,
+ "tris": 69822,
+ "materials": {
+  "DarkMetalMAT": {
+   "base": "lord_broken_laws_DarkMetalMAT_base.png",
+   "normal": "lord_broken_laws_DarkMetalMAT_normal.png",
+   "mr": "lord_broken_laws_DarkMetalMAT_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true,
+   "occlusion": "lord_broken_laws_DarkMetalMAT_ao.png"
+  },
+  "LightMetalMAT": {
+   "base": "lord_broken_laws_LightMetalMAT_base.png",
+   "normal": "lord_broken_laws_LightMetalMAT_normal.png",
+   "mr": "lord_broken_laws_LightMetalMAT_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true,
+   "occlusion": "lord_broken_laws_LightMetalMAT_ao.png"
+  },
+  "PrimaryMAT": {
+   "base": "lord_broken_laws_PrimaryMAT_base.png",
+   "normal": "lord_broken_laws_PrimaryMAT_normal.png",
+   "mr": "lord_broken_laws_PrimaryMAT_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true,
+   "occlusion": "lord_broken_laws_PrimaryMAT_ao.png"
+  }
+ }
+}

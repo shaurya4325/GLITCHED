@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd8fdc98a560df41b5f7afb303aa1f7, type: 3}
+  m_Name: Boss_the_source
+  m_EditorClassIdentifier: 
+  id: the_source
+  displayName: THE SOURCE
+  tier: 3
+  arc: TheCore
+  concepts: []
+  preferredTypes: 
+  maxHP: 500
+  attackDamage: 25
+  challengesToDefeat: 1
+  rewardXP: 500
+  rewardCoins: 100
+  attackNames:
+  - REGION SWAP
+  - TOTAL CORRUPTION
+  - NULL REALITY
+  - THE LAST GLITCH
+  taunts:
+  - Code? Physics? Chemistry? Biology? They're all just rules. And I BREAK rules.
+  - Knowledge is your weapon? Then I'll make you DROP it.
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 131619534492457729, guid: 99209a831662e74418cbe74c9922d840, type: 3}
+  height: 5
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  placeholderShape: mech
+  flying: 0
+  patrolDistance: 2.5
+  bossConcept: Synthesis
+  phases:
+  - name: 01 RECALL
+    difficulty: 1
+    types: 010000000700000006000000
+    damage: 50
+    line: 
+    concept: 
+  - name: 02 ANALYSIS
+    difficulty: 2
+    types: 030000000000000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 03 REASONING
+    difficulty: 3
+    types: 010000000200000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 04 APPLICATION
+    difficulty: 4
+    types: 05000000040000000900000000000000
+    damage: 100
+    line: 
+    concept: 
+  - name: '05 SYNTHESIS: THE FINAL TEST'
+    difficulty: 5
+    types: 
+    damage: 0
+    line: 
+    concept: 
+  regenOnWrong: 40
+  introLines:
+  - So. You fixed my loops. My laws. My lab. My little body.
+  - I WROTE the rules of The Nexus. Then I deleted them. It was fun.
+  - Let's see if you understand ALL of it. At once.
+  finalDefeatLine: NO... YOU UNDERSTOOD... EVERYTHING...
+  hintTaunts:
+  - Everything connects, student. Physics runs the code. Chemistry runs the cell.
+  - You separate subjects into boxes. I don't. That's why I'm winning.
+  teachingLines:
+  - '*sigh* Even gods must explain themselves sometimes.'
+  - 'Look: a loop can simulate a cell dividing. Physics tells the robot how fast.
+    Chemistry fuels the muscle.'
+  - It's ONE world. You just learned it in four pieces. Now put it together.
+  rematchLine: SHOW ME WHAT YOU LEARNED.
+  profile: {fileID: 11400000, guid: c11938df8a6bf9f4da058580ba7ea444, type: 2}

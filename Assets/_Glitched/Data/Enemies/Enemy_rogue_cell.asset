@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_rogue_cell
+  m_EditorClassIdentifier: 
+  id: rogue_cell
+  displayName: ROGUE CELL
+  tier: 0
+  arc: BioZone
+  concepts:
+  - Cells
+  - Genetics
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - MUTATION SLAP
+  - UNCONTROLLED DIVISION
+  taunts:
+  - My DNA has... opinions now.
+  - Mitosis? More like MY-tosis!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 4409824757629722232, guid: 83b770a22c79e7644a65e67fdaeb73eb, type: 3}
+  height: 0.8
+  tint: {r: 1, g: 0.4, b: 0.5, a: 1}
+  placeholderShape: cell
+  flying: 0
+  patrolDistance: 2.5

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ce08f79962ee844ac03f1743e7c2a0, type: 3}
+  m_Name: Arc_CodeCity
+  m_EditorClassIdentifier: 
+  id: CodeCity
+  displayName: Code City
+  subject: Computer Science
+  order: 0
+  theme: {fileID: 11400000, guid: 52b64d581aa78344184502867964b8c1, type: 2}
+  concepts:
+  - Boolean Logic
+  - Python Basics
+  - Flow of Control
+  - Number Systems
+  - Strings & Lists
+  - Programming Basics
+  - Variables
+  - Conditions
+  - Loops
+  - Binary
+  - Algorithms
+  - Data Types
+  - Cybersecurity
+  emphasisTypes: 030000000400000001000000
+  levels:
+  - id: CodeCity_Hub
+    scene: CodeCity_Hub
+    displayName: Code City Hub
+    kind: 0
+    next: CodeCity_L1
+    requiredAbility: 
+  - id: CodeCity_L1
+    scene: CodeCity_L1
+    displayName: Circuit Streets
+    kind: 1
+    next: CodeCity_Boss
+    requiredAbility: 
+  - id: CodeCity_Boss
+    scene: CodeCity_Boss
+    displayName: The Infinite Core
+    kind: 2
+    next: 
+    requiredAbility: 
+  miniBoss: {fileID: 11400000, guid: 69a5e6d306387e148a522f264b4b2352, type: 2}
+  boss: {fileID: 11400000, guid: 3cda1afb643ba214da9f97407695eb07, type: 2}
+  abilityReward: double_jump
+  cosmeticReward: binary_halo
+  tagline: A city run by a programming error. Doors open at random, robots walk into
+    walls, lifts go nowhere.
+  arrivalLines:
+  - 'Code City. Population: a lot of very confused robots.'
+  - Every NPC here is stuck repeating the same line. Forever.
+  restoredLines:
+  - The lifts work! The doors close! Somebody finally finished their sentence!
+  - Code City is BACK ONLINE.

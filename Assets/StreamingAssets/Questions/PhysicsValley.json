@@ -1,0 +1,1046 @@
+{
+  "arc": "PhysicsValley",
+  "version": 1,
+  "questions": [
+    {
+      "id": "PH_MOT_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "A runaway cart",
+      "prompt": "A runaway cart covers 120 m in 8 s at constant speed. What is its speed?",
+      "data": {
+        "tolerance": 0.1,
+        "unit": "m/s",
+        "givens": [
+          "speed = distance / time"
+        ],
+        "value": 15
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "speed = 120 m / 8 s = 15 m/s.",
+      "hint": "Divide distance by time.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MOT_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "A glider in wrong gravity",
+      "prompt": "A glider starts from rest and accelerates at 3 m/s² for 4 s. Final velocity?",
+      "data": {
+        "tolerance": 0.1,
+        "unit": "m/s",
+        "givens": [
+          "v = u + at",
+          "u = 0"
+        ],
+        "value": 12
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "v = 0 + 3 x 4 = 12 m/s.",
+      "hint": "Use v = u + at with u = 0.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MOT_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "A falling elevator",
+      "prompt": "From rest, a = 2 m/s² for 5 s. How far does it travel?",
+      "data": {
+        "tolerance": 0.1,
+        "unit": "m",
+        "givens": [
+          "s = ut + 1/2 at²",
+          "u = 0"
+        ],
+        "value": 25
+      },
+      "fastSeconds": 11,
+      "timeLimit": 0,
+      "explanation": "s = 0 + 1/2 x 2 x 5² = 25 m.",
+      "hint": "Square the time first.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MOT_004",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 2,
+      "type": "Matching",
+      "situation": "A confused compass",
+      "prompt": "Pair each quantity with its definition.",
+      "data": {
+        "left": [
+          "Distance",
+          "Displacement",
+          "Speed",
+          "Velocity"
+        ],
+        "right": [
+          "total path length (scalar)",
+          "straight-line change in position (vector)",
+          "distance per unit time (scalar)",
+          "displacement per unit time (vector)"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Scalars have only size; vectors also have direction.",
+      "hint": "Which ones care about direction?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MOT_005",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 4,
+      "type": "Simulation",
+      "situation": "Launching across a broken bridge",
+      "prompt": "Launch the probe so it lands on the platform 40 m away (g = 10 m/s²). Adjust, then press RUN.",
+      "data": {
+        "sim": "projectile",
+        "mode": "goal",
+        "sliders": [
+          {
+            "id": "v",
+            "label": "Speed",
+            "min": 5,
+            "max": 30,
+            "step": 0.5,
+            "value": 15,
+            "unit": "m/s"
+          },
+          {
+            "id": "angle",
+            "label": "Angle",
+            "min": 10,
+            "max": 80,
+            "step": 1,
+            "value": 30,
+            "unit": "°"
+          }
+        ],
+        "fixed": {
+          "g": 10
+        },
+        "goal": {
+          "metric": "range",
+          "min": 37,
+          "max": 43,
+          "unit": "m"
+        }
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "Range R = v² sin(2θ) / g. At 45° and 20 m/s, R = 400 x 1 / 10 = 40 m.",
+      "hint": "45° gives the longest range for a given speed.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MOT_006",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Motion",
+      "difficulty": 3,
+      "type": "Prediction",
+      "situation": "Two glitched balls",
+      "prompt": "Ball A is DROPPED. Ball B is thrown HORIZONTALLY from the same height at the same moment. Which lands first? (no air)",
+      "data": {
+        "options": [
+          "A",
+          "B",
+          "Both together",
+          "The heavier one"
+        ],
+        "answerIndex": 2,
+        "outcome": "Both land together: horizontal speed doesn't change vertical fall.",
+        "anim": "two_balls"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Vertical motion is independent of horizontal motion. Both start with zero vertical speed and fall with the same g.",
+      "hint": "Separate up-down from sideways.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A runaway car on a slope",
+      "prompt": "The cart's engine dies on a frictionless slope but it keeps rolling. Which law explains this?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "First law (inertia)",
+          "Second law (F = ma)",
+          "Third law (action-reaction)",
+          "Law of gravitation"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "First law: a body keeps moving at constant velocity unless a net force acts on it.",
+      "hint": "Which law is about things carrying on as they are?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "A malfunctioning robot",
+      "prompt": "A 50 kg robot must accelerate at 2 m/s². What net force is needed?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "N",
+        "givens": [
+          "F = ma"
+        ],
+        "value": 100
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "F = 50 x 2 = 100 N.",
+      "hint": "Multiply mass by acceleration.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 2,
+      "type": "Prediction",
+      "situation": "A launching rocket",
+      "prompt": "A rocket pushes hot gas DOWN out of its nozzle. What happens?",
+      "data": {
+        "options": [
+          "The gas pushes the rocket UP",
+          "The rocket stays still",
+          "The rocket moves down",
+          "The rocket spins"
+        ],
+        "answerIndex": 0,
+        "outcome": "Action: rocket pushes gas down. Reaction: gas pushes rocket up. LIFT-OFF!",
+        "anim": "rocket"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Third law: forces come in equal and opposite pairs. The gas pushes back on the rocket.",
+      "hint": "Every action has an equal and opposite...",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_004",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "A kicked ball",
+      "prompt": "A 0.5 kg ball goes from 0 to 20 m/s in 0.1 s when kicked. Average force on the ball?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "N",
+        "givens": [
+          "a = (v - u) / t",
+          "F = ma"
+        ],
+        "value": 100
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "a = 20 / 0.1 = 200 m/s². F = 0.5 x 200 = 100 N.",
+      "hint": "Find the acceleration first.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_005",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 4,
+      "type": "Simulation",
+      "situation": "A malfunctioning robot",
+      "prompt": "The robot must accelerate at exactly 4 m/s² to escape. Set force and mass, then RUN.",
+      "data": {
+        "sim": "cart",
+        "mode": "goal",
+        "sliders": [
+          {
+            "id": "F",
+            "label": "Force",
+            "min": 0,
+            "max": 200,
+            "step": 5,
+            "value": 50,
+            "unit": "N"
+          },
+          {
+            "id": "m",
+            "label": "Mass",
+            "min": 5,
+            "max": 50,
+            "step": 1,
+            "value": 20,
+            "unit": "kg"
+          }
+        ],
+        "goal": {
+          "metric": "a",
+          "min": 3.8,
+          "max": 4.2,
+          "unit": "m/s²"
+        }
+      },
+      "fastSeconds": 18,
+      "timeLimit": 0,
+      "explanation": "a = F / m. For example 100 N on 25 kg gives 4 m/s².",
+      "hint": "Pick a mass, then force = 4 x mass.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_006",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "A stubborn boulder",
+      "prompt": "What is the property of a body to resist any change in its state of rest or motion?",
+      "data": {
+        "accepted": [
+          "inertia"
+        ],
+        "keywords": [
+          [
+            "inertia",
+            "inertial"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Inertia. More mass means more inertia.",
+      "hint": "Newton's first law is also called the law of ___.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_007",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 5,
+      "type": "Numerical",
+      "situation": "A tug-of-war with the Lord",
+      "prompt": "Forces of 30 N east and 10 N west act on a 4 kg block (no friction). Its acceleration?",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "m/s²",
+        "givens": [
+          "net force first",
+          "F = ma"
+        ],
+        "value": 5
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Net force = 30 - 10 = 20 N east. a = 20 / 4 = 5 m/s².",
+      "hint": "Opposite forces subtract.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_NEW_008",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Newton's Laws",
+      "difficulty": 5,
+      "type": "Simulation",
+      "situation": "The Lord of Broken Laws' core",
+      "prompt": "FINAL TEST: The Lord broke gravity! Here g = 5 m/s². Land the probe on the core 60 m away.",
+      "data": {
+        "sim": "projectile",
+        "mode": "goal",
+        "sliders": [
+          {
+            "id": "v",
+            "label": "Speed",
+            "min": 5,
+            "max": 30,
+            "step": 0.5,
+            "value": 12,
+            "unit": "m/s"
+          },
+          {
+            "id": "angle",
+            "label": "Angle",
+            "min": 10,
+            "max": 80,
+            "step": 1,
+            "value": 30,
+            "unit": "°"
+          }
+        ],
+        "fixed": {
+          "g": 5
+        },
+        "goal": {
+          "metric": "range",
+          "min": 57,
+          "max": 63,
+          "unit": "m"
+        }
+      },
+      "fastSeconds": 25,
+      "timeLimit": 0,
+      "explanation": "R = v² sin(2θ) / g. With g = 5 and θ = 45°, you need v² = 300, so v ≈ 17.3 m/s.",
+      "hint": "Weaker gravity means the same throw goes further.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "Pushing a stuck crate",
+      "prompt": "You push a crate with 20 N for 5 m in the direction of the force. Work done?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "J",
+        "givens": [
+          "W = F x d"
+        ],
+        "value": 100
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "W = 20 x 5 = 100 J.",
+      "hint": "Multiply force by distance.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "A rolling boulder",
+      "prompt": "Kinetic energy of a 2 kg ball moving at 3 m/s?",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "J",
+        "givens": [
+          "KE = 1/2 m v²"
+        ],
+        "value": 9
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "KE = 1/2 x 2 x 3² = 9 J.",
+      "hint": "Square the speed first.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "A floating rock island",
+      "prompt": "Potential energy of a 5 kg rock lifted 4 m (g = 10 m/s²)?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "J",
+        "givens": [
+          "PE = m g h"
+        ],
+        "value": 200
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "PE = 5 x 10 x 4 = 200 J.",
+      "hint": "Multiply all three.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_004",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 4,
+      "type": "Prediction",
+      "situation": "A giant pendulum",
+      "prompt": "A pendulum is released from a height (no friction). At the LOWEST point it has...",
+      "data": {
+        "options": [
+          "Maximum KE, minimum PE",
+          "Maximum PE, zero KE",
+          "Zero energy",
+          "Maximum KE AND maximum PE"
+        ],
+        "answerIndex": 0,
+        "outcome": "All the PE has turned into KE: fastest at the bottom.",
+        "anim": "pendulum"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Energy is conserved: height energy (PE) turns into motion energy (KE), so the bottom is fastest.",
+      "hint": "Where is it moving fastest?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_005",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 3,
+      "type": "Matching",
+      "situation": "A power station",
+      "prompt": "Pair each device with the energy change it makes.",
+      "data": {
+        "left": [
+          "Battery",
+          "Solar panel",
+          "Electric motor",
+          "Loudspeaker"
+        ],
+        "right": [
+          "chemical -> electrical",
+          "light -> electrical",
+          "electrical -> mechanical",
+          "electrical -> sound"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Devices convert energy from one form to another; the total is conserved.",
+      "hint": "What goes in, what comes out?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_EN_006",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work & Energy",
+      "difficulty": 5,
+      "type": "Numerical",
+      "situation": "A falling observatory",
+      "prompt": "A 1 kg ball drops from 5 m. Speed just before it hits the ground? (g = 10, no air)",
+      "data": {
+        "tolerance": 0.1,
+        "unit": "m/s",
+        "givens": [
+          "mgh = 1/2 m v²"
+        ],
+        "value": 10
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "mgh = 1/2 mv², so v = √(2gh) = √100 = 10 m/s. The mass cancels!",
+      "hint": "Set PE at the top equal to KE at the bottom.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_GRAV_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A trip to the Moon",
+      "prompt": "On the Moon, g is about 1/6 of Earth's. Your MASS there is...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "the same",
+          "1/6 as much",
+          "6 times more",
+          "zero"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Mass is the amount of matter and doesn't change. WEIGHT (mg) becomes 1/6.",
+      "hint": "Mass and weight are different things.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_GRAV_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "difficulty": 2,
+      "type": "Simulation",
+      "situation": "A giant pendulum",
+      "prompt": "Play with the pendulum. What happens to the time period when the length becomes 4x?",
+      "data": {
+        "sim": "pendulum",
+        "mode": "read",
+        "sliders": [
+          {
+            "id": "L",
+            "label": "Length",
+            "min": 0.5,
+            "max": 4,
+            "step": 0.1,
+            "value": 1,
+            "unit": "m"
+          },
+          {
+            "id": "g",
+            "label": "Gravity",
+            "min": 1,
+            "max": 20,
+            "step": 0.5,
+            "value": 9.8,
+            "unit": "m/s²"
+          }
+        ],
+        "options": [
+          "It doubles",
+          "It becomes 4x",
+          "It halves",
+          "No change"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "T = 2π√(L/g). 4x the length gives √4 = 2x the period.",
+      "hint": "Look for a square root in the formula.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_GRAV_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "difficulty": 4,
+      "type": "Numerical",
+      "situation": "Drifting islands",
+      "prompt": "The distance between two masses DOUBLES. The gravitational force becomes what fraction? (type a decimal)",
+      "data": {
+        "tolerance": 0.01,
+        "unit": "x",
+        "givens": [
+          "F ∝ 1 / r²"
+        ],
+        "value": 0.25
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "F ∝ 1/r². Double r gives 1/2² = 1/4 = 0.25 of the force.",
+      "hint": "Inverse SQUARE law.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_GRAV_004",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "Debris falling the right way for once",
+      "prompt": "A stone is dropped from rest and falls for 3 s (g = 10 m/s²). Its speed?",
+      "data": {
+        "tolerance": 0.1,
+        "unit": "m/s",
+        "givens": [
+          "v = u + gt"
+        ],
+        "value": 30
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "v = 0 + 10 x 3 = 30 m/s.",
+      "hint": "Free fall is just v = u + at with a = g.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "A Tesla tower fuse",
+      "prompt": "2 A flows through a 6 Ω resistor. Voltage across it?",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "V",
+        "givens": [
+          "V = I R"
+        ],
+        "value": 12
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "V = 2 x 6 = 12 V.",
+      "hint": "Ohm's law.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 2,
+      "type": "Simulation",
+      "situation": "A Tesla gate",
+      "prompt": "Power the glitched gate: set voltage and resistance so the current is 0.5 A, then RUN.",
+      "data": {
+        "sim": "ohm",
+        "mode": "goal",
+        "sliders": [
+          {
+            "id": "V",
+            "label": "Voltage",
+            "min": 1,
+            "max": 24,
+            "step": 0.5,
+            "value": 6,
+            "unit": "V"
+          },
+          {
+            "id": "R",
+            "label": "Resistance",
+            "min": 2,
+            "max": 48,
+            "step": 1,
+            "value": 6,
+            "unit": "Ω"
+          }
+        ],
+        "goal": {
+          "metric": "I",
+          "min": 0.48,
+          "max": 0.52,
+          "unit": "A"
+        }
+      },
+      "fastSeconds": 18,
+      "timeLimit": 0,
+      "explanation": "I = V / R. For example 6 V across 12 Ω gives 0.5 A.",
+      "hint": "Resistance = 2 x voltage gives 0.5 A.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "A chain of towers",
+      "prompt": "Three 6 Ω resistors are joined in SERIES. Total resistance?",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "Ω",
+        "givens": [
+          "Series: R = R1 + R2 + R3"
+        ],
+        "value": 18
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "In series, resistances add: 6 + 6 + 6 = 18 Ω.",
+      "hint": "Series means one after another.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_004",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 4,
+      "type": "Numerical",
+      "situation": "Twin lightning rods",
+      "prompt": "Two 6 Ω resistors in PARALLEL. Equivalent resistance?",
+      "data": {
+        "tolerance": 0.05,
+        "unit": "Ω",
+        "givens": [
+          "Parallel: 1/R = 1/R1 + 1/R2"
+        ],
+        "value": 3
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "1/R = 1/6 + 1/6 = 1/3, so R = 3 Ω. Parallel paths make it LESS.",
+      "hint": "More paths, less resistance.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_005",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 2,
+      "type": "DragDrop",
+      "situation": "Connect the circuit parts",
+      "prompt": "Wire up the emergency light. Drag each part into its job.",
+      "data": {
+        "template": "Energy source: {0}\nControl: {1}\nLoad: {2}",
+        "items": [
+          "Cell",
+          "Switch",
+          "Bulb",
+          "Rubber band"
+        ],
+        "answer": [
+          0,
+          1,
+          2
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "A circuit needs a source (cell), a control (switch) and a load (bulb) in a closed loop. Rubber doesn't conduct.",
+      "hint": "Which one is an insulator?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_ELEC_006",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Electricity",
+      "difficulty": 3,
+      "type": "Prediction",
+      "situation": "Festival lights",
+      "prompt": "Two bulbs are in SERIES. One burns out. The other...",
+      "data": {
+        "options": [
+          "goes out too",
+          "gets brighter",
+          "stays the same",
+          "flickers forever"
+        ],
+        "answerIndex": 0,
+        "outcome": "The loop is broken, so no current flows and both go dark.",
+        "anim": "circuit"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Series has only one path. A broken bulb breaks the whole loop.",
+      "hint": "How many paths does the current have?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MAG_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Magnetism",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "Floating magnet bridge",
+      "prompt": "Two magnets meet north pole to north pole. They...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "repel",
+          "attract",
+          "do nothing",
+          "swap poles"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "Like poles repel; unlike poles attract.",
+      "hint": "Same pushes away.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MAG_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Magnetism",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "A scrapyard crane",
+      "prompt": "A current-carrying coil wound on a soft iron core acts as a temporary magnet. What is it called?",
+      "data": {
+        "accepted": [
+          "electromagnet",
+          "an electromagnet"
+        ],
+        "keywords": [
+          [
+            "electromagnet",
+            "electro magnet",
+            "electro-magnet"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "An electromagnet: magnetic only while current flows.",
+      "hint": "Electricity + magnet.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_MAG_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Magnetism",
+      "difficulty": 4,
+      "type": "Prediction",
+      "situation": "A Tesla generator",
+      "prompt": "You push a magnet quickly INTO a coil connected to a galvanometer. The needle...",
+      "data": {
+        "options": [
+          "deflects: a current is induced",
+          "stays at zero",
+          "points north",
+          "melts"
+        ],
+        "answerIndex": 0,
+        "outcome": "Changing magnetic flux induces a current (Faraday). Stop moving and it returns to zero.",
+        "anim": "induction"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Electromagnetic induction: a CHANGING magnetic field through a coil induces an EMF and a current.",
+      "hint": "Is the magnetic field changing?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_WAVE_001",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Waves",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "A rippling sky",
+      "prompt": "A wave has frequency 50 Hz and wavelength 2 m. Its speed?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "m/s",
+        "givens": [
+          "v = f λ"
+        ],
+        "value": 100
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "v = 50 x 2 = 100 m/s.",
+      "hint": "Multiply frequency by wavelength.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_WAVE_002",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Waves",
+      "difficulty": 2,
+      "type": "Matching",
+      "situation": "A broken radio tower",
+      "prompt": "Pair each wave with its description.",
+      "data": {
+        "left": [
+          "Sound",
+          "Light",
+          "Wave on a string",
+          "Ultrasound"
+        ],
+        "right": [
+          "mechanical longitudinal wave",
+          "electromagnetic wave, needs no medium",
+          "transverse mechanical wave",
+          "frequency above 20 kHz"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Sound needs a medium and is longitudinal; light is electromagnetic; ultrasound is above human hearing.",
+      "hint": "Which one can cross empty space?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "PH_WAVE_003",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Waves",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "An echo canyon",
+      "prompt": "You shout at a cliff; the echo returns after 2 s. Speed of sound 340 m/s. Distance to the cliff?",
+      "data": {
+        "tolerance": 1,
+        "unit": "m",
+        "givens": [
+          "sound travels there AND back"
+        ],
+        "value": 340
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Total path = 340 x 2 = 680 m, and that's there and back, so the cliff is 340 m away.",
+      "hint": "Don't forget the return trip.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    }
+  ]
+}

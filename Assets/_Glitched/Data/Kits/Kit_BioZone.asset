@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10e760c8573ed93428b9624bf58944d3, type: 3}
+  m_Name: Kit_BioZone
+  m_EditorClassIdentifier: 
+  id: BioZone
+  buildings: []
+  facadePieces: []
+  roofPieces: []
+  props: []
+  foreground: []
+  nature:
+  - {fileID: 919132149155446097, guid: b874ad48e9604164398154750ee69e96, type: 3}
+  - {fileID: 919132149155446097, guid: 26a4398de28d98941a268fe9655fe8c6, type: 3}
+  - {fileID: 919132149155446097, guid: f14655969248e874eb158cc9da0cf9a3, type: 3}
+  - {fileID: 919132149155446097, guid: aec08a267900a1f429e86669c74d98ef, type: 3}
+  - {fileID: 919132149155446097, guid: 4ed96a7af902dbe43a06c1b07badf436, type: 3}
+  - {fileID: 919132149155446097, guid: 7535f4156b7a8684f957a4555b946f77, type: 3}
+  - {fileID: 919132149155446097, guid: e3441ddc570ddcb408c565819bb49f71, type: 3}
+  - {fileID: 919132149155446097, guid: ccf7cc69305169e4b9ee732d70acc5fc, type: 3}
+  - {fileID: 919132149155446097, guid: b9adff6a906fa0244ab1dbf5720085a3, type: 3}
+  - {fileID: 919132149155446097, guid: c5313c57111e88c47b0d54abbd4135e1, type: 3}
+  - {fileID: 919132149155446097, guid: e04e67bf7b729a4459fe894ce0589819, type: 3}
+  platforms: []
+  hazards: []
+  vehicles: []
+  creatures:
+  - {fileID: 919132149155446097, guid: cdb0ff5758e2b4b44933dc33249d09cc, type: 3}
+  - {fileID: 919132149155446097, guid: cd1256e96344a0e468f3967236bc0975, type: 3}
+  - {fileID: 919132149155446097, guid: 716b1276ed991724ebf938d24ccd3125, type: 3}
+  facadeTextures: []
+  surfaceTextures: []
+  groundMaterial: {fileID: 2100000, guid: a0b1687cf47396f4b82b75321c727b2c, type: 2}
+  groundSideMaterial: {fileID: 2100000, guid: 765e253424944b04c86a769011440a59, type: 2}
+  wallMaterial: {fileID: 2100000, guid: 85f4d17e58b25b045b0bd2768830dfff, type: 2}
+  liquidMaterial: {fileID: 2100000, guid: a348d625c06feb845baa64711708d93c, type: 2}

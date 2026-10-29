@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd8fdc98a560df41b5f7afb303aa1f7, type: 3}
+  m_Name: Boss_lord_broken_laws
+  m_EditorClassIdentifier: 
+  id: lord_broken_laws
+  displayName: THE LORD OF BROKEN LAWS
+  tier: 3
+  arc: PhysicsValley
+  concepts: []
+  preferredTypes: 
+  maxHP: 500
+  attackDamage: 25
+  challengesToDefeat: 1
+  rewardXP: 500
+  rewardCoins: 100
+  attackNames:
+  - GRAVITY REVERSAL
+  - INFINITE ACCELERATION
+  - TIME DILATION SMACK
+  - UNBALANCED VERDICT
+  taunts:
+  - Gravity is a SUGGESTION.
+  - Newton? Never heard of him. Overruled!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 5310513168474585984, guid: 540903f6f6dd74d418318b805a0fe25f, type: 3}
+  height: 4.4
+  tint: {r: 0.6, g: 0.3, b: 1, a: 1}
+  placeholderShape: crystal
+  flying: 0
+  patrolDistance: 2.5
+  bossConcept: Newton's Laws
+  phases:
+  - name: 01 RECALL
+    difficulty: 1
+    types: 010000000700000006000000
+    damage: 50
+    line: 
+    concept: 
+  - name: 02 ANALYSIS
+    difficulty: 2
+    types: 030000000000000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 03 REASONING
+    difficulty: 3
+    types: 010000000200000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 04 APPLICATION
+    difficulty: 4
+    types: 05000000040000000900000000000000
+    damage: 100
+    line: 
+    concept: 
+  - name: '05 SYNTHESIS: THE FINAL TEST'
+    difficulty: 5
+    types: 
+    damage: 0
+    line: 
+    concept: 
+  regenOnWrong: 40
+  introLines:
+  - ORDER! ORDER IN MY VALLEY!
+  - I have declared gravity ILLEGAL on Tuesdays.
+  - And today, little student, is whatever day I SAY it is.
+  finalDefeatLine: NO... YOU UNDERSTOOD THE SYSTEM!
+  hintTaunts:
+  - Pathetic! You forgot the NET force. Forces in opposite directions SUBTRACT, fool.
+  - Objection! F = ma. You used F = m + a. I'm almost impressed.
+  teachingLines:
+  - '*sigh* This court is now a classroom. Against my will.'
+  - Here. Sliders. Push the force up and watch the acceleration. Now add mass. See?
+    Heavier things are LAZIER.
+  - Change ONE thing at a time. That's how real physicists... ugh... learn. Now go
+    away. No, wait, come back and fight me.
+  rematchLine: SHOW ME WHAT YOU LEARNED.
+  profile: {fileID: 11400000, guid: a0d88a16c0dd83546bf5570f9f413b59, type: 2}

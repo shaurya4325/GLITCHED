@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bb7e62c5c3224ebc51c0972a7e22b, type: 3}
+  m_Name: Char_npc
+  m_EditorClassIdentifier: 
+  id: npc
+  displayName: Nexus Citizen
+  personality: A citizen of The Nexus. Currently stuck.
+  catchphrase: WELC0ME T0 THE NEXUS!
+  failureReaction: Oh no.
+  idleStyle: frozen
+  modelPrefab: {fileID: 0}
+  height: 1.55
+  animator: {fileID: 9100000, guid: ad7da1df89cdea741b98c338d80c4695, type: 2}
+  humanoid: 1
+  primaryColor: {r: 0.6, g: 0.7, b: 0.9, a: 1}
+  secondaryColor: {r: 1, g: 1, b: 1, a: 1}
+  skinColor: {r: 0.86, g: 0.66, b: 0.52, a: 1}
+  faceFolder: 
+  useFaceDecal: 0
+  toonOutline: 1
+  signatureSound: {fileID: 0}
+  voicePitch: 1
+  voiceBlipKey: blip

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_crypto_cracker
+  m_EditorClassIdentifier: 
+  id: crypto_cracker
+  displayName: CRYPTO CRACKER
+  tier: 1
+  arc: CodeCity
+  concepts:
+  - Cybersecurity
+  - Algorithms
+  - Binary
+  preferredTypes: 
+  maxHP: 300
+  attackDamage: 20
+  challengesToDefeat: 3
+  rewardXP: 140
+  rewardCoins: 25
+  attackNames:
+  - PHISHING HOOK
+  - BRUTE FORCE BARRAGE
+  taunts:
+  - Your password is 'password', isn't it?
+  - I've already guessed it. Probably.
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 6080721526178113422, guid: caa7e74999f882f44af835fa1ea40e4e, type: 3}
+  height: 1.85
+  tint: {r: 1, g: 0.2, b: 0.6, a: 1}
+  placeholderShape: robot
+  flying: 0
+  patrolDistance: 2.5

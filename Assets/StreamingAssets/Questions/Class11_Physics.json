@@ -1,0 +1,1221 @@
+{
+  "arc": "PhysicsValley",
+  "version": 1,
+  "questions": [
+    {
+      "id": "XI_PH_LAWS_01",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A net force of 20 N acts on a 4 kg body. Its acceleration is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "5 m/s<sup>2</sup>",
+          "80 m/s<sup>2</sup>",
+          "0.2 m/s<sup>2</sup>",
+          "24 m/s<sup>2</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "a = F / m = 20 / 4 = 5 m/s<sup>2</sup>.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_02",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The SI unit of momentum is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "kg m/s",
+          "N/s",
+          "kg m/s<sup>2</sup>",
+          "J s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "p = mv: kilogram × metre per second.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_03",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Action and reaction forces:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "act on different bodies",
+          "act on the same body",
+          "cancel out on one body",
+          "exist only when bodies move"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "They're equal and opposite but act on DIFFERENT bodies, so they never cancel each other.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_04",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A 0.2 kg ball hits a wall at 10 m/s and bounces straight back at 10 m/s. Size of its change in momentum:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4 kg m/s",
+          "2 kg m/s",
+          "0",
+          "1 kg m/s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Δp = m(v − u) = 0.2 × (10 − (−10)) = 4 kg m/s. Direction matters!",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_05",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Passengers lurch forward when a bus brakes suddenly. This is due to:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "inertia of motion",
+          "inertia of rest",
+          "Newton's third law",
+          "friction"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Their bodies keep moving forward (inertia of motion) while the bus slows.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_06",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A 50 g bullet leaves a 5 kg gun at 100 m/s. The gun's recoil speed is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1 m/s",
+          "10 m/s",
+          "0.1 m/s",
+          "100 m/s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Momentum is conserved: 0.05 × 100 = 5 × v, so v = 1 m/s.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_07",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Impulse is equal to:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "change in momentum",
+          "mass × velocity",
+          "force × distance",
+          "mass × acceleration"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Impulse = F × Δt = Δp.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_08",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "To keep a body moving in a circle you need:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "a centripetal force mv<sup>2</sup>/r",
+          "a force along the velocity",
+          "no force at all",
+          "a force away from the centre"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The force must point to the centre: F = mv<sup>2</sup>/r.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_LAWS_09",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Laws of Motion",
+      "topic": "ph_laws",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Usually, the coefficient of kinetic friction is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "less than static",
+          "more than static",
+          "equal to static",
+          "always zero"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It's harder to start something sliding than to keep it sliding: μₖ < μₛ.",
+      "hint": "Net force changes momentum (F = ma); action and reaction act on DIFFERENT bodies; with no external force, momentum is conserved.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_01",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A car starts from rest with a = 2 m/s<sup>2</sup>. Its speed after 5 s:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "10 m/s",
+          "2.5 m/s",
+          "7 m/s",
+          "25 m/s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "v = u + at = 0 + 2 × 5 = 10 m/s.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_02",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Distance that car covers in those 5 s:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "25 m",
+          "10 m",
+          "50 m",
+          "12.5 m"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "s = ut + ½at<sup>2</sup> = ½ × 2 × 25 = 25 m.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_03",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "For maximum range, launch a projectile at:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "45°",
+          "30°",
+          "60°",
+          "90°"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "R = u<sup>2</sup> sin 2θ / g is largest when sin 2θ = 1, i.e. θ = 45°.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_04",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which pair of angles gives the SAME range (same speed)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "30° and 60°",
+          "30° and 45°",
+          "20° and 80°",
+          "45° and 90°"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Complementary angles: sin 60° = sin 120°.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_05",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The area under a velocity–time graph gives:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "displacement",
+          "acceleration",
+          "jerk",
+          "force"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Velocity × time = displacement.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_06",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "At the top of its path, a projectile's VERTICAL velocity is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "zero",
+          "maximum",
+          "equal to u",
+          "equal to g"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It stops rising before it starts falling (the horizontal velocity carries on).",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_07",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A stone is dropped from rest (g = 10 m/s<sup>2</sup>). Distance fallen in 3 s:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "45 m",
+          "30 m",
+          "90 m",
+          "15 m"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "s = ½gt<sup>2</sup> = ½ × 10 × 9 = 45 m.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_08",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Range for u = 20 m/s at 45° (g = 10 m/s<sup>2</sup>):",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "40 m",
+          "20 m",
+          "80 m",
+          "10 m"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "R = u<sup>2</sup> sin 90° / g = 400 / 10 = 40 m.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_KINEMATICS_09",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Kinematics",
+      "topic": "ph_kinematics",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "With no air resistance, a projectile's horizontal velocity:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "stays constant",
+          "increases",
+          "decreases",
+          "is zero at the top"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "No horizontal force acts, so uₓ never changes.",
+      "hint": "v = u + at, s = ut + ½at<sup>2</sup>, v<sup>2</sup> = u<sup>2</sup> + 2as; for a projectile R = u<sup>2</sup> sin2θ / g, which is largest at 45°.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_01",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Work done when a 10 N force moves a box 3 m in the force's direction:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "30 J",
+          "3.3 J",
+          "13 J",
+          "0 J"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "W = F × d = 10 × 3 = 30 J.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_02",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Kinetic energy of a 2 kg ball moving at 3 m/s:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "9 J",
+          "6 J",
+          "18 J",
+          "3 J"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "KE = ½ × 2 × 3<sup>2</sup> = 9 J.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_03",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "If a body's speed doubles, its kinetic energy becomes:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4 times",
+          "2 times",
+          "half",
+          "unchanged"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "KE ∝ v<sup>2</sup>, so (2)<sup>2</sup> = 4 times.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_04",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Gravity does no work on a satellite in a circular orbit because:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "force ⟂ displacement",
+          "there's no gravity in space",
+          "the satellite has no mass",
+          "its speed is zero"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The pull is towards the centre, the motion is along the circle: cos 90° = 0.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_05",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In an ELASTIC collision, what is conserved?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "momentum and KE",
+          "only momentum",
+          "only KE",
+          "neither"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Elastic: both. Inelastic: momentum only.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_06",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A 50 kg student climbs 4 m of stairs in 5 s (g = 10 m/s<sup>2</sup>). Power:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "400 W",
+          "200 W",
+          "1000 W",
+          "40 W"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "P = mgh / t = 50 × 10 × 4 / 5 = 400 W.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_07",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Potential energy of a spring stretched by x:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "½kx<sup>2</sup>",
+          "kx",
+          "kx<sup>2</sup>",
+          "½kx"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "U = ½kx<sup>2</sup>.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_08",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A body falls freely from 5 m (g = 10 m/s<sup>2</sup>). Its speed just before landing:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "10 m/s",
+          "5 m/s",
+          "50 m/s",
+          "25 m/s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "v = √(2gh) = √100 = 10 m/s.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_WORK_09",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Work, Energy and Power",
+      "topic": "ph_work",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The work done by friction on a sliding box is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "negative",
+          "positive",
+          "zero",
+          "infinite"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Friction acts against the motion: θ = 180°, cos θ = −1.",
+      "hint": "W = Fd cos θ, KE = ½mv<sup>2</sup>, PE = mgh; the net work done equals the change in KE; power is work per second.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_01",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The period of a simple pendulum depends on:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "length & g",
+          "bob's mass",
+          "bob's colour",
+          "nothing"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "T = 2π√(L/g): only the length and g appear.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_02",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A pendulum is made 4 times longer. Its period becomes:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2×",
+          "4×",
+          "½×",
+          "16×"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "T ∝ √L, and √4 = 2.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_03",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A body vibrates at 5 Hz. Its period is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0.2 s",
+          "5 s",
+          "0.5 s",
+          "2 s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "T = 1/ν = 1/5 s.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_04",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In SHM, speed is greatest at:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "the centre",
+          "the ends",
+          "halfway",
+          "nowhere"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "At the mean position all the energy is kinetic.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_05",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In SHM, acceleration is greatest at:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "the ends",
+          "the centre",
+          "everywhere",
+          "nowhere"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "a = −ω<sup>2</sup>x is largest where x is largest.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_06",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Period of a mass m on a spring of constant k:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2π√(m/k)",
+          "2π√(k/m)",
+          "2π√(L/g)",
+          "mk/2π"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "A heavier mass or a softer spring swings more slowly.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_07",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The restoring force in SHM is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "F = −kx",
+          "F = kx<sup>2</sup>",
+          "F = mg",
+          "F = 0"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Proportional to displacement, directed back to the centre.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_08",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The mass on a spring is made 4 times heavier. The period becomes:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2×",
+          "4×",
+          "½×",
+          "same"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "T ∝ √m.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_OSC_09",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Oscillations",
+      "topic": "ph_osc",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The period of a 'seconds pendulum' is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2 s",
+          "1 s",
+          "0.5 s",
+          "60 s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It takes 1 s to swing each way, so a full period is 2 s.",
+      "hint": "A pendulum's period T = 2π√(L/g), a spring's T = 2π√(m/k); in SHM you're fastest in the middle and stop at the ends.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_01",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "If the distance between two masses doubles, the gravitational force becomes:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "¼",
+          "½",
+          "2×",
+          "4×"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Inverse square: 1/2<sup>2</sup> = 1/4.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_02",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Escape velocity from Earth is about:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "11.2 km/s",
+          "7.9 km/s",
+          "3 × 10<sup>8</sup> m/s",
+          "9.8 m/s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "vₑ = √(2gR) ≈ 11.2 km/s.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_03",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The value of g at the centre of the Earth is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "zero",
+          "9.8 m/s<sup>2</sup>",
+          "infinite",
+          "4.9 m/s<sup>2</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "g falls with depth and is zero at the centre.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_04",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Near Earth, escape speed vₑ and orbital speed v<sub>0</sub> are related by:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "vₑ = √2 · v<sub>0</sub>",
+          "vₑ = 2 · v<sub>0</sub>",
+          "vₑ = v<sub>0</sub> / √2",
+          "vₑ = v<sub>0</sub>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "√(2gR) = √2 × √(gR).",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_05",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The period of a geostationary satellite is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "24 hours",
+          "12 hours",
+          "1 hour",
+          "365 days"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "It turns with the Earth, so it stays above one place.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_06",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Kepler's third law: T<sup>2</sup> is proportional to:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "r<sup>3</sup>",
+          "r<sup>2</sup>",
+          "r",
+          "1/r<sup>2</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Farther planets have much longer years.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_07",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The SI unit of G is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "N m<sup>2</sup> kg<sup>-2</sup>",
+          "N kg<sup>-1</sup>",
+          "m s<sup>-2</sup>",
+          "N m kg<sup>-1</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "From F = Gm<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>: G = Fr<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>).",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_08",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "As you go higher above Earth's surface, g:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "decreases",
+          "increases",
+          "stays the same",
+          "becomes negative"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "You're farther from Earth's centre.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_PH_GRAV_09",
+      "arc": "PhysicsValley",
+      "subject": "Physics",
+      "concept": "Gravitation",
+      "topic": "ph_grav",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A body weighs 60 N on Earth. On the Moon (g/6) it weighs:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "10 N",
+          "60 N",
+          "360 N",
+          "6 N"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "60 / 6 = 10 N. Its mass is unchanged.",
+      "hint": "F = Gm<sub>1</sub>m<sub>2</sub> / r<sup>2</sup> (inverse square); g ≈ 9.8 m/s<sup>2</sup> falls with height and depth; escape speed 11.2 km/s = √2 × orbital speed.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    }
+  ]
+}

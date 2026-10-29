@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Verify a copy · GLITCHED</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#05060d">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/admin.css">
+<script src="/js/host.js"></script>
+<script type="module" src="/admin/approve.js"></script>
+</head>
+<body class="admin approve">
+<section class="gate" id="gate" hidden>
+  <div class="box">
+    <p class="kicker">// GLITCHED TEAM</p>
+    <h1 id="gateTitle">Team login</h1>
+    <p class="muted" id="gateText">Log in to verify this copy of GLITCHED.</p>
+    <form id="gateForm" autocomplete="off">
+      <label class="field"><span>Admin password</span><input type="password" id="gatePass" autocomplete="current-password" required minlength="6"></label>
+      <label class="field" id="gateRepeatWrap" hidden><span>Repeat password</span><input type="password" id="gateRepeat" autocomplete="new-password"></label>
+      <p class="err" id="gateErr"></p>
+      <button class="btn primary" type="submit"><span id="gateBtn">Log in</span></button>
+    </form>
+  </div>
+</section>
+
+<main id="app" hidden>
+  <p class="kicker">// VERIFY A COPY</p>
+  <h1 style="font-size:32px">Approve this PC?</h1>
+  <div id="body"><p class="muted">Loading…</p></div>
+</main>
+</body>
+</html>

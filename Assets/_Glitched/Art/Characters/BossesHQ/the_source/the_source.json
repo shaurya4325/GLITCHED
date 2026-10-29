@@ -1,0 +1,48 @@
+{
+ "height": 8.098437048960477,
+ "width": 44.15572738647461,
+ "depth": 20.496034622192383,
+ "min": [
+  -22.077838897705078,
+  -9.98817253112793,
+  0.0046103219501674175
+ ],
+ "max": [
+  22.07788848876953,
+  10.507862091064453,
+  8.103047370910645
+ ],
+ "actions": [
+  [
+   "attack",
+   60
+  ],
+  [
+   "cast",
+   60
+  ],
+  [
+   "idle_loop",
+   299
+  ],
+  [
+   "walk_loop",
+   179
+  ]
+ ],
+ "meshes": 50,
+ "armatures": 1,
+ "tris": 30950,
+ "materials": {
+  "robowyvern": {
+   "base": "the_source_robowyvern_base.png",
+   "normal": "the_source_robowyvern_normal.png",
+   "mr": null,
+   "emission": null,
+   "metallic": 0.9748392105102539,
+   "roughness": 0.2800433933734894,
+   "emissive": 0.0,
+   "alpha": true
+  }
+ }
+}

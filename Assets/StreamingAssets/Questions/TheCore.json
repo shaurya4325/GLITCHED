@@ -1,0 +1,235 @@
+{
+  "arc": "TheCore",
+  "version": 1,
+  "questions": [
+    {
+      "id": "FI_MIX_001",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Matching",
+      "situation": "The Source's scrambled memory",
+      "prompt": "The Source scrambled every region's memory. Re-link each idea.",
+      "data": {
+        "left": [
+          "Loop",
+          "Inertia",
+          "Covalent bond",
+          "Artery"
+        ],
+        "right": [
+          "repeats instructions",
+          "resists change in motion",
+          "shared electron pair",
+          "carries blood away from the heart"
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "One idea from each region: CS, Physics, Chemistry and Biology.",
+      "hint": "One per region.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_002",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Coding",
+      "situation": "Biology meets code",
+      "prompt": "Model a dividing cell in code. Each hour, every cell splits in two.",
+      "data": {
+        "mode": "blank",
+        "lines": [
+          "cells = 1",
+          "for hour in range(4):",
+          "    cells = ____",
+          "print(cells)"
+        ],
+        "options": [
+          "cells * 2",
+          "cells + 2",
+          "cells ** 2",
+          "2"
+        ],
+        "answerIndex": 0,
+        "output": "16"
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Each cell becomes two, so the number doubles: 1 -> 2 -> 4 -> 8 -> 16.",
+      "hint": "Splitting in two means doubling.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_003",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Numerical",
+      "situation": "Physics meets code",
+      "prompt": "A robot's speed starts at 2 m/s and the loop adds 2 m/s five times. What is its KE if its mass is 3 kg?",
+      "data": {
+        "code": "speed = 2\nfor t in range(5):\n    speed = speed + 2",
+        "tolerance": 1,
+        "unit": "J",
+        "givens": [
+          "KE = 1/2 m v²"
+        ],
+        "value": 216
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "speed = 2 + 5 x 2 = 12 m/s. KE = 1/2 x 3 x 144 = 216 J.",
+      "hint": "Run the loop first, then the physics.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_004",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Logic",
+      "situation": "Chemistry meets biology",
+      "prompt": "Glucose + oxygen -> CO<sub>2</sub> + water + energy. In which organelle, and what TYPE of reaction (energy-wise)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Mitochondria, exothermic",
+          "Nucleus, endothermic",
+          "Chloroplast, exothermic",
+          "Ribosome, neutralisation"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Respiration happens in mitochondria and RELEASES energy, so it is exothermic.",
+      "hint": "Powerhouse + energy released.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_005",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Debugging",
+      "situation": "Physics meets code",
+      "prompt": "The Source's ohm-meter code gives the wrong current. Tap the bug.",
+      "data": {
+        "lines": [
+          "V = 12",
+          "R = 4",
+          "I = V * R",
+          "print('Current:', I, 'A')"
+        ],
+        "answerIndex": 2,
+        "fix": "I = V / R"
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Ohm's law is I = V / R = 12 / 4 = 3 A. Multiplying gives 48, which is nonsense.",
+      "hint": "V = IR, so I = ?",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_006",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "ShortAnswer",
+      "situation": "The Nexus garden",
+      "prompt": "Plants turn light energy into chemical energy, the reverse of respiration. Name this process.",
+      "data": {
+        "accepted": [
+          "photosynthesis"
+        ],
+        "keywords": [
+          [
+            "photosynth",
+            "photo synthesis"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Photosynthesis: 6CO<sub>2</sub> + 6H<sub>2</sub>O + light -> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>.",
+      "hint": "Photo = light, synthesis = making.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_007",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Construction",
+      "situation": "The Core's power grid",
+      "prompt": "Rebuild the Nexus power chain from source to light.",
+      "data": {
+        "mode": "sequence",
+        "display": "chain",
+        "parts": [
+          "Bulb glows",
+          "Sunlight",
+          "Solar panel",
+          "Current flows",
+          "Wire"
+        ],
+        "sequence": [
+          "Sunlight",
+          "Solar panel",
+          "Current flows",
+          "Wire",
+          "Bulb glows"
+        ]
+      },
+      "fastSeconds": 16,
+      "timeLimit": 0,
+      "explanation": "Light -> panel converts to electrical -> current flows through wires -> bulb converts to light and heat.",
+      "hint": "Follow the energy.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "FI_MIX_008",
+      "arc": "TheCore",
+      "subject": "Mixed",
+      "concept": "Synthesis",
+      "difficulty": 5,
+      "type": "Prediction",
+      "situation": "Physics meets Code City",
+      "prompt": "The Source flips gravity off for one second in Code City. A data car was moving at 5 m/s. Without any force, it...",
+      "data": {
+        "options": [
+          "keeps going at 5 m/s in a straight line",
+          "stops instantly",
+          "speeds up forever",
+          "turns into binary"
+        ],
+        "answerIndex": 0,
+        "outcome": "Newton's first law even works on data cars.",
+        "anim": "rocket"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "No net force means no change in velocity: constant speed in a straight line.",
+      "hint": "Newton's first law.",
+      "teachingModule": "PH_ProjectileLab",
+      "needsTeacherReview": true
+    }
+  ]
+}

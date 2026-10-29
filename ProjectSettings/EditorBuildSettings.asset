@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Boot.unity
+    guid: 4b1c5e786d331f340b0b5a098bbc95f8
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Title.unity
+    guid: 6b3470c5ac7b82d45a89af3c5e086bca
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Benchmark.unity
+    guid: 91ec1ada4838ed042860d6b43b15d850
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Opening.unity
+    guid: ffbbe4e0bc124e246b643d3d767a3c00
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/WorldMap.unity
+    guid: d0e9a7660903a0945bfb304794882f1a
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/CodeCity_Hub.unity
+    guid: 655bf2a824c675b44b41cf9379186688
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/CodeCity_L1.unity
+    guid: 8fe7c2e773671314a9fc7ad40badc8b3
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/CodeCity_Boss.unity
+    guid: a5c88bcd6a3628c4486e910069aeae9d
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/PhysicsValley_Hub.unity
+    guid: 5a3a2eb813f336e4aa6043db70d9eed0
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/PhysicsValley_L1.unity
+    guid: 202146ce227d5874ab0159d7bf0f1588
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/PhysicsValley_Boss.unity
+    guid: 4800e2f680b54f946af139e5fa5eb111
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/ChemicalChaos_Hub.unity
+    guid: 2ff07c1778ac2a04cbddef465e9cb47b
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/ChemicalChaos_L1.unity
+    guid: 417e6e23d8ca60e4a98265fc22aec852
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/ChemicalChaos_Boss.unity
+    guid: 53818bb7c1b6fe241809d24a0137d3d0
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/BioZone_Hub.unity
+    guid: b21ee50facb02b34ea9e4a0c46a10673
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/BioZone_L1.unity
+    guid: ac09f490fb761cc428e93702c719b662
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/BioZone_Boss.unity
+    guid: d750f9426463d1540b0b013fbf1b8ad9
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/TheCore_L1.unity
+    guid: 273d5252d45e70d40b14f0dad89f6c27
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Arcs/TheCore_Boss.unity
+    guid: 0989d90b3d60d35488a106a90985507f
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Kanha_Final.unity
+    guid: ac9496e1de6a0db4592c56bc63d59359
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Ending.unity
+    guid: 3cfa2cfe9d31d614a929f1ca3ce25095
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Test/Test_Challenges.unity
+    guid: 18b2abef45e41f643831a57deb17f2dc
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Test/Test_Corruption.unity
+    guid: e077ca54ea64a7c4494d4fcdfbdb7fac
+  - enabled: 1
+    path: Assets/_Glitched/Scenes/Test/Test_Greybox.unity
+    guid: aea6a2e1966d7924281f9420ffecaf7c
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,24 @@
+GLITCHED
+Copyright (c) 2026 the GLITCHED team, DAV Public School, Defence Colony, Dehradun.
+All rights reserved.
+
+The source code, story, dialogue, voice recordings, character scans, original music, original sound
+effects, original textures and every other original part of this repository are the property of the
+GLITCHED team. You may view and read them (for example, to judge or study the project). You may not
+copy, modify, redistribute, publish, sell or build and distribute the game, in whole or in part,
+without written permission from the GLITCHED team.
+
+THIRD-PARTY MATERIAL
+Files made by other people keep their own licences and are NOT covered by the notice above. They are
+listed, with their authors and licences, in Docs/ASSET_CREDITS.md. In short:
+  - Quaternius, Kay Lousberg, Kenney, Poly Haven, ambientCG assets: CC0 (public domain).
+  - Realistic boss models from Sketchfab: CC BY 4.0, by the authors named in Docs/ASSET_CREDITS.md
+    and Assets/_Glitched/Art/Characters/BossesHQ/CREDITS.txt.
+  - Mixamo characters and animations: Adobe Mixamo terms.
+  - three.js (Server/public/vendor/three): MIT licence, see its LICENSE file.
+  - qrcode-generator by Kazuhiko Arase (Server/lib/vendor/qrcode.js): MIT licence, see the file header.
+  - Fonts (Chakra Petch, Russo One, Orbitron, JetBrains Mono, Hind, Bungee, OpenDyslexic, DejaVu):
+    SIL Open Font License / Bitstream Vera licence.
+  - Unity packages (TextMesh Pro and others): Unity Companion License.
+
+"QR Code" is a registered trademark of DENSO WAVE INCORPORATED.

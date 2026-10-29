@@ -1,0 +1,9 @@
+{
+  "port": 8080,
+  "discoveryPort": 47777,
+  "gameVersion": "1.0",
+  "setupFile": "../Builds/Installer/GLITCHED_Setup.exe",
+  "portableFile": "../Builds/Installer/GLITCHED_Portable.zip",
+  "screensDir": "../Docs/Screens/site",
+  "dataDir": "data"
+}

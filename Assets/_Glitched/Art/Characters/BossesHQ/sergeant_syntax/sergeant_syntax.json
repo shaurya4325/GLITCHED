@@ -1,0 +1,110 @@
+{
+ "height": 2.6410488774999976,
+ "width": 1.6145522594451904,
+ "depth": 2.00767982006073,
+ "min": [
+  -0.8673830628395081,
+  -1.4929544925689697,
+  -0.010163514874875546
+ ],
+ "max": [
+  0.7471691966056824,
+  0.5147253274917603,
+  2.630885362625122
+ ],
+ "actions": [
+  [
+   "attack",
+   30
+  ],
+  [
+   "cast",
+   30
+  ],
+  [
+   "death",
+   30
+  ],
+  [
+   "hit",
+   30
+  ],
+  [
+   "idle_loop",
+   30
+  ],
+  [
+   "victory",
+   30
+  ],
+  [
+   "walk_loop",
+   30
+  ]
+ ],
+ "meshes": 9,
+ "armatures": 1,
+ "tris": 39771,
+ "materials": {
+  "BackPack": {
+   "base": "sergeant_syntax_BackPack_base.png",
+   "normal": "sergeant_syntax_BackPack_normal.png",
+   "mr": "sergeant_syntax_BackPack_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Claws": {
+   "base": "sergeant_syntax_Claws_base.png",
+   "normal": "sergeant_syntax_Claws_normal.png",
+   "mr": "sergeant_syntax_Claws_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Leg_Unpainted": {
+   "base": "sergeant_syntax_Leg_Unpainted_base.png",
+   "normal": "sergeant_syntax_Leg_Unpainted_normal.png",
+   "mr": "sergeant_syntax_Leg_Unpainted_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Shotgun": {
+   "base": "sergeant_syntax_Shotgun_base.png",
+   "normal": "sergeant_syntax_Shotgun_normal.png",
+   "mr": "sergeant_syntax_Shotgun_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Shoulders_Unpainted": {
+   "base": "sergeant_syntax_Shoulders_Unpainted_base.png",
+   "normal": "sergeant_syntax_Shoulders_Unpainted_normal.png",
+   "mr": "sergeant_syntax_Shoulders_Unpainted_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Torso_Unpainted": {
+   "base": "sergeant_syntax_Torso_Unpainted_base.png",
+   "normal": "sergeant_syntax_Torso_Unpainted_normal.png",
+   "mr": "sergeant_syntax_Torso_Unpainted_mr.png",
+   "emission": "sergeant_syntax_Torso_Unpainted_emission.png",
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 1.0,
+   "alpha": true
+  }
+ }
+}

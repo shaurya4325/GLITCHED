@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_carbon_clump
+  m_EditorClassIdentifier: 
+  id: carbon_clump
+  displayName: CARBON CLUMP
+  tier: 0
+  arc: ChemicalChaos
+  concepts:
+  - Bonding
+  - Molecules
+  - Elements
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - FOUR-BOND FURY
+  - DIAMOND HARD HEADBUTT
+  taunts:
+  - I could be a DIAMOND. I choose violence.
+  - Four bonds and NOT ONE of them for you!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 7469156400067692215, guid: 395ca0a558c713c48ae36fc37d987fe2, type: 3}
+  height: 0.85
+  tint: {r: 0.15, g: 0.15, b: 0.18, a: 1}
+  placeholderShape: crystal
+  flying: 0
+  patrolDistance: 2.5

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_momentum_mite
+  m_EditorClassIdentifier: 
+  id: momentum_mite
+  displayName: MOMENTUM MITE
+  tier: 0
+  arc: PhysicsValley
+  concepts:
+  - Newton's Laws
+  - Work & Energy
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - INERTIA SLAM
+  - UNBALANCED FORCE
+  taunts:
+  - An object at rest stays AT REST! Like me! Forever!
+  - F = ME, A!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 6288681521589866944, guid: be3f5a8a0112f784f9fb0b55e92a43b4, type: 3}
+  height: 0.6
+  tint: {r: 1, g: 0.55, b: 0.2, a: 1}
+  placeholderShape: blob
+  flying: 0
+  patrolDistance: 2.5

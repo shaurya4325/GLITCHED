@@ -1,0 +1,50 @@
+{
+ "height": 2.3523346185684204,
+ "width": 2.153049945831299,
+ "depth": 1.7413160800933838,
+ "min": [
+  -1.0765300989151,
+  1.154024362564087,
+  0.9207614660263062
+ ],
+ "max": [
+  1.0765198469161987,
+  2.8953404426574707,
+  3.2730960845947266
+ ],
+ "actions": [
+  [
+   "idle_loop",
+   34
+  ],
+  [
+   "walk_loop",
+   34
+  ]
+ ],
+ "meshes": 2,
+ "armatures": 1,
+ "tris": 13156,
+ "materials": {
+  "MAIN_MATERIALIS": {
+   "base": "lord_within_MAIN_MATERIALIS_base.png",
+   "normal": "lord_within_MAIN_MATERIALIS_normal.png",
+   "mr": "lord_within_MAIN_MATERIALIS_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "WINGS": {
+   "base": "lord_within_WINGS_base.png",
+   "normal": null,
+   "mr": null,
+   "emission": null,
+   "metallic": 0.0,
+   "roughness": 0.3400000035762787,
+   "emissive": 0.0,
+   "alpha": true
+  }
+ }
+}

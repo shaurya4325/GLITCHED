@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd8fdc98a560df41b5f7afb303aa1f7, type: 3}
+  m_Name: Boss_lord_of_the_lab
+  m_EditorClassIdentifier: 
+  id: lord_of_the_lab
+  displayName: THE LORD OF THE LAB
+  tier: 3
+  arc: ChemicalChaos
+  concepts: []
+  preferredTypes: 
+  maxHP: 500
+  attackDamage: 25
+  challengesToDefeat: 1
+  rewardXP: 500
+  rewardCoins: 100
+  attackNames:
+  - IONIC BREAKUP
+  - COVALENT CANCEL
+  - NOBLE SNUB
+  - EXOTHERMIC EXPLOSION
+  taunts:
+  - Bond? BOND? Not in MY lab!
+  - Mix it, shake it, watch it EXPLODE!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 4513620573465530264, guid: e4660f79bf019704cbf96d6958ab9324, type: 3}
+  height: 3.4
+  tint: {r: 0.3, g: 1, b: 0.4, a: 1}
+  placeholderShape: mech
+  flying: 0
+  patrolDistance: 2.5
+  bossConcept: Bonding
+  phases:
+  - name: 01 RECALL
+    difficulty: 1
+    types: 010000000700000006000000
+    damage: 50
+    line: 
+    concept: 
+  - name: 02 ANALYSIS
+    difficulty: 2
+    types: 030000000000000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 03 REASONING
+    difficulty: 3
+    types: 010000000200000007000000
+    damage: 75
+    line: 
+    concept: 
+  - name: 04 APPLICATION
+    difficulty: 4
+    types: 05000000040000000900000000000000
+    damage: 100
+    line: 
+    concept: 
+  - name: '05 SYNTHESIS: THE FINAL TEST'
+    difficulty: 5
+    types: 
+    damage: 0
+    line: 
+    concept: 
+  regenOnWrong: 40
+  introLines:
+  - Welcome to my LAB-oratory! The 'oratory' is where I give speeches.
+  - I taught every element to REFUSE to bond. No more water! No more salt! Only CHAOS!
+  - Chemistry? I prefer CHAOS-try.
+  finalDefeatLine: NO... YOU UNDERSTOOD THE SYSTEM!
+  hintTaunts:
+  - Count the valence electrons, genius. Oxygen wants TWO. Not one. TWO.
+  - Sodium GIVES. Chlorine TAKES. It's practically a soap opera.
+  teachingLines:
+  - '*sigh* Fine. Lab safety lecture. Goggles ON.'
+  - Atoms bond to fill their outer shell. Drag some together. Watch them... ugh...
+    get along.
+  - See how carbon grabs four hydrogens? Disgusting teamwork. Now try it yourself.
+  rematchLine: SHOW ME WHAT YOU LEARNED.
+  profile: {fileID: 11400000, guid: a0f13ab860c942745b5eb9849ead1be2, type: 2}

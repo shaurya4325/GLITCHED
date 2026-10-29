@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2adb862ff040fd4098e91c68512fe62, type: 3}
+  m_Name: Theme_ChemicalChaos
+  m_EditorClassIdentifier: 
+  id: ChemicalChaos
+  fogCorrupted: {r: 0.42, g: 0.7, b: 0.54, a: 1}
+  ambientSkyCorrupted: {r: 0.38, g: 0.62, b: 0.58, a: 1}
+  ambientEquatorCorrupted: {r: 0.42, g: 0.58, b: 0.3, a: 1}
+  ambientGroundCorrupted: {r: 0.22, g: 0.18, b: 0.15, a: 1}
+  sunCorrupted: {r: 0.9, g: 1, b: 0.55, a: 1}
+  accentCorrupted: {r: 0.45, g: 1, b: 0.3, a: 1}
+  skyCorrupted: {fileID: 2800000, guid: 4ac6bd034a3920a489163ac9a04d5a61, type: 3}
+  skyTintCorrupted: {r: 0.8, g: 0.9, b: 0.75, a: 1}
+  fogRestored: {r: 0.68, g: 0.84, b: 1, a: 1}
+  ambientSkyRestored: {r: 0.5, g: 0.68, b: 1.05, a: 1}
+  ambientEquatorRestored: {r: 0.6, g: 0.6, b: 0.56, a: 1}
+  ambientGroundRestored: {r: 0.34, g: 0.29, b: 0.22, a: 1}
+  sunRestored: {r: 1, g: 0.93, b: 0.8, a: 1}
+  accentRestored: {r: 0.35, g: 0.8, b: 1, a: 1}
+  skyRestored: {fileID: 2800000, guid: bc267fde58e30b04e8fbb25a59d20da9, type: 3}
+  skyTintRestored: {r: 0.95, g: 1, b: 1.08, a: 1}
+  fogStart: 70
+  fogEnd: 1000
+  fogDensity: 0.002
+  sunIntensityCorrupted: 2.3
+  sunIntensityRestored: 2.7
+  sunEuler: {x: 28, y: -38, z: 0}
+  skyExposure: 1.1
+  ambientParticles: dust
+  musicKey: explore_ChemicalChaos

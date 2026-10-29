@@ -1,0 +1,980 @@
+{
+  "arc": "BioZone",
+  "version": 1,
+  "questions": [
+    {
+      "id": "BI_CELL_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "A cell city",
+      "prompt": "Pair each organelle with its job.",
+      "data": {
+        "left": [
+          "Nucleus",
+          "Mitochondria",
+          "Ribosome",
+          "Cell membrane"
+        ],
+        "right": [
+          "holds DNA, controls the cell",
+          "powerhouse: releases energy (ATP)",
+          "makes proteins",
+          "controls what enters and leaves"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "The nucleus controls, mitochondria power, ribosomes build proteins, the membrane guards.",
+      "hint": "Which one is the 'powerhouse'?",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CELL_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A leaf cell",
+      "prompt": "Which of these is found in PLANT cells but NOT animal cells?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Cell wall",
+          "Nucleus",
+          "Mitochondria",
+          "Cell membrane"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Plant cells have a cellulose cell wall (and chloroplasts, a large vacuole); animal cells don't.",
+      "hint": "What makes plants stiff?",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CELL_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 1,
+      "type": "ShortAnswer",
+      "situation": "Microscopic world",
+      "prompt": "What is the basic structural and functional unit of life?",
+      "data": {
+        "accepted": [
+          "cell",
+          "the cell",
+          "cells"
+        ],
+        "keywords": [
+          [
+            "cell"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "The cell. All living things are made of one or more cells.",
+      "hint": "You're inside one right now.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CELL_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "A dividing cell",
+      "prompt": "The cell is dividing (mitosis). Put the stages in order.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Prophase",
+          "Metaphase",
+          "Anaphase",
+          "Telophase"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "PMAT: chromosomes condense (P), line up (M), separate (A), two nuclei form (T).",
+      "hint": "Remember 'PMAT'.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CELL_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 3,
+      "type": "Prediction",
+      "situation": "A blood cell's bad day",
+      "prompt": "A red blood cell is dropped into pure (distilled) water. What happens?",
+      "data": {
+        "options": [
+          "It swells and may burst (water enters by osmosis)",
+          "It shrinks",
+          "Nothing",
+          "It turns blue"
+        ],
+        "answerIndex": 0,
+        "outcome": "Water rushes in by osmosis: the cell swells... POP.",
+        "anim": "osmosis"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Pure water is hypotonic, so water moves INTO the cell by osmosis and it can burst (haemolysis).",
+      "hint": "Water moves to where there's more solute.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CELL_006",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cells",
+      "difficulty": 4,
+      "type": "Matching",
+      "situation": "The cell's factory floor",
+      "prompt": "Pair each organelle with its job.",
+      "data": {
+        "left": [
+          "Chloroplast",
+          "Lysosome",
+          "Golgi apparatus",
+          "Vacuole"
+        ],
+        "right": [
+          "photosynthesis",
+          "digests waste ('suicide bag')",
+          "packages and ships proteins",
+          "stores water and nutrients"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Chloroplasts make food, lysosomes digest, Golgi packages, vacuoles store.",
+      "hint": "Golgi is the cell's post office.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_BODY_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Human Body",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "The body map",
+      "prompt": "Pair each organ with its job.",
+      "data": {
+        "left": [
+          "Heart",
+          "Lungs",
+          "Kidneys",
+          "Brain"
+        ],
+        "right": [
+          "pumps blood",
+          "exchanges gases",
+          "filter blood, make urine",
+          "control centre"
+        ]
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Organs work in systems to keep the body alive.",
+      "hint": "Start with the one you're surest of.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_BODY_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Human Body",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A food capsule's journey",
+      "prompt": "Trace a bite of food. Put the organs in order.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Mouth",
+          "Oesophagus",
+          "Stomach",
+          "Small intestine",
+          "Large intestine"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Mouth -> oesophagus -> stomach -> small intestine (absorption) -> large intestine (water).",
+      "hint": "Top to bottom.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_BODY_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Human Body",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "The filter station",
+      "prompt": "What is the structural and functional unit of the kidney?",
+      "data": {
+        "accepted": [
+          "nephron",
+          "nephrons"
+        ],
+        "keywords": [
+          [
+            "nephron"
+          ]
+        ],
+        "placeholder": "one word"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The nephron filters blood and forms urine; each kidney has about a million.",
+      "hint": "It starts with 'neph-', like nephrology.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_BODY_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Human Body",
+      "difficulty": 4,
+      "type": "Logic",
+      "situation": "The mouth gate",
+      "prompt": "Which enzyme in saliva starts digesting starch?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Salivary amylase (ptyalin)",
+          "Pepsin",
+          "Lipase",
+          "Trypsin"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Salivary amylase breaks starch into maltose in the mouth. Pepsin works on proteins in the stomach.",
+      "hint": "Amyl- means starch.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_BODY_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Human Body",
+      "difficulty": 3,
+      "type": "Simulation",
+      "situation": "An enzyme reactor",
+      "prompt": "Heat the enzyme bath and watch the activity. At about what temperature is the enzyme MOST active?",
+      "data": {
+        "sim": "enzyme",
+        "mode": "read",
+        "sliders": [
+          {
+            "id": "T",
+            "label": "Temperature",
+            "min": 0,
+            "max": 80,
+            "step": 1,
+            "value": 10,
+            "unit": "°C"
+          }
+        ],
+        "options": [
+          "About 37 °C (body temperature)",
+          "0 °C",
+          "80 °C",
+          "It's the same at every temperature"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "Human enzymes work best near 37 °C. Too hot and they denature (lose shape); too cold and they're slow.",
+      "hint": "Your body's own temperature.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A DNA ladder",
+      "prompt": "DNA bases always pair up as...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "A–T and G–C",
+          "A–G and T–C",
+          "A–C and G–T",
+          "A–A and G–G"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Adenine pairs with thymine, guanine with cytosine.",
+      "hint": "Apple in the Tree, Car in the Garage.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 2,
+      "type": "DragDrop",
+      "situation": "A broken DNA ladder",
+      "prompt": "Repair the broken DNA strand. Drag the complementary bases.",
+      "data": {
+        "template": "A–{0}   T–{1}   G–{2}   C–{3}",
+        "items": [
+          "A",
+          "T",
+          "G",
+          "C"
+        ],
+        "reuse": true,
+        "answer": [
+          1,
+          0,
+          3,
+          2
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "A pairs with T, G pairs with C.",
+      "hint": "A–T, G–C.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "Mendel's pea garden",
+      "prompt": "Tt x Tt (T = tall, dominant). What PERCENTAGE of offspring are tall?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "%",
+        "givens": [
+          "Punnett square: TT, Tt, tT, tt"
+        ],
+        "value": 75
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "TT, Tt, Tt are tall; tt is short. 3 out of 4 = 75%.",
+      "hint": "Draw the 2x2 Punnett square.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 4,
+      "type": "Numerical",
+      "situation": "A test cross",
+      "prompt": "Tt x tt. What PERCENTAGE of offspring are dwarf (tt)?",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "%",
+        "givens": [
+          "Tt gives T or t",
+          "tt gives only t"
+        ],
+        "value": 50
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Offspring are Tt, Tt, tt, tt: half are dwarf, 50%. This is a test cross.",
+      "hint": "One parent can only give t.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "A portrait in the gene vault",
+      "prompt": "Who is called the 'Father of Genetics'?",
+      "data": {
+        "accepted": [
+          "mendel",
+          "gregor mendel",
+          "gregor johann mendel"
+        ],
+        "keywords": [
+          [
+            "mendel"
+          ]
+        ],
+        "placeholder": "name"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Gregor Mendel, from his experiments on pea plants.",
+      "hint": "He grew peas.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_GEN_006",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Genetics",
+      "difficulty": 5,
+      "type": "Numerical",
+      "situation": "The Lord Within's code",
+      "prompt": "FINAL TEST: Dihybrid cross RrYy x RrYy. Out of 16 offspring, how many show BOTH recessive traits (rryy)?",
+      "data": {
+        "tolerance": 0,
+        "unit": "of 16",
+        "givens": [
+          "ratio 9 : 3 : 3 : 1"
+        ],
+        "value": 1
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "The dihybrid ratio is 9:3:3:1, and the double recessive is the 1.",
+      "hint": "Remember 9 : 3 : 3 : 1.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_RESP_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Respiration",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A gasping cell",
+      "prompt": "Aerobic respiration releases energy from glucose using...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "oxygen",
+          "nitrogen",
+          "only carbon dioxide",
+          "no gas at all"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "Aerobic means with air (oxygen): glucose + oxygen -> CO<sub>2</sub> + water + energy.",
+      "hint": "Aero = air.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_RESP_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Respiration",
+      "difficulty": 2,
+      "type": "DragDrop",
+      "situation": "The energy furnace",
+      "prompt": "Complete the respiration equation.",
+      "data": {
+        "template": "Glucose + {0} -> Carbon dioxide + {1} + Energy",
+        "items": [
+          "Oxygen",
+          "Water",
+          "Nitrogen",
+          "Starch"
+        ],
+        "answer": [
+          0,
+          1
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> -> 6CO<sub>2</sub> + 6H<sub>2</sub>O + energy (ATP).",
+      "hint": "It's the reverse of photosynthesis.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_RESP_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Respiration",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "A muscle cramp",
+      "prompt": "During a sprint, muscles make lactic acid. This is...",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "anaerobic respiration",
+          "photosynthesis",
+          "aerobic respiration",
+          "digestion"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Without enough oxygen, muscles respire anaerobically: glucose -> lactic acid + a little energy. Hence cramps.",
+      "hint": "Not enough oxygen.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_RESP_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Respiration",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "Riding a breath",
+      "prompt": "Trace a breath of air. Put the airway in order.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Nose",
+          "Pharynx",
+          "Larynx",
+          "Trachea",
+          "Bronchi",
+          "Alveoli"
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Nose -> pharynx -> larynx -> trachea -> bronchi -> bronchioles -> alveoli (gas exchange).",
+      "hint": "The voice box comes before the windpipe.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_RESP_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Respiration",
+      "difficulty": 4,
+      "type": "ShortAnswer",
+      "situation": "The power plant",
+      "prompt": "In which organelle does aerobic respiration mainly happen?",
+      "data": {
+        "accepted": [
+          "mitochondria",
+          "mitochondrion",
+          "the mitochondria"
+        ],
+        "keywords": [
+          [
+            "mitochond"
+          ]
+        ],
+        "placeholder": "organelle"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Mitochondria: the 'powerhouse of the cell'.",
+      "hint": "The powerhouse.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A blood highway",
+      "prompt": "Which blood vessels carry blood AWAY from the heart?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Arteries",
+          "Veins",
+          "Capillaries",
+          "Nerves"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "Arteries = Away. Veins return blood to the heart.",
+      "hint": "A for Away.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A tired blood cell",
+      "prompt": "Trace deoxygenated blood coming back from the body.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Vena cava",
+          "Right atrium",
+          "Right ventricle",
+          "Pulmonary artery",
+          "Lungs"
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Body -> vena cava -> right atrium -> right ventricle -> pulmonary artery -> lungs (to pick up O<sub>2</sub>).",
+      "hint": "The RIGHT side of the heart handles used blood.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 3,
+      "type": "Matching",
+      "situation": "The blood river",
+      "prompt": "Pair each blood component with its job.",
+      "data": {
+        "left": [
+          "Red blood cells",
+          "White blood cells",
+          "Platelets",
+          "Plasma"
+        ],
+        "right": [
+          "carry oxygen (haemoglobin)",
+          "fight infection",
+          "help blood clot",
+          "liquid that carries nutrients"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "RBCs carry O<sub>2</sub>, WBCs defend, platelets clot, plasma transports.",
+      "hint": "Which one is the army?",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "The heart's control room",
+      "prompt": "The heart beats 72 times a minute and pumps 70 mL per beat. Cardiac output in mL/min?",
+      "data": {
+        "tolerance": 1,
+        "unit": "mL/min",
+        "givens": [
+          "cardiac output = heart rate x stroke volume"
+        ],
+        "value": 5040
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "72 x 70 = 5040 mL/min, about 5 litres every minute.",
+      "hint": "Multiply the two.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 4,
+      "type": "Simulation",
+      "situation": "A failing heart",
+      "prompt": "The organism needs 6 litres of blood per minute. Tune the heart, then RUN.",
+      "data": {
+        "sim": "heart",
+        "mode": "goal",
+        "sliders": [
+          {
+            "id": "hr",
+            "label": "Heart rate",
+            "min": 40,
+            "max": 180,
+            "step": 1,
+            "value": 60,
+            "unit": "bpm"
+          },
+          {
+            "id": "sv",
+            "label": "Stroke volume",
+            "min": 40,
+            "max": 120,
+            "step": 1,
+            "value": 60,
+            "unit": "mL"
+          }
+        ],
+        "goal": {
+          "metric": "co",
+          "min": 5.8,
+          "max": 6.2,
+          "unit": "L/min"
+        }
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "Cardiac output = heart rate x stroke volume. For example 80 bpm x 75 mL = 6000 mL = 6 L/min.",
+      "hint": "Multiply, then divide by 1000 for litres.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_006",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 5,
+      "type": "Logic",
+      "situation": "The Lord Within's blockade",
+      "prompt": "FINAL TEST: Trace oxygen from the lungs to a working muscle.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Lungs",
+          "Pulmonary vein",
+          "Left atrium",
+          "Left ventricle",
+          "Aorta",
+          "Muscle capillaries"
+        ]
+      },
+      "fastSeconds": 18,
+      "timeLimit": 0,
+      "explanation": "Lungs -> pulmonary vein -> left atrium -> left ventricle -> aorta -> arteries -> capillaries in the muscle.",
+      "hint": "Oxygen-rich blood uses the LEFT side.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_CIRC_007",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Circulation",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "Inside the heart",
+      "prompt": "How many chambers does the human heart have?",
+      "data": {
+        "tolerance": 0,
+        "unit": "chambers",
+        "value": 4
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "Four: two atria (top) and two ventricles (bottom).",
+      "hint": "Two up, two down.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_ECO_001",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Ecosystems",
+      "difficulty": 1,
+      "type": "Construction",
+      "situation": "A broken food chain",
+      "prompt": "Rebuild the broken food chain. Place the organisms in order, starting with the producer.",
+      "data": {
+        "mode": "sequence",
+        "display": "chain",
+        "parts": [
+          "Snake",
+          "Grass",
+          "Frog",
+          "Eagle",
+          "Grasshopper"
+        ],
+        "sequence": [
+          "Grass",
+          "Grasshopper",
+          "Frog",
+          "Snake",
+          "Eagle"
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Energy flows from producer -> herbivore -> carnivores: grass -> grasshopper -> frog -> snake -> eagle.",
+      "hint": "Start with the one that makes its own food.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_ECO_002",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Ecosystems",
+      "difficulty": 2,
+      "type": "Matching",
+      "situation": "The ecosystem dome",
+      "prompt": "Pair each role with an example.",
+      "data": {
+        "left": [
+          "Producer",
+          "Herbivore",
+          "Carnivore",
+          "Decomposer"
+        ],
+        "right": [
+          "Grass",
+          "Deer",
+          "Tiger",
+          "Fungi"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Producers make food, herbivores eat plants, carnivores eat animals, decomposers recycle the dead.",
+      "hint": "Who recycles?",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_ECO_003",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Ecosystems",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "An energy pyramid",
+      "prompt": "Producers hold 10,000 J. How much energy reaches the SECONDARY consumer? (10% law)",
+      "data": {
+        "tolerance": 0.5,
+        "unit": "J",
+        "givens": [
+          "only 10% passes to each next level"
+        ],
+        "value": 100
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "10,000 -> 1,000 (primary) -> 100 J (secondary).",
+      "hint": "Two steps of 10%.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_ECO_004",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Ecosystems",
+      "difficulty": 4,
+      "type": "Prediction",
+      "situation": "A vanishing pond",
+      "prompt": "Every frog in the pond suddenly vanishes. What happens to the insect population FIRST?",
+      "data": {
+        "options": [
+          "It increases",
+          "It decreases",
+          "It stays exactly the same",
+          "The insects turn into frogs"
+        ],
+        "answerIndex": 0,
+        "outcome": "No predators: the insects multiply. The whole web wobbles.",
+        "anim": "population"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Removing a predator lets its prey increase, then the effect ripples through the food web.",
+      "hint": "Who was eating the insects?",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "BI_ECO_005",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Ecosystems",
+      "difficulty": 3,
+      "type": "Simulation",
+      "situation": "A pondweed lab",
+      "prompt": "Shine light on the pondweed and count the oxygen bubbles. What happens as light keeps increasing?",
+      "data": {
+        "sim": "photo",
+        "mode": "read",
+        "sliders": [
+          {
+            "id": "light",
+            "label": "Light",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "value": 10,
+            "unit": "%"
+          },
+          {
+            "id": "co2",
+            "label": "CO<sub>2</sub>",
+            "min": 0.01,
+            "max": 0.1,
+            "step": 0.01,
+            "value": 0.04,
+            "unit": "%"
+          }
+        ],
+        "options": [
+          "Rises, then levels off (another factor becomes limiting)",
+          "Keeps rising forever",
+          "Falls",
+          "No change"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 20,
+      "timeLimit": 0,
+      "explanation": "Photosynthesis rises with light until another factor (CO<sub>2</sub> or temperature) limits it, so the curve flattens.",
+      "hint": "Watch the top of the graph.",
+      "teachingModule": "BI_FlowTrace",
+      "needsTeacherReview": true
+    }
+  ]
+}

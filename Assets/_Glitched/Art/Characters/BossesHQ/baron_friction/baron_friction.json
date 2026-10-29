@@ -1,0 +1,82 @@
+{
+ "height": 1.8699164767749608,
+ "width": 0.7885040640830994,
+ "depth": 0.8034411519765854,
+ "min": [
+  -0.3512466251850128,
+  -0.6196233034133911,
+  0.0035429815761744976
+ ],
+ "max": [
+  0.43725743889808655,
+  0.18381784856319427,
+  1.8734594583511353
+ ],
+ "actions": [
+  [
+   "idle_loop",
+   80
+  ]
+ ],
+ "meshes": 12,
+ "armatures": 1,
+ "tris": 29927,
+ "materials": {
+  "Body": {
+   "base": "baron_friction_Body_base.png",
+   "normal": "baron_friction_Body_normal.png",
+   "mr": "baron_friction_Body_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Glow": {
+   "base": null,
+   "color": [
+    0.0,
+    0.9647060036659241,
+    1.0,
+    1.0
+   ],
+   "normal": null,
+   "mr": null,
+   "emission": null,
+   "metallic": 0.0,
+   "roughness": 0.8929713368415833,
+   "emissive": 10.0,
+   "alpha": true
+  },
+  "Head": {
+   "base": "baron_friction_Head_base.png",
+   "normal": "baron_friction_Head_normal.png",
+   "mr": "baron_friction_Head_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "material": {
+   "base": "baron_friction_material_base.png",
+   "normal": "baron_friction_material_normal.png",
+   "mr": "baron_friction_material_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  },
+  "Secondary": {
+   "base": "baron_friction_Secondary_base.png",
+   "normal": "baron_friction_Secondary_normal.png",
+   "mr": "baron_friction_Secondary_mr.png",
+   "emission": null,
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 0.0,
+   "alpha": true
+  }
+ }
+}

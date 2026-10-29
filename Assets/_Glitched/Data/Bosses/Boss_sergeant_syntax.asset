@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd8fdc98a560df41b5f7afb303aa1f7, type: 3}
+  m_Name: Boss_sergeant_syntax
+  m_EditorClassIdentifier: 
+  id: sergeant_syntax
+  displayName: SERGEANT SYNTAX
+  tier: 2
+  arc: CodeCity
+  concepts: []
+  preferredTypes: 
+  maxHP: 300
+  attackDamage: 20
+  challengesToDefeat: 1
+  rewardXP: 250
+  rewardCoins: 40
+  attackNames:
+  - GLITCH STRIKE
+  taunts:
+  - IS THAT INDENTED? IS IT?!
+  - I've seen better code written by a TOASTER!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 1518683277209702902, guid: 63d4e20af14f21040847b364d0f1f1af, type: 3}
+  height: 2.9
+  tint: {r: 1, g: 0.3, b: 0.2, a: 1}
+  placeholderShape: robot
+  flying: 0
+  patrolDistance: 2.5
+  bossConcept: Conditions
+  phases:
+  - name: WARM-UP
+    difficulty: 1
+    types: 
+    damage: 80
+    line: 
+    concept: 
+  - name: ANALYSIS
+    difficulty: 2
+    types: 030000000600000000000000
+    damage: 100
+    line: 
+    concept: 
+  - name: FINAL BLOW
+    difficulty: 3
+    types: 
+    damage: 0
+    line: 
+    concept: 
+  regenOnWrong: 40
+  introLines:
+  - ATTENTION, RECRUIT! Your COLONS are a DISGRACE!
+  - Drop and give me twenty... lines of VALID PYTHON!
+  finalDefeatLine: At ease... recruit... your syntax... is... valid...
+  hintTaunts: []
+  teachingLines: []
+  rematchLine: SHOW ME WHAT YOU LEARNED.
+  profile: {fileID: 0}

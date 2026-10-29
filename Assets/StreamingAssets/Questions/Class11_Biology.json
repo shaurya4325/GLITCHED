@@ -1,0 +1,1248 @@
+{
+  "arc": "BioZone",
+  "version": 1,
+  "questions": [
+    {
+      "id": "XI_BIO_CELL_01",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which organelle is the site of aerobic respiration (ATP)?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "mitochondrion",
+          "ribosome",
+          "Golgi body",
+          "lysosome"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "The 'powerhouse of the cell'.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_02",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "'Omnis cellula-e cellula' was stated by:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Rudolf Virchow",
+          "Robert Hooke",
+          "M. Schleiden",
+          "T. Schwann"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Virchow (1855): every cell arises from a pre-existing cell.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_03",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Ribosomes in prokaryotic cells are:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "70S",
+          "80S",
+          "60S",
+          "90S"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Prokaryotes 70S; eukaryotic cytoplasm 80S.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_04",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which organelle is called the 'suicide bag'?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "lysosome",
+          "vacuole",
+          "nucleus",
+          "mitochondrion"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Its digestive enzymes can destroy the cell itself.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_05",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The fluid mosaic model of the membrane was given by:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Singer and Nicolson",
+          "Watson and Crick",
+          "Schleiden and Schwann",
+          "Robert Brown"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "In 1972.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_06",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which of these has NO membrane?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "ribosome",
+          "mitochondrion",
+          "chloroplast",
+          "Golgi body"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Ribosomes are made of RNA and protein only.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_07",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Plant cell walls are mainly made of:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "cellulose",
+          "chitin",
+          "protein",
+          "starch"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Fungal walls use chitin.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_08",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Prokaryotic cells do NOT have:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "a membrane-bound nucleus",
+          "ribosomes",
+          "a plasma membrane",
+          "DNA"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Their DNA lies in the cytoplasm (the nucleoid).",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CELL_09",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell: The Unit of Life",
+      "topic": "bio_cell",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which part of the nucleus makes ribosomal RNA?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "nucleolus",
+          "centriole",
+          "chromatin",
+          "nuclear pore"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The nucleolus is the site of rRNA synthesis.",
+      "hint": "All cells come from cells; mitochondria make ATP, ribosomes make proteins, the Golgi packs and lysosomes digest.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_01",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Gas exchange in the lungs happens in the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "alveoli",
+          "trachea",
+          "bronchi",
+          "larynx"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Thin walls + capillaries = fast diffusion.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_02",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "During inspiration, the diaphragm:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "contracts and flattens",
+          "relaxes and domes up",
+          "doesn't move",
+          "moves upward"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Flattening makes the chest bigger, so air flows in.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_03",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Normal tidal volume of a healthy adult is about:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "500 mL",
+          "50 mL",
+          "5000 mL",
+          "1 mL"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "That's one quiet breath.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_04",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Most of the oxygen in blood is carried:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "by haemoglobin",
+          "dissolved in plasma",
+          "as bicarbonate",
+          "by platelets"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "About 97% as oxyhaemoglobin in RBCs.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_05",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Most CO<sub>2</sub> is carried in the blood as:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "bicarbonate",
+          "carbaminohaemoglobin",
+          "dissolved CO<sub>2</sub>",
+          "oxyhaemoglobin"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "About 70% as HCO<sub>3</sub><sup>-</sup>.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_06",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The voice box is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "larynx",
+          "pharynx",
+          "trachea",
+          "epiglottis"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "It holds the vocal cords.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_07",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Gases cross the alveolar wall by:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "simple diffusion",
+          "active transport",
+          "osmosis",
+          "pinocytosis"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "No energy needed: high to low partial pressure.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_08",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The flap that stops food entering the windpipe is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "epiglottis",
+          "glottis",
+          "uvula",
+          "diaphragm"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It covers the glottis when you swallow.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_BREATH_09",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Breathing and Exchange of Gases",
+      "topic": "bio_breath",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The most air you can breathe out after the deepest breath in is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "vital capacity",
+          "tidal volume",
+          "residual volume",
+          "dead space"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "VC = ERV + TV + IRV.",
+      "hint": "Air ends up in the alveoli; breathing in = the diaphragm contracts; O<sub>2</sub> rides haemoglobin, CO<sub>2</sub> travels mostly as bicarbonate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_01",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The pacemaker of the heart is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "SA node",
+          "AV node",
+          "bundle of His",
+          "Purkinje fibres"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "It starts every heartbeat.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_02",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The universal donor blood group is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "O",
+          "AB",
+          "A",
+          "B"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Group O RBCs carry no A or B antigens.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_03",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The valve between the left atrium and left ventricle is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "bicuspid (mitral)",
+          "tricuspid",
+          "semilunar",
+          "pulmonary"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Tricuspid is on the right side.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_04",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "One cardiac cycle at 72 beats per minute lasts:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0.8 s",
+          "0.08 s",
+          "8 s",
+          "1.2 s"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "60 / 72 ≈ 0.8 s.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_05",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Pulmonary veins carry:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "oxygen-rich blood to the left atrium",
+          "oxygen-poor blood to the lungs",
+          "oxygen-rich blood to the body",
+          "lymph"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The one vein that carries oxygenated blood.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_06",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In an ECG, the QRS complex shows:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "ventricles depolarising",
+          "atria depolarising",
+          "ventricles recovering",
+          "the heart at rest"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "It marks the start of ventricular contraction.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_07",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The 'lub' sound is made when these close:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "the AV valves",
+          "the semilunar valves",
+          "the SA node",
+          "the aorta"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Tricuspid and bicuspid close at the start of ventricular systole.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_08",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Resting cardiac output of a healthy adult is about:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "5 L/min",
+          "500 mL/min",
+          "50 L/min",
+          "70 mL/min"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Stroke volume (70 mL) × heart rate (72).",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_CIRC_09",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Body Fluids and Circulation",
+      "topic": "bio_circ",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which blood cells help in clotting?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "platelets",
+          "RBCs",
+          "lymphocytes",
+          "neutrophils"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Platelets (thrombocytes) release clotting factors.",
+      "hint": "The SA node is the pacemaker; blood goes round twice (lungs, then body); arteries carry blood away from the heart, veins bring it back.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_01",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The part of the brain that keeps balance:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "cerebellum",
+          "cerebrum",
+          "medulla",
+          "pons"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "It coordinates movement and posture.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_02",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The resting membrane potential is about:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "−70 mV",
+          "+70 mV",
+          "0 mV",
+          "−7 V"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Inside negative, outside positive.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_03",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which ions rush IN during depolarisation?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Na<sup>+</sup>",
+          "K<sup>+</sup>",
+          "Cl<sup>-</sup>",
+          "Ca<sup>2+</sup>"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Na<sup>+</sup> channels open and sodium floods in.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_04",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The impulse jumping between nodes of Ranvier is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "saltatory",
+          "synaptic",
+          "passive",
+          "reflex"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Saltatory conduction ('saltare' = to jump).",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_05",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Breathing and heartbeat are controlled by the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "medulla",
+          "cerebrum",
+          "cerebellum",
+          "thalamus"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "The medulla oblongata runs these automatic functions.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_06",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The sodium–potassium pump moves:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "3 Na<sup>+</sup> out, 2 K<sup>+</sup> in",
+          "2 Na<sup>+</sup> out, 3 K<sup>+</sup> in",
+          "Na<sup>+</sup> in only",
+          "K<sup>+</sup> out only"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "It uses ATP to keep the resting potential.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_07",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A common neurotransmitter:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "acetylcholine",
+          "haemoglobin",
+          "insulin",
+          "keratin"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Released at synapses and neuromuscular junctions.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_08",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which part carries the impulse AWAY from the cell body?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "axon",
+          "dendrite",
+          "synapse",
+          "myelin"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Dendrites bring signals in; the axon sends them out.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_09",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Body temperature and hunger are regulated by the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "hypothalamus",
+          "cerebellum",
+          "medulla",
+          "spinal cord"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "It also controls the pituitary gland.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_NEURAL_10",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Neural Control",
+      "topic": "bio_neural",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The tiny gap between two neurons is the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "synaptic cleft",
+          "node of Ranvier",
+          "axon hillock",
+          "myelin sheath"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Neurotransmitters diffuse across it.",
+      "hint": "Dendrite → cell body → axon; at rest the inside is negative (about −70 mV); Na<sup>+</sup> rushing in = depolarisation; the cerebellum keeps balance.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_01",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "DNA replication happens in the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "S phase",
+          "G<sub>1</sub> phase",
+          "G<sub>2</sub> phase",
+          "M phase"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "S = synthesis (of DNA).",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_02",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Chromosomes line up at the equator during:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "metaphase",
+          "prophase",
+          "anaphase",
+          "telophase"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "The metaphase plate.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_03",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Mitosis produces:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2 identical cells (2n)",
+          "4 cells (n)",
+          "2 cells (n)",
+          "4 identical cells (2n)"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Equational division: same number, identical copies.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_04",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Crossing over happens during:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "pachytene of prophase I",
+          "metaphase II",
+          "anaphase of mitosis",
+          "interphase"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Homologous chromosomes swap segments.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_05",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A human body cell has 46 chromosomes. A sperm cell has:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "23",
+          "46",
+          "92",
+          "12"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Meiosis halves the number.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_06",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Sister chromatids separate during:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "anaphase",
+          "metaphase",
+          "prophase",
+          "interphase"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The spindle pulls them to opposite poles.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_07",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Cells that stop dividing enter the:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "G<sub>0</sub> phase",
+          "S phase",
+          "G<sub>2</sub> phase",
+          "M phase"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "A quiescent stage: alive and working, but not dividing.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_08",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Meiosis is called a reductional division because it:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "halves the chromosome number",
+          "shrinks the cell",
+          "destroys the DNA",
+          "reduces the number of cells"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2n → n.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_BIO_DIVISION_09",
+      "arc": "BioZone",
+      "subject": "Biology",
+      "concept": "Cell Cycle and Cell Division",
+      "topic": "bio_division",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The division of the cytoplasm is called:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "cytokinesis",
+          "karyokinesis",
+          "interkinesis",
+          "synapsis"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Karyokinesis is the division of the nucleus.",
+      "hint": "G<sub>1</sub> → S (DNA copies) → G<sub>2</sub> → M; mitosis keeps the chromosome number (2 identical cells), meiosis halves it (4 cells, with variation).",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    }
+  ]
+}

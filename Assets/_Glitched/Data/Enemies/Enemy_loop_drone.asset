@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_loop_drone
+  m_EditorClassIdentifier: 
+  id: loop_drone
+  displayName: LOOP DRONE
+  tier: 0
+  arc: CodeCity
+  concepts:
+  - Loops
+  - Boolean Logic
+  - Binary
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - WHILE TRUE BEAM
+  - BIT FLIP
+  taunts:
+  - BEEP. BEEP. BEEP. BEEP.
+  - 01011001 01001111 01010101!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 3327269337205725, guid: 57d667c2c5cd76148bf9c5655f805991, type: 3}
+  height: 0.55
+  tint: {r: 0.3, g: 0.8, b: 1, a: 1}
+  placeholderShape: robot
+  flying: 1
+  patrolDistance: 2.5

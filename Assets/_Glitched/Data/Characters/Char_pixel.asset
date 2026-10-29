@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 564bb7e62c5c3224ebc51c0972a7e22b, type: 3}
+  m_Name: Char_pixel
+  m_EditorClassIdentifier: 
+  id: pixel
+  displayName: Pixel
+  personality: A small floating cube-bot with one big screen-eye. Never fully explains
+    anything, delivers most of the comedy, and is completely unbothered that the
+    world is ending.
+  catchphrase: That's a very long story.
+  failureReaction: Don't worry. I've seen worse. Not recently. But I have.
+  idleStyle: bob
+  modelPrefab: {fileID: 0}
+  height: 0.45
+  animator: {fileID: 0}
+  humanoid: 0
+  primaryColor: {r: 0.25, g: 0.9, b: 1, a: 1}
+  secondaryColor: {r: 0.1, g: 0.12, b: 0.18, a: 1}
+  skinColor: {r: 0.86, g: 0.66, b: 0.52, a: 1}
+  faceFolder: Faces/Pixel
+  useFaceDecal: 0
+  toonOutline: 1
+  signatureSound: {fileID: 0}
+  voicePitch: 1.8
+  voiceBlipKey: blip_pixel

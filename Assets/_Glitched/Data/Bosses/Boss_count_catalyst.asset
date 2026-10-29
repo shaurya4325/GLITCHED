@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd8fdc98a560df41b5f7afb303aa1f7, type: 3}
+  m_Name: Boss_count_catalyst
+  m_EditorClassIdentifier: 
+  id: count_catalyst
+  displayName: COUNT CATALYST
+  tier: 2
+  arc: ChemicalChaos
+  concepts: []
+  preferredTypes: 
+  maxHP: 300
+  attackDamage: 20
+  challengesToDefeat: 1
+  rewardXP: 250
+  rewardCoins: 40
+  attackNames:
+  - GLITCH STRIKE
+  taunts:
+  - YOU CAN'T FIX MY CODE!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 3874823851048640948, guid: e4edc20eeb7f5f44da565fced848fc07, type: 3}
+  height: 2.6
+  tint: {r: 0.4, g: 1, b: 0.6, a: 1}
+  placeholderShape: ghost
+  flying: 0
+  patrolDistance: 2.5
+  bossConcept: Reactions
+  phases:
+  - name: WARM-UP
+    difficulty: 1
+    types: 
+    damage: 80
+    line: 
+    concept: 
+  - name: ANALYSIS
+    difficulty: 2
+    types: 030000000600000000000000
+    damage: 100
+    line: 
+    concept: 
+  - name: FINAL BLOW
+    difficulty: 3
+    types: 
+    damage: 0
+    line: 
+    concept: 
+  regenOnWrong: 40
+  introLines:
+  - IspeedEVERYTHINGupIamCountCatalystFIGHTmeQUICKLY!
+  - ...I'm not even used up by the reaction. Unlike you.
+  finalDefeatLine: Slowing... down... is this... equilibrium...?
+  hintTaunts: []
+  teachingLines: []
+  rematchLine: SHOW ME WHAT YOU LEARNED.
+  profile: {fileID: 0}

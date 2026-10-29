@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ce08f79962ee844ac03f1743e7c2a0, type: 3}
+  m_Name: Arc_ChemicalChaos
+  m_EditorClassIdentifier: 
+  id: ChemicalChaos
+  displayName: Chemical Chaos
+  subject: Chemistry
+  order: 2
+  theme: {fileID: 11400000, guid: 162ecbcff1ce5ba47af40ba07a0f9a87, type: 2}
+  concepts:
+  - Mole Concept
+  - Structure of Atom
+  - Chemical Bonding
+  - Periodic Trends
+  - Redox Reactions
+  - Atoms
+  - Elements
+  - Periodic Table
+  - Molecules
+  - Reactions
+  - Equations
+  - Bonding
+  emphasisTypes: 090000000600000000000000
+  levels:
+  - id: ChemicalChaos_Hub
+    scene: ChemicalChaos_Hub
+    displayName: Chemical Chaos Hub
+    kind: 0
+    next: ChemicalChaos_L1
+    requiredAbility: 
+  - id: ChemicalChaos_L1
+    scene: ChemicalChaos_L1
+    displayName: Beaker Towers
+    kind: 1
+    next: ChemicalChaos_Boss
+    requiredAbility: 
+  - id: ChemicalChaos_Boss
+    scene: ChemicalChaos_Boss
+    displayName: The Grand Reactor
+    kind: 2
+    next: 
+    requiredAbility: 
+  miniBoss: {fileID: 11400000, guid: 7fc6773e63f1989499960a8b91ec63bb, type: 2}
+  boss: {fileID: 11400000, guid: 0cef09e2744c0c2458913edab331d55c, type: 2}
+  abilityReward: wall_jump
+  cosmeticReward: goggles
+  tagline: A vast corrupted laboratory where the elements have become creatures with
+    opinions about what they will bond with.
+  arrivalLines:
+  - Chemical Chaos. Don't lick anything.
+  - Those element creatures used to be the periodic table. Now they're... the periodic
+    TANTRUM.
+  restoredLines:
+  - Everything's bonding again! Water is WET again!
+  - Chemical Chaos is now just... Chemistry. Neat and tidy.

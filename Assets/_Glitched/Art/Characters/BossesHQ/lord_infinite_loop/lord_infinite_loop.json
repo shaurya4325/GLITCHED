@@ -1,0 +1,63 @@
+{
+ "height": 5.113169498423304,
+ "width": 4.987181901931763,
+ "depth": 3.7192875146865845,
+ "min": [
+  -2.4935789108276367,
+  -1.4490231275558472,
+  -9.365061487187631e-06
+ ],
+ "max": [
+  2.493602991104126,
+  2.2702643871307373,
+  5.113160133361816
+ ],
+ "actions": [
+  [
+   "idle_loop",
+   0
+  ],
+  [
+   "walk_loop",
+   47
+  ]
+ ],
+ "meshes": 156,
+ "armatures": 1,
+ "tris": 86623,
+ "materials": {
+  "hands": {
+   "base": "count_catalyst_hands_base.png",
+   "normal": "count_catalyst_hands_normal.png",
+   "mr": "count_catalyst_hands_mr.png",
+   "emission": "count_catalyst_hands_emission.png",
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 1.0,
+   "alpha": true,
+   "occlusion": "count_catalyst_hands_ao.png"
+  },
+  "legs": {
+   "base": "count_catalyst_legs_base.png",
+   "normal": "count_catalyst_legs_normal.png",
+   "mr": "count_catalyst_legs_mr.png",
+   "emission": "count_catalyst_legs_emission.png",
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 1.0,
+   "alpha": true,
+   "occlusion": "count_catalyst_legs_ao.png"
+  },
+  "torso": {
+   "base": "count_catalyst_torso_base.png",
+   "normal": "count_catalyst_torso_normal.png",
+   "mr": "count_catalyst_torso_mr.png",
+   "emission": "count_catalyst_torso_emission.png",
+   "metallic": 1.0,
+   "roughness": 1.0,
+   "emissive": 1.0,
+   "alpha": true,
+   "occlusion": "count_catalyst_torso_ao.png"
+  }
+ }
+}

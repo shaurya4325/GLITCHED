@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2749393d14cc1ff47b6eb657e714ba6d, type: 3}
+  m_Name: UITheme
+  m_EditorClassIdentifier: 
+  displayFont: {fileID: 11400000, guid: 97e913980319a9f4abbb6e4bbd233e36, type: 2}
+  bodyFont: {fileID: 11400000, guid: 73944e88d2416d241bc079f9370305d9, type: 2}
+  monoFont: {fileID: 11400000, guid: 17d7681b47a417248a5440cf029aaec8, type: 2}
+  dyslexicFont: {fileID: 11400000, guid: 4113c6b9d3be1ed498aa6d4f8b8d5bd8, type: 2}
+  devanagariFont: {fileID: 11400000, guid: 1b0ed54586f2a784494a9aa39dfe55c1, type: 2}
+  panel: {r: 0.04, g: 0.05, b: 0.09, a: 0.94}
+  panelLight: {r: 0.09, g: 0.11, b: 0.18, a: 0.96}
+  cyan: {r: 0.25, g: 0.92, b: 1, a: 1}
+  magenta: {r: 1, g: 0.24, b: 0.78, a: 1}
+  yellow: {r: 1, g: 0.86, b: 0.25, a: 1}
+  green: {r: 0.35, g: 1, b: 0.55, a: 1}
+  red: {r: 1, g: 0.32, b: 0.35, a: 1}
+  text: {r: 0.93, g: 0.96, b: 1, a: 1}
+  textDim: {r: 0.6, g: 0.68, b: 0.8, a: 1}
+  code: {r: 0.07, g: 0.09, b: 0.14, a: 1}

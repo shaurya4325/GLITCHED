@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2adb862ff040fd4098e91c68512fe62, type: 3}
+  m_Name: Theme_TheCore
+  m_EditorClassIdentifier: 
+  id: TheCore
+  fogCorrupted: {r: 0.16, g: 0.12, b: 0.3, a: 1}
+  ambientSkyCorrupted: {r: 0.3, g: 0.26, b: 0.6, a: 1}
+  ambientEquatorCorrupted: {r: 0.36, g: 0.18, b: 0.44, a: 1}
+  ambientGroundCorrupted: {r: 0.1, g: 0.07, b: 0.14, a: 1}
+  sunCorrupted: {r: 0.55, g: 0.62, b: 1, a: 1}
+  accentCorrupted: {r: 0.9, g: 0.3, b: 1, a: 1}
+  skyCorrupted: {fileID: 2800000, guid: ab8e491a0e72a0b4ebd22df970752e6e, type: 3}
+  skyTintCorrupted: {r: 0.9, g: 0.85, b: 1.15, a: 1}
+  fogRestored: {r: 1, g: 0.72, b: 0.55, a: 1}
+  ambientSkyRestored: {r: 0.6, g: 0.62, b: 0.9, a: 1}
+  ambientEquatorRestored: {r: 0.82, g: 0.58, b: 0.46, a: 1}
+  ambientGroundRestored: {r: 0.34, g: 0.29, b: 0.22, a: 1}
+  sunRestored: {r: 1, g: 0.76, b: 0.5, a: 1}
+  accentRestored: {r: 0.25, g: 0.9, b: 1, a: 1}
+  skyRestored: {fileID: 2800000, guid: cccb036d643edc247ae25b5f4e682b79, type: 3}
+  skyTintRestored: {r: 0.95, g: 1, b: 1.08, a: 1}
+  fogStart: 70
+  fogEnd: 1800
+  fogDensity: 0.0009
+  sunIntensityCorrupted: 1.1
+  sunIntensityRestored: 2.4
+  sunEuler: {x: 12, y: -60, z: 0}
+  skyExposure: 1.1
+  ambientParticles: dust
+  musicKey: explore_TheCore

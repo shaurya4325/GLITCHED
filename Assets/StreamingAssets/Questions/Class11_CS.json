@@ -1,0 +1,1308 @@
+{
+  "arc": "CodeCity",
+  "version": 1,
+  "questions": [
+    {
+      "id": "XI_CS_BOOL_01",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A = 1, B = 0. What is A AND B?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "Undefined"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "AND gives 1 only when every input is 1.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_02",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which gate outputs 1 only when its two inputs are DIFFERENT?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "XOR",
+          "NAND",
+          "OR",
+          "NOR"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "XOR = 'exclusive OR': one or the other, not both.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_03",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "NOT (A OR B) is equal to:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "(NOT A) AND (NOT B)",
+          "(NOT A) OR (NOT B)",
+          "A AND B",
+          "NOT A OR B"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "De Morgan: negate each input and swap OR for AND.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_04",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Output of a NAND gate when both inputs are 1?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "11"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "NAND = NOT(AND). 1 AND 1 = 1, so NAND gives 0.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_05",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which gates are called 'universal gates'?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "NAND and NOR",
+          "AND and OR",
+          "XOR and NOT",
+          "AND and NOT"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Any logic circuit can be built from NAND gates alone, or from NOR gates alone.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_06",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "A truth table for 2 inputs has how many rows?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "8"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "n inputs give 2ⁿ combinations: 2<sup>2</sup> = 4.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_07",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "For which inputs does A OR B give 0?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "A = 0, B = 0",
+          "A = 1, B = 0",
+          "A = 0, B = 1",
+          "A = 1, B = 1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "OR is 0 only when every input is 0.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_08",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "By De Morgan's law, (A·B)' equals:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "A' + B'",
+          "A'·B'",
+          "A + B",
+          "A·B"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Break the bar, change the sign: AND becomes OR.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_BOOL_09",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "topic": "cs_bool",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which expression is ALWAYS 1, whatever A is?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "A OR (NOT A)",
+          "A AND (NOT A)",
+          "A XOR A",
+          "NOT 1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "One of A and NOT A is always 1, so their OR is always 1.",
+      "hint": "AND needs every input 1, OR needs any 1, XOR needs them to differ, and De Morgan swaps AND/OR when you negate.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_01",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What does print(7 // 2) display?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "3",
+          "3.5",
+          "4",
+          "1"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "// is floor division: 7 / 2 = 3.5, floored to 3.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_02",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What is the value of 7 % 3?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "2.33"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "% gives the remainder: 7 = 2 × 3 + 1.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_03",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which of these is a valid Python identifier?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "_total2",
+          "2total",
+          "total-2",
+          "for"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "No digit first, no '-', and 'for' is a keyword.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_04",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What type is the result of 5 / 5?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "float",
+          "int",
+          "bool",
+          "str"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "/ always returns a float: 5 / 5 = 1.0.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_05",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which data type is IMMUTABLE?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "tuple",
+          "list",
+          "dict",
+          "set"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "A tuple can't be changed after it's made; lists and dicts can.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_06",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Evaluate: 2 + 3 * 2 ** 2",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "14",
+          "100",
+          "22",
+          "20"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "** first (2<sup>2</sup> = 4), then 3 × 4 = 12, then 2 + 12 = 14.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_07",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which operator checks whether a value is present in a list?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "in",
+          "is",
+          "==",
+          "not"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Membership: 3 in [1, 2, 3] is True.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_08",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What is x after:  x = '5' + '3'",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "'53'",
+          "'8'",
+          "8",
+          "Error"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "+ on two strings joins them (concatenation).",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_PYTHON_09",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Python Basics",
+      "topic": "cs_python",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What is the output of print(type(True))?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "<class 'bool'>",
+          "<class 'str'>",
+          "<class 'int'>",
+          "True"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "True and False are Boolean literals.",
+      "hint": "/ always gives a float, // floors, % gives the remainder and ** binds tightest; identifiers can't start with a digit.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_01",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "How many numbers does this loop print?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "9"
+        ],
+        "answerIndex": 0,
+        "code": "for i in range(3, 9):\n    print(i)"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "range(3, 9) is 3, 4, 5, 6, 7, 8: six numbers (9 is excluded).",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_02",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What does list(range(2, 11, 3)) give?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "[2, 5, 8]",
+          "[2, 5, 8, 11]",
+          "[3, 6, 9]",
+          "[2, 3, 4]"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Start at 2, add 3 each time, stop before 11.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_03",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What prints?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "A",
+          "B",
+          "A then B",
+          "C"
+        ],
+        "answerIndex": 0,
+        "code": "x = 15\nif x > 10:\n    print('A')\nelif x > 5:\n    print('B')\nelse:\n    print('C')"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Only the FIRST true branch of an if-elif-else runs.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_04",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What prints?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "32",
+          "16",
+          "20",
+          "64"
+        ],
+        "answerIndex": 0,
+        "code": "n = 1\nwhile n < 20:\n    n = n * 2\nprint(n)"
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "n doubles 1, 2, 4, 8, 16, 32; 32 < 20 is False, so the loop stops and prints 32.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_05",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What prints?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1 2 4 5",
+          "1 2",
+          "1 2 3 4 5",
+          "3"
+        ],
+        "answerIndex": 0,
+        "code": "for i in range(1, 6):\n    if i == 3:\n        continue\n    print(i, end=' ')"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "continue skips only the round where i == 3.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_06",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What prints?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1 2",
+          "1 2 3",
+          "1 2 4 5",
+          "3"
+        ],
+        "answerIndex": 0,
+        "code": "for i in range(1, 6):\n    if i == 3:\n        break\n    print(i, end=' ')"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "break leaves the loop as soon as i == 3, before printing it.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_07",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "In Python, the statements inside an if-block are marked by:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "indentation",
+          "curly braces { }",
+          "the keyword end",
+          "semicolons"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Python uses indentation (usually 4 spaces) instead of braces.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_08",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What is printed?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "12",
+          "7",
+          "3",
+          "4"
+        ],
+        "answerIndex": 0,
+        "code": "count = 0\nfor i in range(3):\n    for j in range(4):\n        count += 1\nprint(count)"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The inner loop runs 4 times for each of the 3 outer rounds: 3 × 4 = 12.",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_FLOW_09",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Flow of Control",
+      "topic": "cs_flow",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which loop suits a repeat whose count you DON'T know in advance?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "while",
+          "for with range()",
+          "a nested for",
+          "none"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "while keeps going until a condition becomes False (e.g. until the user types 'quit').",
+      "hint": "range(stop) never includes stop; only the first true branch of if/elif runs; break exits a loop, continue skips a round.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_01",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "1011<sub>2</sub> in decimal is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "11",
+          "13",
+          "9",
+          "1011"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "8 + 0 + 2 + 1 = 11.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_02",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "13<sub>10</sub> in binary is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1101",
+          "1011",
+          "1110",
+          "1001"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "8 + 4 + 0 + 1 = 13.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_03",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "The hexadecimal digit F stands for:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "15",
+          "16",
+          "14",
+          "6"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "A = 10, B = 11 … F = 15.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_04",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "11111111<sub>2</sub> in decimal is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "255",
+          "256",
+          "127",
+          "128"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Eight 1s = 2<sup>8</sup> − 1 = 255.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_05",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "1010 1100<sub>2</sub> in hexadecimal is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "AC",
+          "CA",
+          "9C",
+          "A12"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "1010 = A and 1100 = C.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_06",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "17<sub>8</sub> in decimal is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "15",
+          "17",
+          "7",
+          "9"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "1 × 8 + 7 = 15.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_07",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "How many characters can 7-bit ASCII represent?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "128",
+          "256",
+          "127",
+          "7"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "2<sup>7</sup> = 128.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_08",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "ASCII 'A' is 65. What is 'C'?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "67",
+          "66",
+          "99",
+          "68"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Letters are consecutive: A 65, B 66, C 67.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_09",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which encoding covers Hindi, Tamil AND emoji?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "Unicode",
+          "ASCII",
+          "ISCII",
+          "Hex"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Unicode was designed to cover every writing system (and emoji).",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_10",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "How many bits are in one byte?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "8",
+          "4",
+          "16",
+          "2"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "1 byte = 8 bits.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_11",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Largest number with 4 bits?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "15",
+          "16",
+          "8",
+          "4"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "1111<sub>2</sub> = 2<sup>4</sup> − 1 = 15.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_NUMSYS_12",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Number Systems",
+      "topic": "cs_numsys",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "2F<sub>16</sub> in decimal is:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "47",
+          "32",
+          "215",
+          "45"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "2 × 16 + 15 = 47.",
+      "hint": "Each binary place doubles (1, 2, 4, 8...); group bits in 3s for octal and 4s for hexadecimal; ASCII 'A' = 65.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_01",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "s = 'PYTHON'. What is s[1:4]?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "'YTH'",
+          "'PYT'",
+          "'YTHO'",
+          "'PYTH'"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Index 1 to 3: Y, T, H (the slice stops before 4).",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_02",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "s = 'PYTHON'. What is s[-1]?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "'N'",
+          "'P'",
+          "'O'",
+          "Error"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Negative indexes count from the end: -1 is the last character.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_03",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "L = [1, 2, 3]; L.append([4, 5]). What is len(L) now?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "append adds ONE item, here the whole list [4, 5]. extend would add two.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_04",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "'banana'.count('a') returns:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "6"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "b-a-n-a-n-a has three a's.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_05",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "Which statement causes an ERROR?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "s = 'cat'; s[0] = 'b'",
+          "L = [1]; L[0] = 2",
+          "s = 'cat' + 's'",
+          "L = [1] * 3"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Strings are immutable: you can't assign to s[0].",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_06",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "L = [5, 2, 9]. What does print(L.pop()) show?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "9",
+          "5",
+          "2",
+          "[5, 2]"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "pop() with no index removes and returns the LAST item.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_07",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "'hello world'.split() gives:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "['hello', 'world']",
+          "'helloworld'",
+          "['h', 'e', 'l', 'l', 'o']",
+          "('hello', 'world')"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "split() breaks the string at spaces into a list of words.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_08",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "'Nexus'.find('z') returns:",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "-1",
+          "0",
+          "None",
+          "Error"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "find() returns -1 when the text isn't there (index() would raise an error).",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "XI_CS_LISTS_09",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Strings & Lists",
+      "topic": "cs_lists",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "",
+      "prompt": "What does print([1, 2] * 2) show?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "[1, 2, 1, 2]",
+          "[2, 4]",
+          "[1, 2, 2]",
+          "Error"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "* repeats a list.",
+      "hint": "Indexes start at 0, negative ones count from the end, slices stop before 'stop'; strings can't be changed, lists can.",
+      "teachingModule": "",
+      "needsTeacherReview": true
+    }
+  ]
+}

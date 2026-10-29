@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378fde6ad9a5a9c45bbf2f3e564ed142, type: 3}
+  m_Name: Enemy_oxy_brute
+  m_EditorClassIdentifier: 
+  id: oxy_brute
+  displayName: OXY BRUTE
+  tier: 0
+  arc: ChemicalChaos
+  concepts:
+  - Bonding
+  - Reactions
+  preferredTypes: 
+  maxHP: 100
+  attackDamage: 15
+  challengesToDefeat: 1
+  rewardXP: 40
+  rewardCoins: 5
+  attackNames:
+  - OXIDISE!
+  - RUST RUSH
+  taunts:
+  - I need TWO electrons and I want them NOW!
+  - Everything rusts eventually!
+  hitLines:
+  - OW! THAT WAS CORRECT!
+  winLines:
+  - HA! WRONG!
+  defeatLines:
+  - I... was... deprecated...
+  modelPrefab: {fileID: 784457731598592009, guid: e9f55aae99cbc28479f637a5926e86d6, type: 3}
+  height: 0.9
+  tint: {r: 1, g: 0.2, b: 0.2, a: 1}
+  placeholderShape: spiky
+  flying: 0
+  patrolDistance: 2.5

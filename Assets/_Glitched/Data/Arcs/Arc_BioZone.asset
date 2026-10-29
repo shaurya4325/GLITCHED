@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ce08f79962ee844ac03f1743e7c2a0, type: 3}
+  m_Name: Arc_BioZone
+  m_EditorClassIdentifier: 
+  id: BioZone
+  displayName: Bio-Zone
+  subject: Biology
+  order: 3
+  theme: {fileID: 11400000, guid: a189d1787cead5f4c85546ce08dc33eb, type: 2}
+  concepts:
+  - 'Cell: The Unit of Life'
+  - Breathing and Exchange of Gases
+  - Body Fluids and Circulation
+  - Neural Control
+  - Cell Cycle and Cell Division
+  - Cells
+  - Human Body
+  - Genetics
+  - Respiration
+  - Circulation
+  - Ecosystems
+  emphasisTypes: 060000000800000005000000
+  levels:
+  - id: BioZone_Hub
+    scene: BioZone_Hub
+    displayName: Bio-Zone Hub
+    kind: 0
+    next: BioZone_L1
+    requiredAbility: 
+  - id: BioZone_L1
+    scene: BioZone_L1
+    displayName: Vessel Rapids
+    kind: 1
+    next: BioZone_Boss
+    requiredAbility: 
+  - id: BioZone_Boss
+    scene: BioZone_Boss
+    displayName: The Heart of the Matter
+    kind: 2
+    next: 
+    requiredAbility: 
+  miniBoss: {fileID: 11400000, guid: 4e62a3f92ed77f1468cb01d991e2306c, type: 2}
+  boss: {fileID: 11400000, guid: 6d80be2db95f84043be1d5c384ea9f04, type: 2}
+  abilityReward: shrink
+  cosmeticReward: duck
+  tagline: Shrunk to microscopic scale and dropped inside a living organism, where
+    the corruption is attacking the systems that keep it alive.
+  arrivalLines:
+  - We're... inside someone. Don't be weird about it.
+  - That pulsing? That's the heart. The Lord Within has moved in.
+  restoredLines:
+  - The heart's beating steady! The organism is HEALTHY!
+  - Bio-Zone restored. The patient will make a full recovery.

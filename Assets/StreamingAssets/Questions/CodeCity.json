@@ -1,0 +1,1098 @@
+{
+  "arc": "CodeCity",
+  "version": 1,
+  "questions": [
+    {
+      "id": "CS_BASIC_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Programming Basics",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A robot can't remember its own name",
+      "prompt": "Which of these is a VALID Python variable name?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "2fast",
+          "fast_2",
+          "fast-2",
+          "for"
+        ],
+        "answerIndex": 1
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "A name can't start with a digit, can't contain '-', and can't be a keyword like 'for'.",
+      "hint": "Rules: letters, digits and _ only, no digit first, no keywords.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BASIC_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Programming Basics",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "A broken help terminal",
+      "prompt": "Pair each built-in function with what it does.",
+      "data": {
+        "left": [
+          "print()",
+          "input()",
+          "len()",
+          "int()"
+        ],
+        "right": [
+          "shows output",
+          "reads what the user types",
+          "counts the items",
+          "converts to a whole number"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "print shows, input reads, len counts, int converts.",
+      "hint": "Read the function names as English words.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_VAR_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Variables",
+      "difficulty": 1,
+      "type": "Prediction",
+      "situation": "A vending machine counting coins",
+      "prompt": "What does the terminal print?",
+      "data": {
+        "code": "x = 5\nx = x + 3\nprint(x)",
+        "options": [
+          "5",
+          "3",
+          "8",
+          "x + 3"
+        ],
+        "answerIndex": 2,
+        "outcome": "x becomes 5 + 3 = 8",
+        "anim": "print_output"
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "x = x + 3 takes the OLD value of x (5), adds 3, and stores 8 back in x.",
+      "hint": "The right side is worked out first, then stored.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_VAR_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Variables",
+      "difficulty": 2,
+      "type": "Prediction",
+      "situation": "Two lifts swapped floors",
+      "prompt": "The glitch swapped two registers. What prints?",
+      "data": {
+        "code": "a, b = 4, 7\na, b = b, a\nprint(a, b)",
+        "options": [
+          "4 7",
+          "7 4",
+          "7 7",
+          "Error"
+        ],
+        "answerIndex": 1,
+        "outcome": "Python swaps both values at once: a = 7, b = 4",
+        "anim": "print_output"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "a, b = b, a evaluates the right side (7, 4) first, then assigns both together, so it swaps.",
+      "hint": "Work out the whole right side before assigning.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 1,
+      "type": "Prediction",
+      "situation": "A robot stuck laughing",
+      "prompt": "How many times does the robot laugh?",
+      "data": {
+        "code": "for i in range(3):\n    print('HA')",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "Forever"
+        ],
+        "answerIndex": 1,
+        "outcome": "range(3) gives 0, 1, 2 -> HA HA HA",
+        "anim": "print_output"
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "range(3) produces 0, 1 and 2: three values, so three HAs.",
+      "hint": "range(n) gives n values starting at 0.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 2,
+      "type": "Debugging",
+      "situation": "Robot repeats forever",
+      "prompt": "This loop should print 1 to 5 and then STOP. Tap the bug.",
+      "data": {
+        "lines": [
+          "i = 1",
+          "while i <= 5:",
+          "    print(i)",
+          "    i = i - 1"
+        ],
+        "answerIndex": 3,
+        "fix": "    i = i + 1"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "i goes DOWN (1, 0, -1 ...), so i <= 5 stays true forever: an infinite loop. It must be i = i + 1.",
+      "hint": "Which way does i move each time the loop runs?",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 2,
+      "type": "DragDrop",
+      "situation": "A lift that skips the top floor",
+      "prompt": "BUG MONSTER uses OFF-BY-ONE! This loop must print 1 to 5. Drag the correct range into the gap.",
+      "data": {
+        "template": "for i in range({0}):\n    print(i)",
+        "items": [
+          "1, 5",
+          "1, 6",
+          "0, 5",
+          "5"
+        ],
+        "answer": [
+          1
+        ]
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "range stops BEFORE the end value, so range(1, 6) gives 1, 2, 3, 4, 5.",
+      "hint": "range(start, stop) never includes stop.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_004",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 3,
+      "type": "Coding",
+      "situation": "A power meter that lost its count",
+      "prompt": "Rebuild the program so it prints the sum of 1 to 10. Arrange the blocks.",
+      "data": {
+        "mode": "arrange",
+        "lines": [
+          "total = 0",
+          "for n in range(1, 11):",
+          "    total = total + n",
+          "print(total)"
+        ],
+        "output": "55"
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Start the total at 0, add every n inside the loop, and print once AFTER the loop finishes.",
+      "hint": "Indented lines belong inside the loop.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_005",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 3,
+      "type": "Numerical",
+      "situation": "Counting glitched drones",
+      "prompt": "How many times does count go up?",
+      "data": {
+        "code": "count = 0\nfor i in range(2, 20, 3):\n    count += 1\nprint(count)",
+        "tolerance": 0,
+        "unit": "",
+        "value": 6
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "range(2, 20, 3) gives 2, 5, 8, 11, 14, 17: six values.",
+      "hint": "List the values: start at 2, jump by 3, stop before 20.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_006",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 4,
+      "type": "Coding",
+      "situation": "A malfunctioning robot",
+      "prompt": "Make the robot stop when its battery reaches 0. Fill the gap.",
+      "data": {
+        "mode": "blank",
+        "lines": [
+          "battery = 10",
+          "while ____:",
+          "    battery = battery - 1"
+        ],
+        "options": [
+          "battery > 0",
+          "battery == 0",
+          "battery < 0",
+          "True"
+        ],
+        "answerIndex": 0,
+        "output": "battery: 10 -> 0, loop ends"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "The loop should keep going WHILE there is charge left: battery > 0. 'True' would never stop.",
+      "hint": "A while loop runs as long as its condition is True.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_007",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 4,
+      "type": "Prediction",
+      "situation": "A star-printer gone wild",
+      "prompt": "How many stars does this nested loop print?",
+      "data": {
+        "code": "for i in range(3):\n    for j in range(2):\n        print('*', end='')",
+        "options": [
+          "5",
+          "6",
+          "3",
+          "2"
+        ],
+        "answerIndex": 1,
+        "outcome": "3 outer x 2 inner = 6 stars: ******",
+        "anim": "print_output"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "The inner loop runs fully (2 times) for each of the 3 outer runs: 3 x 2 = 6.",
+      "hint": "Multiply the counts of nested loops.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_008",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 2,
+      "type": "ShortAnswer",
+      "situation": "Lord Infinite Loop",
+      "prompt": "What do we call a loop whose condition NEVER becomes False?",
+      "data": {
+        "accepted": [
+          "infinite loop",
+          "endless loop",
+          "infinite"
+        ],
+        "keywords": [
+          [
+            "infinite",
+            "endless",
+            "never ending",
+            "forever",
+            "infinity"
+          ]
+        ],
+        "placeholder": "type your answer"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "An infinite loop never stops because its condition never becomes False, like Lord Infinite Loop himself.",
+      "hint": "Think of the Lord's name.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_009",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 5,
+      "type": "Coding",
+      "situation": "Lord Infinite Loop's core",
+      "prompt": "FINAL TEST: Rebuild the GLITCH-counter. Multiples of 15 print GLITCH, multiples of 3 print GLI, others print the number.",
+      "data": {
+        "mode": "arrange",
+        "lines": [
+          "for n in range(1, 16):",
+          "    if n % 15 == 0:",
+          "        print('GLITCH')",
+          "    elif n % 3 == 0:",
+          "        print('GLI')",
+          "    else:",
+          "        print(n)"
+        ],
+        "output": "1 2 GLI 4 5 GLI 7 8 GLI 10 11 GLI 13 14 GLITCH"
+      },
+      "fastSeconds": 25,
+      "timeLimit": 0,
+      "explanation": "Check the most specific condition (15) first. If % 3 came first, 15 would print GLI and never GLITCH.",
+      "hint": "Order matters in if / elif: the first true branch wins.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_010",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 5,
+      "type": "Numerical",
+      "situation": "A self-copying virus",
+      "prompt": "What value of x leaks out of the loop?",
+      "data": {
+        "code": "x = 1\nfor i in range(5):\n    x = x * 2\nprint(x)",
+        "tolerance": 0,
+        "unit": "",
+        "value": 32
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "x doubles five times: 1 -> 2 -> 4 -> 8 -> 16 -> 32.",
+      "hint": "Track x after each turn of the loop.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_011",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 4,
+      "type": "Debugging",
+      "situation": "A launch countdown that never starts",
+      "prompt": "This countdown should print 5, 4, 3, 2, 1. Nothing prints! Tap the bug.",
+      "data": {
+        "lines": [
+          "for n in range(5, 0):",
+          "    print(n)"
+        ],
+        "answerIndex": 0,
+        "fix": "for n in range(5, 0, -1):"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "range(5, 0) counts UP from 5 and stops before 0, which is immediately empty. Counting down needs a step of -1.",
+      "hint": "Which direction does range count by default?",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_LOOP_012",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Loops",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "A lift that goes nowhere",
+      "prompt": "The lift loop runs while floor < 4, starting at floor 1 and going up 1 each time. Which floors does it visit inside the loop?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "1, 2, 3",
+          "1, 2, 3, 4",
+          "2, 3, 4",
+          "0, 1, 2, 3"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "It runs for 1, 2 and 3. When floor becomes 4 the condition 4 < 4 is False and the loop stops.",
+      "hint": "Test the condition each time BEFORE the body runs.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_COND_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Conditions",
+      "difficulty": 1,
+      "type": "Prediction",
+      "situation": "A broken weather tower",
+      "prompt": "The weather tower reads 35. What does it display?",
+      "data": {
+        "code": "temp = 35\nif temp > 30:\n    print('HOT')\nelse:\n    print('OK')",
+        "options": [
+          "HOT",
+          "OK",
+          "HOT OK",
+          "Nothing"
+        ],
+        "answerIndex": 0,
+        "outcome": "35 > 30 is True, so only HOT prints",
+        "anim": "print_output"
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "35 > 30 is True, so the if-branch runs and the else-branch is skipped.",
+      "hint": "Only one branch of if/else ever runs.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_COND_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Conditions",
+      "difficulty": 2,
+      "type": "Debugging",
+      "situation": "A jammed door",
+      "prompt": "The exam gate won't compile. Tap the broken line.",
+      "data": {
+        "lines": [
+          "marks = 75",
+          "if marks >= 33",
+          "    print('Pass')",
+          "else:",
+          "    print('Fail')"
+        ],
+        "answerIndex": 1,
+        "fix": "if marks >= 33:"
+      },
+      "fastSeconds": 7,
+      "timeLimit": 0,
+      "explanation": "Every if statement must end with a colon ':'.",
+      "hint": "Look at the end of each line that opens a block.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_COND_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Conditions",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "Traffic light logic",
+      "prompt": "x = 15. Which output appears?",
+      "data": {
+        "mode": "choice",
+        "code": "if x > 20: print('A')\nelif x > 10: print('B')\nelif x > 5: print('C')\nelse: print('D')",
+        "options": [
+          "A",
+          "B",
+          "B C",
+          "C"
+        ],
+        "answerIndex": 1
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "15 > 10 is the first TRUE test, so B prints and the rest of the chain is skipped, even though 15 > 5 is also true.",
+      "hint": "In an if/elif chain, only the FIRST true branch runs.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_COND_004",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Conditions",
+      "difficulty": 4,
+      "type": "Coding",
+      "situation": "A calendar that lost a day",
+      "prompt": "Fix the calendar terminal: it should say 'Leap year' correctly.",
+      "data": {
+        "mode": "blank",
+        "lines": [
+          "year = 2024",
+          "if ____:",
+          "    print('Leap year')"
+        ],
+        "options": [
+          "year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)",
+          "year % 4 == 0 or year % 100 == 0",
+          "year / 4 == 0",
+          "year % 400 == 4"
+        ],
+        "answerIndex": 0,
+        "output": "Leap year"
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Leap years divide by 4, except century years, which must also divide by 400 (2000 yes, 1900 no).",
+      "hint": "Remember the century rule.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BOOL_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A security gate",
+      "prompt": "Repair the AND gate's truth table. Tap the ? cells to set 0 or 1.",
+      "data": {
+        "mode": "truth",
+        "headers": [
+          "A",
+          "B",
+          "A and B"
+        ],
+        "rows": [
+          [
+            "0",
+            "0",
+            "?"
+          ],
+          [
+            "0",
+            "1",
+            "?"
+          ],
+          [
+            "1",
+            "0",
+            "?"
+          ],
+          [
+            "1",
+            "1",
+            "?"
+          ]
+        ],
+        "answers": [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "AND is 1 only when BOTH inputs are 1.",
+      "hint": "Both, or nothing.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BOOL_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "difficulty": 3,
+      "type": "Logic",
+      "situation": "A door that argues with itself",
+      "prompt": "What does the door controller evaluate?",
+      "data": {
+        "mode": "choice",
+        "code": "not (True and False) or False",
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answerIndex": 0
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "True and False = False; not False = True; True or False = True.",
+      "hint": "Brackets first, then not, then and, then or.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BOOL_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "difficulty": 3,
+      "type": "Construction",
+      "situation": "A data vault",
+      "prompt": "Build the lock rule: the vault opens only when KEYCARD is present AND the ALARM is NOT on. Place the blocks in order.",
+      "data": {
+        "mode": "sequence",
+        "display": "chain",
+        "parts": [
+          "KEYCARD",
+          "AND",
+          "NOT",
+          "ALARM",
+          "OR"
+        ],
+        "sequence": [
+          "KEYCARD",
+          "AND",
+          "NOT",
+          "ALARM"
+        ]
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "KEYCARD AND NOT ALARM: true only if the card is there and the alarm is off.",
+      "hint": "NOT goes right before the thing it flips.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BOOL_004",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Boolean Logic",
+      "difficulty": 4,
+      "type": "Logic",
+      "situation": "A toggle switch",
+      "prompt": "Repair the XOR gate. XOR outputs 1 when the inputs are DIFFERENT.",
+      "data": {
+        "mode": "truth",
+        "headers": [
+          "A",
+          "B",
+          "A xor B"
+        ],
+        "rows": [
+          [
+            "0",
+            "0",
+            "?"
+          ],
+          [
+            "0",
+            "1",
+            "?"
+          ],
+          [
+            "1",
+            "0",
+            "?"
+          ],
+          [
+            "1",
+            "1",
+            "?"
+          ]
+        ],
+        "answers": [
+          "0",
+          "1",
+          "1",
+          "0"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "XOR is exclusive OR: 1 when exactly one input is 1.",
+      "hint": "Same inputs give 0, different inputs give 1.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BIN_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Binary",
+      "difficulty": 1,
+      "type": "Numerical",
+      "situation": "A binary keypad",
+      "prompt": "The door code is binary 1011. Type it in decimal.",
+      "data": {
+        "tolerance": 0,
+        "unit": "",
+        "givens": [
+          "Place values: 8 4 2 1"
+        ],
+        "value": 11
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "1011 = 8 + 0 + 2 + 1 = 11.",
+      "hint": "Add the place values that have a 1.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BIN_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Binary",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "A data car's licence plate",
+      "prompt": "Write decimal 25 in binary (type only 0s and 1s).",
+      "data": {
+        "tolerance": 0,
+        "unit": "",
+        "givens": [
+          "Place values: 16 8 4 2 1"
+        ],
+        "value": 11001
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "25 = 16 + 8 + 1, so the bits are 1 1 0 0 1.",
+      "hint": "Take the biggest place value that fits, then repeat.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BIN_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Binary",
+      "difficulty": 2,
+      "type": "Matching",
+      "situation": "A memory warehouse",
+      "prompt": "Pair each unit of data with its size.",
+      "data": {
+        "left": [
+          "1 bit",
+          "1 nibble",
+          "1 byte",
+          "1 KB"
+        ],
+        "right": [
+          "a single 0 or 1",
+          "4 bits",
+          "8 bits",
+          "1024 bytes"
+        ]
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "bit < nibble (4 bits) < byte (8 bits) < kilobyte (1024 bytes).",
+      "hint": "A nibble is half a byte.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_BIN_004",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Binary",
+      "difficulty": 3,
+      "type": "DragDrop",
+      "situation": "A register reboot",
+      "prompt": "Set the bits so the register holds 13. Drag 0 or 1 into each slot.",
+      "data": {
+        "template": "8:{0}  4:{1}  2:{2}  1:{3}",
+        "items": [
+          "0",
+          "1"
+        ],
+        "reuse": true,
+        "answer": [
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "13 = 8 + 4 + 1, so 1101.",
+      "hint": "Which place values add up to 13?",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_ALGO_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Algorithms",
+      "difficulty": 2,
+      "type": "Logic",
+      "situation": "A broken scoreboard",
+      "prompt": "Put the steps of 'find the largest number in a list' in order.",
+      "data": {
+        "mode": "order",
+        "items": [
+          "Set max = the first item",
+          "Move to the next item",
+          "If this item > max, set max = this item",
+          "Repeat until the list ends",
+          "Output max"
+        ]
+      },
+      "fastSeconds": 16,
+      "timeLimit": 0,
+      "explanation": "Start with a guess, compare every item once, update when something bigger appears, output at the end.",
+      "hint": "You need a starting value before you can compare.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_ALGO_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Algorithms",
+      "difficulty": 4,
+      "type": "Numerical",
+      "situation": "Searching the city archive",
+      "prompt": "Binary search halves a sorted list each step. What is the SMALLEST number of halvings that shrinks 1000 items down to 1?",
+      "data": {
+        "tolerance": 0,
+        "unit": "steps",
+        "givens": [
+          "2^9 = 512",
+          "2^10 = 1024"
+        ],
+        "value": 10
+      },
+      "fastSeconds": 14,
+      "timeLimit": 0,
+      "explanation": "Each halving divides by 2. 2^10 = 1024 >= 1000, so 10 halvings are enough, and 9 (512) are not.",
+      "hint": "Find the smallest power of 2 that is at least 1000.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_ALGO_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Algorithms",
+      "difficulty": 3,
+      "type": "Prediction",
+      "situation": "A sorting conveyor",
+      "prompt": "The sorting bot runs. What is printed?",
+      "data": {
+        "code": "nums = [5, 2, 9, 1]\nnums.sort()\nprint(nums[0])",
+        "options": [
+          "5",
+          "1",
+          "9",
+          "2"
+        ],
+        "answerIndex": 1,
+        "outcome": "sorted -> [1, 2, 5, 9], first item is 1",
+        "anim": "print_output"
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "sort() arranges ascending: [1, 2, 5, 9]. Index 0 is the smallest: 1.",
+      "hint": "Index 0 is the first item AFTER sorting.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_ALGO_004",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Algorithms",
+      "difficulty": 2,
+      "type": "Numerical",
+      "situation": "Finding a lost NPC",
+      "prompt": "Linear search checks names one by one. In a list of 50 names, how many checks in the WORST case?",
+      "data": {
+        "tolerance": 0,
+        "unit": "checks",
+        "value": 50
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Worst case: the name is last (or missing), so all 50 are checked.",
+      "hint": "What if the name is at the very end?",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_DATA_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Data Types",
+      "difficulty": 1,
+      "type": "Matching",
+      "situation": "Sorting data packets",
+      "prompt": "Pair each value with its Python data type.",
+      "data": {
+        "left": [
+          "42",
+          "3.14",
+          "'Hello'",
+          "True"
+        ],
+        "right": [
+          "int",
+          "float",
+          "str",
+          "bool"
+        ]
+      },
+      "fastSeconds": 8,
+      "timeLimit": 0,
+      "explanation": "Whole number int, decimal float, text in quotes str, True/False bool.",
+      "hint": "Quotes always mean text.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_DATA_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Data Types",
+      "difficulty": 2,
+      "type": "Prediction",
+      "situation": "A data train",
+      "prompt": "What does the list terminal print?",
+      "data": {
+        "code": "nums = [10, 20, 30, 40]\nprint(nums[1] + nums[-1])",
+        "options": [
+          "30",
+          "50",
+          "60",
+          "70"
+        ],
+        "answerIndex": 2,
+        "outcome": "nums[1] = 20, nums[-1] = 40 -> 60",
+        "anim": "print_output"
+      },
+      "fastSeconds": 9,
+      "timeLimit": 0,
+      "explanation": "Index 1 is the SECOND item (20) and index -1 is the LAST item (40). 20 + 40 = 60.",
+      "hint": "Indexes start at 0; -1 counts from the end.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_DATA_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Data Types",
+      "difficulty": 3,
+      "type": "Debugging",
+      "situation": "A birthday bot",
+      "prompt": "The birthday bot crashes with a TypeError. Tap the bug.",
+      "data": {
+        "lines": [
+          "name = input('Name: ')",
+          "age = input('Age: ')",
+          "next_year = age + 1",
+          "print(name, next_year)"
+        ],
+        "answerIndex": 2,
+        "fix": "next_year = int(age) + 1"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "input() always returns text (str). Text + number is a TypeError, so convert with int(age) first.",
+      "hint": "What type does input() give back?",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_SEC_001",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Cybersecurity",
+      "difficulty": 1,
+      "type": "Logic",
+      "situation": "A password door",
+      "prompt": "Which password would survive the Glitch's guessing attack longest?",
+      "data": {
+        "mode": "choice",
+        "options": [
+          "password123",
+          "Aarav2009",
+          "T!g3r#Moon_88",
+          "qwerty"
+        ],
+        "answerIndex": 2
+      },
+      "fastSeconds": 6,
+      "timeLimit": 0,
+      "explanation": "Long passwords mixing upper/lower case, digits and symbols are hardest to guess. Names, dates and keyboard patterns are easy.",
+      "hint": "Length + variety = strength.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_SEC_002",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Cybersecurity",
+      "difficulty": 2,
+      "type": "Matching",
+      "situation": "The city's security wall",
+      "prompt": "Pair each cyber-term with its meaning.",
+      "data": {
+        "left": [
+          "Phishing",
+          "Malware",
+          "Firewall",
+          "Encryption"
+        ],
+        "right": [
+          "a fake message that tricks you into giving data",
+          "software designed to cause harm",
+          "filters network traffic using rules",
+          "scrambles data so only key-holders can read it"
+        ]
+      },
+      "fastSeconds": 12,
+      "timeLimit": 0,
+      "explanation": "Phishing tricks people, malware harms systems, firewalls filter, encryption scrambles.",
+      "hint": "Phishing sounds like fishing: it uses bait.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    },
+    {
+      "id": "CS_SEC_003",
+      "arc": "CodeCity",
+      "subject": "ComputerScience",
+      "concept": "Cybersecurity",
+      "difficulty": 3,
+      "type": "ShortAnswer",
+      "situation": "A suspicious hologram",
+      "prompt": "An email says: 'Your account is locked! Click here and type your password.' What kind of attack is this?",
+      "data": {
+        "accepted": [
+          "phishing",
+          "phishing attack"
+        ],
+        "keywords": [
+          [
+            "phishing",
+            "phish",
+            "fishing"
+          ]
+        ],
+        "placeholder": "name the attack"
+      },
+      "fastSeconds": 10,
+      "timeLimit": 0,
+      "explanation": "Phishing: a fake message pretending to be trustworthy, to steal passwords or data.",
+      "hint": "It uses bait.",
+      "teachingModule": "CS_LoopSandbox",
+      "needsTeacherReview": true
+    }
+  ]
+}
