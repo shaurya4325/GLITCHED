@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GLITCHED · Knowledge is your weapon</title>
+<meta name="description" content="GLITCHED: a 2.5D science adventure where every fight is won by what you know. CBSE Skill Expo 2026-27, DAV Public School, Defence Colony, Dehradun.">
+<meta name="theme-color" content="#05060d">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/site.css?v=2">
+<script src="js/static-config.js"></script>
+<script src="js/host.js"></script>
+<script type="module" src="js/site.js?v=2"></script>
+</head>
+<body>
+<div id="boot" aria-hidden="true">
+  <div class="boot-inner">
+    <div class="boot-logo glitch" data-text="GLITCHED">GLITCHED</div>
+    <pre class="boot-log" id="bootLog"></pre>
+    <div class="boot-bar"><i id="bootBar"></i></div>
+  </div>
+</div>
+
+<canvas id="world" aria-hidden="true"></canvas>
+<div class="scanlines" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="GLITCHED home"><span class="brand-mark"></span><span class="glitch" data-text="GLITCHED">GLITCHED</span></a>
+  <nav aria-label="Sections">
+    <a href="#story">Story</a>
+    <a href="#worlds">Worlds</a>
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#verify">Verified copies</a>
+    <a href="#install" class="nav-install">Install</a>
+  </nav>
+  <a class="nav-cta" href="#install">INSTALL</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false"><i></i><i></i></button>
+</header>
+
+<div class="progress-rail" aria-hidden="true"><i id="rail"></i></div>
+<ol class="world-dots" id="worldDots" aria-hidden="true"></ol>
+
+<main id="top">
+  <!-- ======================================================= HERO -->
+  <section class="hero" data-cam="0">
+    <p class="eyebrow"><span class="pulse"></span> <span id="eventName">CBSE Skill Expo 2026-27</span> · Category II (Classes 11–12)</p>
+    <h1 class="hero-title"><span class="glitch big" data-text="GLITCHED">GLITCHED</span></h1>
+    <p class="hero-tag">KNOWLEDGE IS YOUR <b>WEAPON</b></p>
+    <p class="hero-sub">A glitch broke out of Shaurya's screen and corrupted the world of science. Code, physics, chemistry and biology have all gone wrong. You can't win with a sword. You win by <em>knowing</em> things.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#install"><span>Get the game</span></a>
+      <a class="btn ghost" href="#worlds"><span>Enter the worlds ↓</span></a>
+    </div>
+    <dl class="ticker" id="ticker">
+      <div><dt>Verified copies</dt><dd data-stat="copies">–</dd></div>
+      <div><dt>Playing right now</dt><dd data-stat="online">–</dd></div>
+      <div><dt>Downloads</dt><dd data-stat="downloads">–</dd></div>
+      <div><dt>Questions</dt><dd>364</dd></div>
+    </dl>
+    <div class="scroll-hint" aria-hidden="true"><i></i>SCROLL</div>
+  </section>
+
+  <!-- ======================================================= STORY -->
+  <section id="story" class="panel story" data-cam="1">
+    <div class="card wide reveal">
+      <p class="kicker">// THE STORY</p>
+      <h2>The screen <span class="hl-m">cracked</span>. The glitch got <span class="hl-c">out</span>.</h2>
+      <div class="story-grid">
+        <p>It's the night before exams. Shaurya's monitor shatters, a living glitch tears out of it and spreads into the walls, the lights, <em>everything</em>, until the whole room lifts off the ground and he is pulled inside.</p>
+        <p>On the other side are the worlds of the CBSE syllabus, each run by a boss who broke its laws. Fix them with real science: debug Code City, put the laws of motion back, balance the reactions, and heal the body from the inside.</p>
+        <p>Then a portal opens onto the one place every student fears: an <b>exam hall</b>. Waiting at the front is <b class="hl-r">Kanha the Dard</b>, the final exam in person.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= WORLDS -->
+  <div id="worlds" class="worlds">
+    <section class="panel world" data-cam="2" data-world="Code City" style="--accent:#40ebff">
+      <div class="card reveal">
+        <p class="kicker">CHAPTER 1 · COMPUTER SCIENCE</p>
+        <h2>Code City</h2>
+        <p>A neon city where the streets run on logic, and the logic is full of bugs. Trace loops, fix syntax, convert binary and wire logic gates to bring the power back.</p>
+        <ul class="tags"><li>Loops &amp; conditions</li><li>Binary</li><li>Logic gates</li><li>Debugging</li></ul>
+        <p class="bosses"><span>Mini-boss</span> Sergeant Syntax <span>Boss</span> Lord Infinite Loop</p>
+      </div>
+    </section>
+    <section class="panel world right" data-cam="3" data-world="Physics Valley" style="--accent:#7cffa0">
+      <div class="card reveal">
+        <p class="kicker">CHAPTER 2 · PHYSICS</p>
+        <h2>Physics Valley</h2>
+        <p>Islands float because gravity has been switched off. Use motion, forces, friction and energy to put the laws of nature back where they belong.</p>
+        <ul class="tags"><li>Kinematics</li><li>Newton's laws</li><li>Friction</li><li>Work &amp; energy</li></ul>
+        <p class="bosses"><span>Mini-boss</span> Baron Von Friction <span>Boss</span> The Lord of Broken Laws</p>
+      </div>
+    </section>
+    <section class="panel world" data-cam="4" data-world="Chemical Chaos" style="--accent:#ffb84a">
+      <div class="card reveal">
+        <p class="kicker">CHAPTER 3 · CHEMISTRY</p>
+        <h2>Chemical Chaos</h2>
+        <p>Bubbling beaker towers and an unstable Grand Reactor. Balance equations, build bonds atom by atom and stop the chain reaction before it goes critical.</p>
+        <ul class="tags"><li>Atomic structure</li><li>Bonding</li><li>Mole concept</li><li>Reactions</li></ul>
+        <p class="bosses"><span>Mini-boss</span> Count Catalyst <span>Boss</span> The Lord of the Lab</p>
+      </div>
+    </section>
+    <section class="panel world right" data-cam="5" data-world="Bio-Zone" style="--accent:#ff5fa2">
+      <div class="card reveal">
+        <p class="kicker">CHAPTER 4 · BIOLOGY</p>
+        <h2>Bio-Zone</h2>
+        <p>Shrink down and ride the bloodstream. Trace the flow through the heart, fight infections cell by cell, and find out what's corrupting the body from inside.</p>
+        <ul class="tags"><li>Cells</li><li>Circulation</li><li>Digestion</li><li>Immunity</li></ul>
+        <p class="bosses"><span>Mini-boss</span> Professor Plaque <span>Boss</span> The Lord Within</p>
+      </div>
+    </section>
+    <section class="panel world" data-cam="6" data-world="The Core" style="--accent:#b36bff">
+      <div class="card reveal">
+        <p class="kicker">CHAPTER 5 · EVERYTHING</p>
+        <h2>The Core</h2>
+        <p>A broken mix of all four worlds, swapping around you without warning. Every subject at once, against the thing that started it all.</p>
+        <ul class="tags"><li>Mixed questions</li><li>Region swaps</li></ul>
+        <p class="bosses"><span>Boss</span> The Source</p>
+      </div>
+    </section>
+    <section class="panel world right" data-cam="7" data-world="Exam Hall" style="--accent:#ff3b4e">
+      <div class="card reveal">
+        <p class="kicker">THE FINAL EXAM</p>
+        <h2>The Exam Hall</h2>
+        <p>Rows of desks. A clock that won't stop ticking. Papers in the air. Everything you learned, against the final boss.</p>
+        <ul class="tags"><li>Every chapter</li><li>No hints</li></ul>
+        <p class="bosses"><span>Final boss</span> Kanha the Dard</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ======================================================= FEATURES -->
+  <section id="features" class="panel features" data-cam="8">
+    <div class="section-head reveal">
+      <p class="kicker">// WHAT'S INSIDE</p>
+      <h2>Everything in the game</h2>
+      <p>Not a quiz with a game skin on it. A real game where the learning <em>is</em> the gameplay.</p>
+    </div>
+    <div class="feature-grid" id="featureGrid"></div>
+  </section>
+
+  <!-- ======================================================= GALLERY -->
+  <section id="gallery" class="panel gallery" data-cam="9">
+    <div class="section-head reveal">
+      <p class="kicker">// SCREENSHOTS</p>
+      <h2>Straight from the game</h2>
+      <p>Drag to spin. Click to look closer.</p>
+    </div>
+    <div class="ring-stage" id="ringStage" tabindex="0" aria-label="Screenshot carousel. Use the left and right arrow keys.">
+      <div class="ring" id="ring"></div>
+    </div>
+    <p class="empty-note" id="galleryEmpty" hidden>Screenshots appear here once they are added to <code>Docs/Screens/site</code>.</p>
+  </section>
+
+  <!-- ======================================================= VERIFY -->
+  <section id="verify" class="panel verify" data-cam="10">
+    <div class="section-head reveal">
+      <p class="kicker">// VERIFIED COPIES ONLY</p>
+      <h2>Every copy checks in with this stall</h2>
+      <p>Anyone can download GLITCHED here, but it only opens once our team has scanned its QR code. A copied folder or a pendrive copy won't open on another PC.</p>
+    </div>
+    <ol class="steps">
+      <li class="reveal"><b>1</b><h3>Download</h3><p>Hold the install button below on a Windows PC. The setup is about 400 MB and installs in under a minute.</p></li>
+      <li class="reveal"><b>2</b><h3>Launch</h3><p>The game finds this stall on the Wi-Fi by itself and shows a QR code with a 6-letter code.</p></li>
+      <li class="reveal"><b>3</b><h3>Get scanned</h3><p>A GLITCHED team member scans it with the admin phone and chooses your access: Full, Judge or Demo.</p></li>
+      <li class="reveal"><b>4</b><h3>Play</h3><p>The game unlocks straight away and stays verified on that PC, even without the Wi-Fi, for a few days.</p></li>
+    </ol>
+    <p class="fine reveal">Each approval is digitally signed (RSA-2048) and tied to that PC's hardware. The team can change or remove access at any time from the admin page. <b>Install it at the exhibition:</b> a new copy has to be verified once at the GLITCHED stall.</p>
+  </section>
+
+  <!-- ======================================================= INSTALL -->
+  <section id="install" class="panel install" data-cam="11">
+    <div class="install-wrap">
+      <div class="install-copy reveal">
+        <p class="kicker">// INSTALL</p>
+        <h2>Inject GLITCHED into your PC</h2>
+        <p id="holdHint">Press and <b>hold</b> the core until it's full. The download starts by itself.</p>
+        <p class="phone-note" id="phoneNote" hidden></p>
+        <dl class="file-facts">
+          <div><dt>Version</dt><dd id="fVersion">1.0</dd></div>
+          <div><dt>Size</dt><dd id="fSize">–</dd></div>
+          <div><dt>For</dt><dd>Windows 10 / 11, 64-bit</dd></div>
+          <div class="wide"><dt>SHA-256</dt><dd><code id="fHash">calculating…</code></dd></div>
+        </dl>
+        <p class="alt-links"><span id="portableWrap" hidden><a href="/download/portable" id="portableLink">Portable ZIP</a> for PCs that block installers · </span><a href="/download/setup" id="directLink">Direct download link</a></p>
+      </div>
+
+      <div class="core-button-wrap">
+        <button class="core-button" id="coreButton" aria-describedby="coreHelp">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <linearGradient id="ringGrad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#40ebff"/><stop offset="1" stop-color="#ff3dc8"/></linearGradient>
+            </defs>
+            <circle class="track" cx="100" cy="100" r="86"/>
+            <circle class="ticks" cx="100" cy="100" r="96"/>
+            <circle class="fill" id="coreFill" cx="100" cy="100" r="86"/>
+          </svg>
+          <span class="core-orb" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="core-label" id="coreLabel">HOLD TO<br>INSTALL</span>
+          <span class="core-pct" id="corePct" aria-hidden="true"></span>
+        </button>
+        <p class="core-help" id="coreHelp">Hold with the mouse, a finger, or Space / Enter.</p>
+      </div>
+    </div>
+
+    <div class="specs reveal">
+      <div class="card">
+        <h3>System requirements</h3>
+        <table>
+          <tr><th></th><th>Minimum</th><th>Recommended</th></tr>
+          <tr><td>OS</td><td>Windows 10 64-bit</td><td>Windows 11</td></tr>
+          <tr><td>CPU</td><td>4 cores</td><td>6+ cores</td></tr>
+          <tr><td>RAM</td><td>4 GB</td><td>8 GB</td></tr>
+          <tr><td>Graphics</td><td>Intel UHD 620 (Potato / Low)</td><td>GTX 1050 or better (High / Ultra)</td></tr>
+          <tr><td>Disk</td><td colspan="2">1.2 GB free</td></tr>
+        </table>
+        <p class="fine">The game tests your PC on first launch and picks a quality level by itself. You can change it any time in Settings → Graphics, along with fullscreen or windowed.</p>
+      </div>
+      <div class="card">
+        <h3>Controls</h3>
+        <table class="keys">
+          <tr><td><kbd>A</kbd><kbd>D</kbd> / <kbd>←</kbd><kbd>→</kbd></td><td>Move</td></tr>
+          <tr><td><kbd>Space</kbd> / <kbd>W</kbd></td><td>Jump (hold for higher)</td></tr>
+          <tr><td><kbd>Shift</kbd></td><td>Dash</td></tr>
+          <tr><td><kbd>E</kbd></td><td>Talk / use</td></tr>
+          <tr><td><kbd>Q</kbd></td><td>Shrink (Bio-Zone)</td></tr>
+          <tr><td><kbd>1</kbd>–<kbd>4</kbd> / mouse</td><td>Answer</td></tr>
+          <tr><td><kbd>R</kbd> / <kbd>C</kbd></td><td>Rough paper / calculator</td></tr>
+          <tr><td><kbd>Esc</kbd></td><td>Pause</td></tr>
+        </table>
+        <p class="fine">Gamepads and touch screens work too. Keep a pen and a notebook with you!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================= CREDITS -->
+  <section id="credits" class="panel credits" data-cam="12">
+    <div class="card wide reveal">
+      <p class="kicker">// THE TEAM</p>
+      <h2>Made at DAV Public School, Defence Colony, Dehradun</h2>
+      <p>Design, story, programming and voices by the GLITCHED student team, for the <b>CBSE Skill Expo &amp; Guidance Festival 2026-27</b>.</p>
+      <div class="credit-cols">
+        <p><b>Engine</b><br>Unity 6 (URP), Cinemachine, Input System, TextMeshPro</p>
+        <p><b>3D models</b><br>Quaternius, Kay Lousberg, Kenney (CC0) · Mixamo · realistic bosses by Lagst, swds321, fletcherkinnear, RainOnTheMoon, jungle_jim, Tim0, SuperKapoo913, amzarraif99 (CC BY 4.0, Sketchfab)</p>
+        <p><b>Worlds</b><br>Poly Haven skies, ambientCG textures (CC0)</p>
+        <p><b>Sound</b><br>Kenney (CC0) · original score made for GLITCHED · voices recorded by the team</p>
+        <p><b>This website</b><br>three.js (MIT) · fonts: Chakra Petch, Russo One, Orbitron, JetBrains Mono (SIL OFL)</p>
+      </div>
+      <blockquote>"Knowledge isn't something you collect. It's something you use."</blockquote>
+    </div>
+    <div class="phone-card reveal">
+      <img id="siteQr" alt="QR code that opens this website on a phone" width="150" height="150">
+      <div>
+        <b>Open this on your phone</b>
+        <p>Scan to look around the site, or type</p>
+        <code id="siteUrl">–</code>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span>© 2026 The GLITCHED team, DAV Public School, Defence Colony, Dehradun. All rights reserved.</span>
+  <a href="/admin" class="foot-admin" id="adminLink">Team login</a>
+</footer>
+
+<div class="modal" id="afterModal" role="dialog" aria-modal="true" aria-labelledby="afterTitle" hidden>
+  <div class="modal-card">
+    <button class="modal-x" data-close aria-label="Close">✕</button>
+    <p class="kicker">// DOWNLOAD STARTED</p>
+    <h2 id="afterTitle">Almost there</h2>
+    <ol class="after-steps">
+      <li><b>Open</b> <code>GLITCHED_Setup.exe</code> from your downloads.</li>
+      <li>If Windows says <i>"Windows protected your PC"</i>, click <b>More info → Run anyway</b>. The game isn't code-signed yet, which is normal for a school project.</li>
+      <li>Click <b>Next → Install</b>. A desktop shortcut is added.</li>
+      <li><b>Launch GLITCHED</b> and show the QR code to a team member at the stall.</li>
+    </ol>
+    <p class="fine">Download not starting? <a href="/download/setup" id="retryLink">Click here</a>.</p>
+  </div>
+</div>
+
+<div class="modal" id="phoneModal" role="dialog" aria-modal="true" aria-labelledby="phoneTitle" hidden>
+  <div class="modal-card">
+    <button class="modal-x" data-close aria-label="Close">✕</button>
+    <p class="kicker">// ON A PHONE?</p>
+    <h2 id="phoneTitle">GLITCHED is a PC game</h2>
+    <p id="phoneText">It runs on Windows laptops and PCs. Send this link to yourself and open it on a PC, or come and play it right now at the GLITCHED stall.</p>
+    <p><code id="phoneUrl" class="url-chip"></code></p>
+    <div class="share-row">
+      <button class="btn primary" id="shareBtn"><span>Share link</span></button>
+      <button class="btn ghost" id="copyBtn"><span>Copy link</span></button>
+    </div>
+    <p class="fine" id="phoneAlt"><a id="pcAnyway" href="/download/setup">Download the Windows setup anyway</a></p>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox" hidden><img alt=""><button class="modal-x" data-close aria-label="Close">✕</button></div>
+<canvas id="burst" aria-hidden="true"></canvas>
+</body>
+</html>
